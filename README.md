@@ -18,6 +18,7 @@
 14. [Data-Driven Decision Making in SQL](https://www.datacamp.com/statement-of-accomplishment/course/30f4aca0694c0a77e5bd65a9d5926435ec15454f?raw=1)
 15. [Applying SQL to Real-World Problems](https://www.datacamp.com/statement-of-accomplishment/course/1fd66f19b0220dc7dbda92f271a2c93931879676?raw=1)
 16. [Introduction to Relational Databases in SQL](https://www.datacamp.com/statement-of-accomplishment/course/28585cdb4bc7f9cf854a5ff30422d0679212935b?raw=1)
+* [SQL Fundamentals - 22 hours](https://www.datacamp.com/statement-of-accomplishment/track/a8f5b712bda1d1345f04c6d4adff249e1ac66918?raw=1)
 ## Python
 17. [Introduction to Python](https://www.datacamp.com/statement-of-accomplishment/course/7ea2db496d581cba90eaaae867f1166a3e49dc45?raw=1)
 18. [Introduction to Importing Data in Python](https://www.datacamp.com/statement-of-accomplishment/course/76a032981867971550ae51b83fc17d3a0ffa941c?raw=1)
