@@ -1,4 +1,23 @@
-# about_me
+# Технические навыки / «Technical skills»:
+
+#### Excel: 
+Управление опциями и настройками рабочей книги, импорт данных из различных источников, форматирование данных, формулы (базовые и сложные), построение таблиц, сводные таблицы, работа с массивами, построение диаграмм и графиков, VBA и макросы, Power Query
+
+#### SQL (PostgreSQL):
+* Простые выборки: SELECT, DISTINCT, COUNT, WHERE, AND / OR, BETWEEN, IN, ORDER BY, MIN/MAX/AVG, LIKE, LIMIT, GROUP BY, HAVING, UNION/INTERSECT/EXCEPT, проверки на NULL
+* Соединения: INNER, LEFT, RIGHT, SELF, USING и NATURAL JOIN
+* Подзапросы, Представления (Views), Обобщенные табличные выражения (CTE)
+* Логика с CASE WHEN, COALESCE и NULLIF
+* DDL, управление ключами (PK, FK), ограничения, DML (INSERT, UPDATE, DELETE) 
+* Оконные функции
+Проектирование Баз Данных: основы, нормальные формы (НФ), реляционная модель, ER-диаграммы, создание БД, таблиц, виды отношений, типы данных
+
+#### Python:
+Базовые операции, типы данных, условные операторы, циклы for и while, итераторы, генераторы, генераторы списков, функции, поиск ошибок в коде и обработка исключений, рекурсия, импорт данных из различных источников, основы ООП, регулярные выражения, работа с базами данных через Python, сбор данных: работа с сервисами через API, модули и библиотеки (NumPy, Pandas, Matplotlib, Seaborn, Plotly, BeautifulSoup, Requests, Selenium )
+
+#### Data Visualization
+построение дашбордов и визуализаций в Power BI, Tableau, DataLens, Redash, QlickView, MetaBase, Google Data Studio и др.
+
 
 # Сертификаты
 ## SQL:
