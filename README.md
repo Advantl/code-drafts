@@ -1,3 +1,21 @@
+# Содержание:
+
+1. Executive Summary
+2. Project Architecture
+3. Business Objectives
+4. Dataset Overview
+5. Analytical Framework
+       - 6. Layer 1. Lifecycle Transition Analytics. 
+       - 7. Layer 2. Cohort Retention Analysis. 
+       - 8. Layer 3. Predictive Customer Analytics. 
+       - 9. Layer 4. Lifecycle KPI Framework. 
+10. Integrated Business Insights
+11. Strategic Recommendations
+12. Limitations & Future Work
+13. Technical Stack
+___
+
+
 # ( Section 2.) Cohort Retention & Customer Value Dynamics
 
 ## 7.1 Business Objective
