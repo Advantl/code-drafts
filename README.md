@@ -290,6 +290,7 @@ Phase 2: Retention Core
 [ВСТАВИТЬ Relative Retention Decay Plot]
 
 **Findings**   
+
 Относительная скорость снижения retention также демонстрирует выраженное замедление после первых месяцев жизненного цикла. После периода интенсивного churn обе метрики начинают приближаться к стабильным значениям. Это свидетельствует о переходе клиентской базы из режима активной деградации в режим относительно устойчивого поведения.
 
 #### Lifecycle Stabilization Point
@@ -299,11 +300,11 @@ Phase 2: Retention Core
 Визуализация
 📊 Lifecycle Stabilization Point: Retention and Decay Dynamics
 Комбинированная визуализация объединяет:
-•	User Retention; 
-•	Revenue Retention; 
-•	Absolute User Retention Drop; 
-•	Absolute Revenue Retention Drop; 
-•	точку стабилизации жизненного цикла. 
+•	User Retention;   
+•	Revenue Retention;   
+•	Absolute User Retention Drop;   
+•	Absolute Revenue Retention Drop;   
+•	точку стабилизации жизненного цикла.   
 [ВСТАВИТЬ Lifecycle Stabilization Point Chart]
 
 Полученная визуализация позволяет одновременно оценить как уровень удержания клиентов и выручки, так и скорость их изменения на различных этапах жизненного цикла. Для более детального анализа динамики стабилизации ниже представлены агрегированные значения retention и показателей снижения retention по месяцам жизненного цикла.
@@ -314,20 +315,17 @@ Phase 2: Retention Core
 
 **Findings**   
 Сопоставление абсолютного и относительного retention decay показывает наличие четкой точки стабилизации после первых месяцев жизненного цикла.
-После этой точки:
-•	скорость оттока резко падает; 
-•	размер клиентской базы становится более предсказуемым; 
-•	начинают формироваться долгосрочные repeat customers. 
+После этой точки:  
+•	скорость оттока резко падает;   
+•	размер клиентской базы становится более предсказуемым;   
+•	начинают формироваться долгосрочные repeat customers.   
 
-Core Finding
+**Core Finding**
+
 Retention-модель бизнеса имеет ярко выраженную двухфазную структуру:
-Acquisition
-        ↓
-Aggressive Early Churn
-        ↓
-Retention Stabilization
-        ↓
-Long-Term Customer Base
+
+    Acquisition  →  Aggressive Early Churn  →  Retention Stabilization  →  Long-Term Customer Base
+
 Большая часть будущего LTV определяется не качеством удержания зрелых клиентов, а способностью провести пользователя через фазу раннего churn.
 
 **Business Implications**
