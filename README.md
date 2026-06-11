@@ -1,25 +1,34 @@
-# Содержание:
+# Contents
 
-- [1. Executive Summary]  
-- [2. Project Architecture]  
-- [3. Business Objectives]  
-- [4. Dataset Overview]  
-- [5. Analytical Framework]  
-       - [6. Layer 1. Lifecycle Transition Analytics.]   
-       - [Layer 2. Cohort Retention Analysis.](#Layer-2-Cohort-Retention-&-Customer-Value-Dynamics)   
-       - [8. Layer 3. Predictive Customer Analytics.]   
-       - [9. Layer 4. Lifecycle KPI Framework.]   
-- [10. Integrated Business Insights]  
-- [11. Strategic Recommendations]  
-- [12. Limitations & Future Work]  
-- [13. Technical Stack]  
+- [1. Executive Summary](#1-executive-summary)
+- [2. Project Architecture](#2-project-architecture)
+- [3. Business Objectives](#3-business-objectives)
+- [4. Dataset Overview](#4-dataset-overview)
+- [5. Analytical Framework](#5-analytical-framework)
+  - [6. Layer 1. Lifecycle Transition Analytics](#6-layer-1-lifecycle-transition-analytics)
+  - [7. Layer 2. Cohort Retention & Customer Value Dynamics](#7-layer-2-cohort-retention--customer-value-dynamics)
+  - [8. Layer 3. Predictive Customer Analytics](#8-layer-3-predictive-customer-analytics)
+  - [9. Layer 4. Lifecycle KPI Framework](#9-layer-4-lifecycle-kpi-framework)
+- [10. Integrated Business Insights](#10-integrated-business-insights)
+- [11. Strategic Recommendations](#11-strategic-recommendations)
+- [12. Limitations & Future Work](#12-limitations--future-work)
+- [13. Technical Stack](#13-technical-stack)
 
-***
+---
 
-# Layer 2 Cohort Retention & Customer Value Dynamics
+# 1. Executive Summary
+
+Текст раздела...
+
+# 2. Project Architecture
+
+Текст раздела...
+
+# 7. Layer 2. Cohort Retention & Customer Value Dynamics
 
 ## 7.1 Business Objective
-**Бизнес-контекст**  
+
+**Бизнес-контекст**
 
 Для большинства компаний привлечение новых клиентов является дорогостоящим процессом, поэтому долгосрочная устойчивость бизнеса во многом определяется способностью удерживать существующую клиентскую базу и увеличивать ценность клиентов после первой покупки.
 Однако традиционные показатели продаж позволяют оценить лишь текущие финансовые результаты и практически не отвечают на вопрос о том, как развивается поведение клиентов после привлечения.  
