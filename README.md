@@ -39,7 +39,7 @@
 
 Текст раздела...
 
-# Layer 1. Lifecycle Transition Analytics
+# 6. Layer 1. Lifecycle Transition Analytics
 
 ## 6.1 Business Objective
 
