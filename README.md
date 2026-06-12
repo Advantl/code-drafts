@@ -39,7 +39,7 @@
 
 Текст раздела...
 
-# Section 1. Lifecycle Transition Analytics
+# Layer 1. Lifecycle Transition Analytics
 
 ## 6.1 Business Objective
 
@@ -111,11 +111,13 @@
 
 Для анализа динамики клиентского поведения были сформированы шесть последовательных lifecycle snapshots.
 На основе последовательных пар snapshots были построены пять transition matrices:
-Snapshot 1 → Snapshot 2
-Snapshot 2 → Snapshot 3
-Snapshot 3 → Snapshot 4
-Snapshot 4 → Snapshot 5
-0Snapshot 5 → Snapshot 6
+
+    Snapshot 1 → Snapshot 2
+    Snapshot 2 → Snapshot 3
+    Snapshot 3 → Snapshot 4
+    Snapshot 4 → Snapshot 5
+    0Snapshot 5 → Snapshot 6
+
 Каждая матрица отражает вероятность перехода клиентов между lifecycle-состояниями в течение наблюдаемого периода.
 Для получения устойчивой оценки поведенческих закономерностей все матрицы были агрегированы в единую Lifecycle Transition Matrix.
 
@@ -211,6 +213,7 @@ Snapshot 4 → Snapshot 5
 Клиентская база развивается по достаточно предсказуемой траектории.
 
     Основной сценарий роста выглядит следующим образом:
+    
     New  →  Active  →  Loyal
 
 Основной сценарий деградации:
