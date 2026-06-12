@@ -14,7 +14,7 @@
 - [12. Limitations & Future Work](#12-limitations--future-work)
 - [13. Technical Stack](#13-technical-stack)
 <details>
-  <summary><b>Layer 1. Lifecycle Transition Analytics</b></summary>
+  <summary><b>[6. Layer 1. Lifecycle Transition Analytics](#6-layer-1-lifecycle-transition-analytics)</b></summary>
   - Data Preparation & Segmentation Logic
   - Transition Matrix Construction
   - Key Insights: Churn vs. Retention Drivers
