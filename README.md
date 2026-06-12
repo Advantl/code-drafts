@@ -742,16 +742,16 @@ Revenue per Retained User систематически увеличиваетс�
 
 ### Strategic Recommendations
 
-**Приоритет 1. Early Retention Optimization**  
+**Приоритет 1. Оптимизация Early Retention**  
 Максимальный бизнес-эффект ожидается от снижения churn в первые 30–60 дней после первой покупки.
 
-**Приоритет 2. Repeat Purchase Acceleration**   
+**Приоритет 2. Ускорение повторных покупок**   
 Необходимо развивать механики, ускоряющие вторую и третью покупку клиента.
 
-**Приоритет 3. High-Value Customer Development**   
+**Приоритет 3. Развитие ценных клиентов**   
 Следует выявить факторы, связанные с ростом RPRU и долгосрочного LTV.
 
-**Приоритет 4. Cohort Quality Monitoring**  
+**Приоритет 4. Мониторинг качества когорт**  
 Рекомендуется регулярно отслеживать качество новых когорт через retention, revenue retention и cohort LTV.
 
 ## Section Conclusion
