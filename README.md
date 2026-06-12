@@ -14,6 +14,23 @@
 - [12. Limitations & Future Work](#12-limitations--future-work)
 - [13. Technical Stack](#13-technical-stack)
 
+- [5. Analytical Framework](#5-analytical-framework)
+<details>
+  <summary><b>Layer 1. Lifecycle Transition Analytics</b></summary>
+  - Data Preparation & Segmentation Logic
+  - Transition Matrix Construction
+  - Key Insights: Churn vs. Retention Drivers
+</details>
+
+<details>
+  <summary><b>Layer 2. Cohort Retention & Value Dynamics</b></summary>
+  - Retention Curve Analysis
+  - Monetization Trends (RPRU)
+  - Inter-cohort Comparison
+</details>
+
+
+
 ---
 
 # 1. Executive Summary
