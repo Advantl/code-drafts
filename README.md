@@ -13,8 +13,6 @@
 - [11. Strategic Recommendations](#11-strategic-recommendations)
 - [12. Limitations & Future Work](#12-limitations--future-work)
 - [13. Technical Stack](#13-technical-stack)
-
-- [5. Analytical Framework](#5-analytical-framework)
 <details>
   <summary><b>Layer 1. Lifecycle Transition Analytics</b></summary>
   - Data Preparation & Segmentation Logic
