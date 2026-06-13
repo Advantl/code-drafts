@@ -260,8 +260,8 @@
 
 ### Наиболее значимые источники роста и потери выручки
 
-![Top Positive Revenue Drivers](visualizations/top_positive_revenue_drivers.png)
-![Top Negative Revenue Drivers](visualizations/top_negative_revenue_drivers.png)
+![Top Revenue Drivers](visualizations/revenue_drivers.png)
+
 
 ### Ключевые результаты
 Анализ показал, что основная часть выручки концентрируется внутри удержанной клиентской базы.
