@@ -188,7 +188,7 @@
 Полученные переходы были агрегированы за весь период наблюдения и визуализированы с помощью Sankey Diagram, отражающей движение клиентов между состояниями жизненного цикла.
 
 #### Агрегированные потоки клиентов между lifecycle-состояниями за весь период наблюдения.  
-![Aggregated Lifecycle Transition Matrix](visualizations/aggregated_transition_matrix.png)
+![Aggregated Lifecycle Transition Matrix](visualizations/users_sankey_diagram.PNG)
 
 ### Ключевые результаты
 Анализ клиентских потоков показал, что большая часть пользователей перемещается между ограниченным набором состояний жизненного цикла.
