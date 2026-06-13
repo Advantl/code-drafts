@@ -316,8 +316,9 @@
 Подпись:
 Декомпозиция изменения выручки по основным поведенческим драйверам.
 
-[![Revenue Decomposition](Data/visualizations/revenue_decomposition.png)]
-(Data/visualizations/revenue_decomposition.html)
+![Revenue Decomposition](visualizations/revenue_decomposition.png)
+
+Interactive version: [Open Plotly chart](visualizations/revenue_decomposition.html)
 
 ### Ключевые результаты
 
