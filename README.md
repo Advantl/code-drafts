@@ -6,6 +6,7 @@
 - [4. Dataset Overview](#4-dataset-overview)
 - [5. Analytical Framework](#5-analytical-framework)
   - [6. Layer 1. Lifecycle Transition Analytics](#6-layer-1-lifecycle-transition-analytics)
+	  - [6.1 Business Objective](#6-1-business-objective)
   - [7. Layer 2. Cohort Retention & Customer Value Dynamics](#7-layer-2-cohort-retention--customer-value-dynamics)
   - [8. Layer 3. Predictive Customer Analytics](#8-layer-3-predictive-customer-analytics)
   - [9. Layer 4. Lifecycle KPI Framework](#9-layer-4-lifecycle-kpi-framework)
