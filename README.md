@@ -258,10 +258,10 @@
 
 ![Revenue Transition Heatmap](visualizations/revenue_flow_matrix.png)
 
-#### Визуализация 6. Top Revenue Drivers
-[Вставить Top Positive / Negative Revenue Drivers]
-Подпись:
-Наиболее значимые источники роста и потери выручки.
+### Наиболее значимые источники роста и потери выручки
+
+![Top Positive Revenue Drivers](visualizations/top_positive_revenue_drivers.png)
+![Top Negative Revenue Drivers](visualizations/top_negative_revenue_drivers.pn)
 
 ### Ключевые результаты
 Анализ показал, что основная часть выручки концентрируется внутри удержанной клиентской базы.
@@ -295,11 +295,11 @@
 ### Driver Classification Model
 
 Все изменения выручки были распределены по пяти категориям:  
-*Acquisition* - Выручка от новых клиентов.   
-*Reactivation* - Выручка от ранее потерянных клиентов, вернувшихся к покупкам.  
-*Expansion* - Рост выручки внутри существующей клиентской базы.  
-*Contraction* - Снижение выручки среди удержанных клиентов.  
-*Churn* - Потери выручки вследствие прекращения активности клиентов.  
+*- Acquisition* - Выручка от новых клиентов.   
+*- Reactivation* - Выручка от ранее потерянных клиентов, вернувшихся к покупкам.  
+*- Expansion* - Рост выручки внутри существующей клиентской базы.  
+*- Contraction* - Снижение выручки среди удержанных клиентов.  
+*- Churn* - Потери выручки вследствие прекращения активности клиентов.  
 
 #### Визуализация 7. Revenue Driver Classification
 [Вставить Driver Classification Chart]
