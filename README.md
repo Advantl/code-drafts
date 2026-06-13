@@ -256,7 +256,7 @@
 
 #### Изменение выручки для различных lifecycle transitions.
 
-![Revenue Transition Heatmap](visualizations/revenue_flow_matrix.png.png)
+![Revenue Transition Heatmap](visualizations/revenue_flow_matrix.png)
 
 #### Визуализация 6. Top Revenue Drivers
 [Вставить Top Positive / Negative Revenue Drivers]
