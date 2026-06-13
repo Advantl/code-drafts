@@ -250,18 +250,18 @@
 -	Top Positive Revenue Drivers;   
 -	Top Negative Revenue Drivers.   
 
-#### Совокупная выручка, связанная с переходами между lifecycle-состояниями.
+### Совокупная выручка, связанная с переходами между lifecycle-состояниями.
 
 ![Revenue Transition Matrix](visualizations/revenue_transition_matrix.png)
 
-#### Изменение выручки для различных lifecycle transitions.
+### Изменение выручки для различных lifecycle transitions.
 
 ![Revenue Transition Heatmap](visualizations/revenue_flow_matrix.png)
 
 ### Наиболее значимые источники роста и потери выручки
 
 ![Top Positive Revenue Drivers](visualizations/top_positive_revenue_drivers.png)
-![Top Negative Revenue Drivers](visualizations/top_negative_revenue_drivers.pn)
+![Top Negative Revenue Drivers](visualizations/top_negative_revenue_drivers.png)
 
 ### Ключевые результаты
 Анализ показал, что основная часть выручки концентрируется внутри удержанной клиентской базы.
