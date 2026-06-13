@@ -249,10 +249,8 @@
 -	Top Positive Revenue Drivers;   
 -	Top Negative Revenue Drivers.   
 
-#### Визуализация 4. Revenue Transition Matrix
-[Вставить Revenue Transition Matrix]
-Подпись:
-Совокупная выручка, связанная с переходами между lifecycle-состояниями.
+#### Совокупная выручка, связанная с переходами между lifecycle-состояниями.
+![Revenue Transition Matrix](visualizations/revenue_transition_matrix.png)
 
 #### Визуализация 5. Revenue Transition Heatmap
 [Вставить Revenue Transition Heatmap]
