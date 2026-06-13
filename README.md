@@ -316,6 +316,12 @@
 Подпись:
 Декомпозиция изменения выручки по основным поведенческим драйверам.
 
+<a href="visualizations/revenue_decomposition.html">
+  <img src="visualizations/revenue_decomposition.PNG" width="850">
+</a>
+
+Interactive version: [Open Plotly chart](visualizations/revenue_decomposition.html)
+
 ### Ключевые результаты
 
 Анализ показал, что изменение выручки формируется одновременно несколькими механизмами.
