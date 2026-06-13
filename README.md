@@ -42,7 +42,7 @@
 
 # 6. Layer 1. Lifecycle Transition Analytics
 
-# 6.1 Business Objective
+## 6.1 Business Objective
 
 ### Бизнес-контекст
 
