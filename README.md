@@ -295,11 +295,11 @@
 ### Driver Classification Model
 
 Все изменения выручки были распределены по пяти категориям:  
-*- Acquisition* - Выручка от новых клиентов.   
-*- Reactivation* - Выручка от ранее потерянных клиентов, вернувшихся к покупкам.  
-*- Expansion* - Рост выручки внутри существующей клиентской базы.  
-*- Contraction* - Снижение выручки среди удержанных клиентов.  
-*- Churn* - Потери выручки вследствие прекращения активности клиентов.  
+*• Acquisition* - Выручка от новых клиентов.   
+*• Reactivation* - Выручка от ранее потерянных клиентов, вернувшихся к покупкам.  
+*• Expansion* - Рост выручки внутри существующей клиентской базы.  
+*• Contraction* - Снижение выручки среди удержанных клиентов.  
+*• Churn* - Потери выручки вследствие прекращения активности клиентов.  
 
 #### Визуализация 7. Revenue Driver Classification
 [Вставить Driver Classification Chart]
@@ -316,7 +316,7 @@
 Подпись:
 Декомпозиция изменения выручки по основным поведенческим драйверам.
 
-![Revenue Decomposition](visualizations/revenue_decomposition.png)
+![Revenue Decomposition](visualizations/revenue_decomposition.PNG)
 
 Interactive version: [Open Plotly chart](visualizations/revenue_decomposition.html)
 
