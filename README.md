@@ -624,11 +624,10 @@ Lifecycle-состояния могут использоваться как ос
  
 Это позволило оценить как общую retention-модель бизнеса, так и различия между поколениями клиентов.
 
-#### User Retention Dynamics
+### User Retention Dynamics
 
-Визуализация
-[ВСТАВИТЬ User Retention Curves]
-График должен показывать retention-кривые по всем когортам.
+![User Retention Curves](visualizations/user_retention_curves.png)
+
 
 **Findings**
 
@@ -642,9 +641,9 @@ Lifecycle-состояния могут использоваться как ос
 
 Основная потеря клиентской базы происходит практически сразу после первой покупки. Значительная часть пользователей остается в категории transactional customers и не переходит к регулярному потреблению. При этом пользователи, сохранившие активность после первых месяцев жизненного цикла, демонстрируют существенно более высокий уровень долгосрочного удержания. Фактически именно прохождение раннего post-acquisition периода определяет вероятность формирования долгосрочной клиентской ценности.
 
-#### Cohort Retention Heatmap
-Визуализация
-[ВСТАВИТЬ Cohort Retention Heatmap]
+### Cohort Retention Heatmap
+
+![Cohort Retention Heatmap](visualizations/user_retention_table.png)
 
 **Findings**
 
@@ -792,10 +791,12 @@ Retention-модель бизнеса имеет ярко выраженную �
 -	на уровне агрегированной динамики;    
 -	в сравнении с User Retention.   
 
-#### Revenue Retention Dynamics Across Cohorts
+### Revenue Retention Dynamics Across Cohorts
 Визуализация
 [ВСТАВИТЬ Revenue Retention Curves]
 График динамики Revenue Retention по всем когортам.
+
+![Revenue Retention Curves](visualizations/revenue_retention_curves.png)
 
 **Findings** 
 
@@ -815,9 +816,9 @@ Retention-модель бизнеса имеет ярко выраженную �
 Иными словами:
 бизнес теряет количество клиентов быстрее, чем качество оставшейся аудитории.
 
-#### Revenue Retention Matrix
-Визуализация
-[ВСТАВИТЬ Revenue Retention Heatmap]
+### Revenue Retention Matrix
+
+![Revenue Retention Heatmap](visualizations/revenue_retention_table.png)
 
 **Findings**
 
