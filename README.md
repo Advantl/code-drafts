@@ -139,13 +139,13 @@
 Каждая матрица отражает вероятность перехода клиентов между lifecycle-состояниями в течение наблюдаемого периода.
 Для получения устойчивой оценки поведенческих закономерностей все матрицы были агрегированы в единую Lifecycle Transition Matrix.
 
-#### Визуализация 1. Evolution of Lifecycle Transition Matrices
+#### Figure 1. Evolution of Lifecycle Transition Matrices
 [Вставить рисунок 1]
 Коллаж из пяти transition matrices.
 Подпись:
 Матрицы переходов между lifecycle-состояниями для последовательных временных периодов.
 
-#### Агрегированная матрица переходов между lifecycle-состояниями за весь период наблюдения.
+#### Figure 2. Агрегированная матрица переходов между lifecycle-состояниями за весь период наблюдения.
 
 ![Aggregated Lifecycle Transition Matrix](visualizations/aggregated_transition_matrix.png)
 
@@ -205,7 +205,7 @@
 Для каждой пары последовательных snapshots были рассчитаны фактические переходы клиентов между lifecycle-состояниями.
 Полученные переходы были агрегированы за весь период наблюдения и визуализированы с помощью Sankey Diagram, отражающей движение клиентов между состояниями жизненного цикла.
 
-#### Агрегированные потоки клиентов между lifecycle-состояниями за весь период наблюдения.  
+#### Figure 3. Агрегированные потоки клиентов между lifecycle-состояниями за весь период наблюдения.  
 
 ![Aggregated Lifecycle Transition Matrix](visualizations/users_sankey_diagram.PNG)
 
@@ -259,15 +259,15 @@
 -	Revenue Change Matrix;   
 -	Top Positive & Negative Revenue Drivers.   
 
-### Совокупная выручка, связанная с переходами между lifecycle-состояниями.
+### Figure 4. Совокупная выручка, связанная с переходами между lifecycle-состояниями.
 
 ![Revenue Transition Matrix](visualizations/revenue_transition_matrix.png)
 
-### Изменение выручки для различных lifecycle transitions.
+### Figure 5. Изменение выручки для различных lifecycle transitions.
 
 ![Revenue Transition Heatmap](visualizations/revenue_change_matrix.png)
 
-### Наиболее значимые источники роста и потери выручки
+### Figure 6. Наиболее значимые источники роста и потери выручки
 
 ![Top Revenue Drivers](visualizations/revenue_drivers.png)
 
@@ -310,14 +310,14 @@
 - *Contraction* - Снижение выручки среди удержанных клиентов.  
 - *Churn* - Потери выручки вследствие прекращения активности клиентов.  
 
-### Структура изменения выручки по поведенческим драйверам.
+### Figure 7. Структура изменения выручки по поведенческим драйверам.
 
 ![Revenue Driver Classification Chart](visualizations/revenue_driver_classification.png)
 
 ### Revenue Growth Decomposition
 После определения основных драйверов изменения выручки необходимо оценить их совокупный вклад в итоговую динамику бизнеса. Для этого используется модель Revenue Growth Decomposition, которая позволяет разложить изменение выручки на ключевые компоненты роста бизнеса и количественно оценить влияние каждого из них на итоговый финансовый результат.
 
-### Декомпозиция изменения выручки по основным поведенческим драйверам.
+### Figure 8. Декомпозиция изменения выручки по основным поведенческим драйверам.
 
 ![Revenue Decomposition Waterfall](visualizations/revenue_decomposition.PNG)
 
@@ -379,7 +379,7 @@ Revenue Driver Framework позволяет перейти от анализа �
 
 Такой подход позволяет оценить качество удержания клиентской базы, а не только факт ее сохранения.
 
-### Совокупный вклад роста и снижения потребления внутри удержанной клиентской базы.
+### Figure 9. Совокупный вклад роста и снижения потребления внутри удержанной клиентской базы.
 
 ![Retained Customer Revenue Contribution](visualizations/expansion_contraction_revenue.PNG) 
 
@@ -634,7 +634,7 @@ Lifecycle-состояния могут использоваться как ос
  
 Это позволило оценить как общую retention-модель бизнеса, так и различия между поколениями клиентов.
 
-### User Retention Dynamics
+### Figure 10. User Retention Dynamics
 
 ![User Retention Curves](visualizations/user_retention_curves.png)
 
