@@ -139,13 +139,13 @@
 Каждая матрица отражает вероятность перехода клиентов между lifecycle-состояниями в течение наблюдаемого периода.
 Для получения устойчивой оценки поведенческих закономерностей все матрицы были агрегированы в единую Lifecycle Transition Matrix.
 
-#### Figure 1. Evolution of Lifecycle Transition Matrices
+### Figure 1. Evolution of Lifecycle Transition Matrices
 [Вставить рисунок 1]
 Коллаж из пяти transition matrices.
 Подпись:
 Матрицы переходов между lifecycle-состояниями для последовательных временных периодов.
 
-#### Figure 2. Агрегированная матрица переходов между lifecycle-состояниями за весь период наблюдения.
+### Figure 2. Агрегированная матрица переходов между lifecycle-состояниями за весь период наблюдения.
 
 ![Aggregated Lifecycle Transition Matrix](visualizations/aggregated_transition_matrix.png)
 
@@ -205,7 +205,7 @@
 Для каждой пары последовательных snapshots были рассчитаны фактические переходы клиентов между lifecycle-состояниями.
 Полученные переходы были агрегированы за весь период наблюдения и визуализированы с помощью Sankey Diagram, отражающей движение клиентов между состояниями жизненного цикла.
 
-#### Figure 3. Агрегированные потоки клиентов между lifecycle-состояниями за весь период наблюдения.  
+### Figure 3. Агрегированные потоки клиентов между lifecycle-состояниями за весь период наблюдения.  
 
 ![Aggregated Lifecycle Transition Matrix](visualizations/users_sankey_diagram.PNG)
 
@@ -650,7 +650,7 @@ Lifecycle-состояния могут использоваться как ос
 
 Основная потеря клиентской базы происходит практически сразу после первой покупки. Значительная часть пользователей остается в категории transactional customers и не переходит к регулярному потреблению. При этом пользователи, сохранившие активность после первых месяцев жизненного цикла, демонстрируют существенно более высокий уровень долгосрочного удержания. Фактически именно прохождение раннего post-acquisition периода определяет вероятность формирования долгосрочной клиентской ценности.
 
-### Cohort Retention Heatmap
+### Figure 11. Cohort Retention Heatmap
 
 ![Cohort Retention Heatmap](visualizations/user_retention_table.png)
 
@@ -668,7 +668,7 @@ Retention Heatmap подтверждает результаты агрегиро
 
 Ключевой проблемой retention-модели является не долгосрочное удержание клиентов, а низкая конверсия новых покупателей в repeat customers.
 
-### Cohort Retention Curves
+### Figure 12. Cohort Retention Curves
 
 ![Average Cohort Retention Curve](visualizations/average_retention.png)
 
@@ -725,7 +725,7 @@ Retention Heatmap подтверждает результаты агрегиро
 Практически весь будущий объем клиентской базы определяется в течение первых недель после первой покупки.
 После прохождения этого этапа система теряет клиентов значительно медленнее.
 
-#### Relative Retention Decay
+### Figure 13. Relative Retention Decay
 
 ![Relative Retention Decay Plot](visualizations/relative_retention_decay.png)
 
@@ -737,13 +737,13 @@ Retention Heatmap подтверждает результаты агрегиро
 
 Для выявления момента формирования устойчивого клиентского ядра дополнительно была рассчитана точка стабилизации жизненного цикла (Lifecycle Stabilization Point). В рамках данного исследования точкой стабилизации считается первый месяц, после которого абсолютное снижение User Retention остается ниже 5 процентных пунктов на протяжении как минимум двух последовательных периодов. Такой критерий позволяет отделить фазу быстрого первоначального оттока от этапа относительно стабильного поведения удержанных клиентов и определить момент перехода к более устойчивой структуре клиентской базы.
 
-### Stabilization Point: Retention and Decay Dynamics
+### Figure 14. Stabilization Point: Retention and Decay Dynamics
 
 ![Lifecycle Stabilization Point Chart](visualizations/lifecycle_stabilization_point.png)
 
 Полученная визуализация позволяет одновременно оценить как уровень удержания клиентов и выручки, так и скорость их изменения на различных этапах жизненного цикла. Для более детального анализа динамики стабилизации ниже представлены агрегированные значения retention и показателей снижения retention по месяцам жизненного цикла.
 
-### Stabilization Summary
+### Figure 15. Stabilization Summary
 
 ![TABLE Stabilization Summary](visualizations/stabilization_summary.PNG)
 
@@ -795,7 +795,7 @@ Retention-модель бизнеса имеет ярко выраженную �
 -	на уровне агрегированной динамики;    
 -	в сравнении с User Retention.   
 
-### Revenue Retention Dynamics Across Cohorts (График динамики Revenue Retention по всем когортам.)
+### Figure 16. Revenue Retention Dynamics Across Cohorts (График динамики Revenue Retention по всем когортам.)
 
 ![Revenue Retention Curves](visualizations/revenue_retention_curves.png)
 
@@ -829,7 +829,7 @@ Retention-модель бизнеса имеет ярко выраженную �
 
 Revenue Retention систематически превосходит User Retention. Это означает, что удержанные пользователи обладают более высокой экономической ценностью по сравнению со средним клиентом исходной когорты.
 
-### Revenue Retention vs User Retention
+### Figure 17. Revenue Retention vs User Retention
 
 ![Combined User Retention vs Revenue Retention Chart](visualizations/average_retention.png)
 
@@ -857,7 +857,7 @@ Revenue Retention систематически превосходит User Reten
 
 Для оценки качества удержанной аудитории рассчитывался показатель *Revenue per Retained User (RPRU)*. Метрика отражает среднюю выручку на одного активного пользователя внутри каждой когорты на каждом этапе жизненного цикла. Использование RPRU позволяет отделить изменения количества пользователей от изменений их экономической ценности.
 
-### Revenue per Retained User Dynamics
+### Figure 18. Revenue per Retained User Dynamics
 
 ![RPRU by Cohort](visualizations/revenue_per_retained_user.png)
 
@@ -869,7 +869,7 @@ Revenue Retention систематически превосходит User Reten
 
 Retention decay сопровождается естественной селекцией клиентской базы. Продукт постепенно теряет низкововлеченных пользователей и сохраняет клиентов с более высокой покупательской активностью. В результате средняя ценность одного retained customer со временем увеличивается.
 
-### Relative Growth of Customer Value
+### Figure 19. Relative Growth of Customer Value
 (индекс относительно Month 0 = 100%)
 
 ![Normalized RPRU Growth Chart](visualizations/rpru_normalized.png)
@@ -883,7 +883,7 @@ Retention decay сопровождается естественной селек
 
 Долгосрочное удержание связано не только с сохранением клиентов. Оно связано с ростом качества оставшейся аудитории. По мере развития жизненного цикла в продукте концентрируются пользователи с более высокой частотой покупок, большим средним чеком и более устойчивыми потребительскими привычками.
 
-### Average Monetization Growth
+### Figure 20. Average Monetization Growth
 
 ![Average RPRU Growth Curve](visualizations/average_rpru_growth_curve.png)
 
@@ -923,7 +923,7 @@ Monetization Effect
 
 Такой подход позволяет определить, какой из факторов оказывает наибольшее влияние на долгосрочную экономику клиентской базы.
 
-#### Retention vs Revenue Dynamics
+### Figure 21. Retention vs Revenue Dynamics
 ![COMBINED CHART](visualizations/average_retention.png)
 Визуализация
 [ВСТАВИТЬ COMBINED CHART]
@@ -934,11 +934,11 @@ Monetization Effect
 Повторять его отдельной картинкой не нужно.
 В разделе 7.7 можно просто сослаться на него.
 
-**Findings**
+### Findings**
 
 Сравнение retention и revenue retention выявило устойчивое расхождение между динамикой клиентской базы и динамикой выручки. После первого месяца жизненного цикла пользовательская база сокращается примерно до 26% первоначального размера, тогда как Revenue Retention остается существенно выше и сохраняет значительную часть исходной выручки. Это означает, что потери пользователей не приводят к пропорциональному снижению финансовой ценности клиентской базы. По мере развития жизненного цикла происходит концентрация выручки среди меньшего количества клиентов.
 
-### Retention vs Customer Value
+### Figure 22. Retention vs Customer Value
 
 ![COMBINED CHART](visualizations/retention_vs_monetization.png)
 
@@ -973,7 +973,7 @@ RPRU ↑↑↑
 
 Наблюдаемая динамика свидетельствует о механизме естественной селекции клиентской базы. Низкововлеченные пользователи покидают продукт на ранних стадиях жизненного цикла, тогда как наиболее активные покупатели продолжают взаимодействовать с компанией и увеличивают свой вклад в выручку. В результате продукт постепенно концентрирует все большую долю дохода внутри сегмента лояльных клиентов.
 
-#### Growth Constraint Analysis
+### Growth Constraint Analysis
 **Findings**
 
 Несмотря на устойчивый рост RPRU, увеличение ценности удержанных клиентов не компенсирует масштаб первоначального churn. Средний рост монетизации на одного retained user составляет порядка 15–40%. Одновременно клиентская база сокращается более чем на 70% уже в первые месяцы жизненного цикла.
