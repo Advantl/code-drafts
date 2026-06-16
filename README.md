@@ -49,11 +49,11 @@
     - [9.8 Retention Prioritization](#98-retention-prioritization)
     - [9.9 Retention Strategy Matrix](#99-retention-strategy-matrix)
     - [9.10 Key Findings & Business Implications](#910-key-findings--business-implications)
-- [10. Executive Metrics Overview](10-executive-metrics-overview)
-- [11. Integrated Business Insights](#10-integrated-business-insights)
-- [12. Strategic Recommendations](#11-strategic-recommendations)
-- [13. Limitations & Future Work](#12-limitations--future-work)
-- [14. Technical Stack](#13-technical-stack)
+- [10. Executive Metrics Overview](#10-executive-metrics-overview)
+- [11. Integrated Business Insights](#11-integrated-business-insights)
+- [12. Strategic Recommendations](#12-strategic-recommendations)
+- [13. Limitations & Future Work](#13-limitations--future-work)
+- [14. Technical Stack](#14-technical-stack)
 
 
 <details>
