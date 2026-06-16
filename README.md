@@ -38,7 +38,7 @@
     - [8.10 Retention Prioritization Score](#810-retention-prioritization-score)
     - [8.11 Saveability Matrix](#811-saveability-matrix)
     - [8.12 Key Findings & Business Implications](#812-key-findings--business-implications)
-  - [9. Layer 4. Lifecycle KPI Framework](#9-layer-4-lifecycle-kpi-framework)
+  - [9. Layer 4. Lifecycle KPI Framework & Customer Health Monitoring](#9-layer-4-lifecycle-kpi-framework--customer-health-monitoring)
   	- [9.1 Business Objective](#91-business-objective)
    	- [9.2 Framework Architecture](#92-framework-architecture)
     - [9.3 KPI Dashboard](#93-kpi-dashboard)
@@ -1841,7 +1841,9 @@ Recovery Modeling показал, что вероятность возврата
 
 
 # 9. Layer 4. Lifecycle KPI Framework & Customer Health Monitoring
+
 ## 9.1 Business Objective
+
 ### Цель раздела 
 Предыдущие разделы проекта позволили определить:  
 - как клиенты перемещаются между lifecycle-состояниями;  
