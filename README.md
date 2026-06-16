@@ -1898,19 +1898,19 @@ Lifecycle KPI Framework представляет собой многоуровн
 
 		Архитектура framework состоит из семи взаимосвязанных уровней:
 		
-			Lifecycle Structure
-					↓
-			Behavioral Health
-					↓
-			Revenue Health
-					↓
-			Lifecycle Stability
-					↓
-			Churn Risk
-					↓
-			Revenue-at-Risk
-					↓
-			Retention Prioritization
+						Lifecycle Structure
+								↓
+						Behavioral Health
+								↓
+						Revenue Health
+								↓
+						Lifecycle Stability
+								↓
+						Churn Risk
+								↓
+						Revenue-at-Risk
+								↓
+						Retention Prioritization
 Каждый последующий уровень добавляет новый слой информации о состоянии клиентского портфеля.
 
 ### Уровень 1. Lifecycle Structure Layer
@@ -1989,7 +1989,9 @@ Bar Chart
 
 ### Уровень 6. Economic Risk Layer
 Для оценки потенциальных финансовых потерь вероятность оттока объединяется с выручкой сегмента через показатель Revenue-at-Risk.  
-			Revenue-at-Risk = Revenue × Churn Probability   
+
+		Revenue-at-Risk = Revenue × Churn Probability   
+			
 |Stage	|Revenue-at-Risk|
 |-------|---------------|
 |Active	|1.39M			|
