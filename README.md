@@ -1988,8 +1988,8 @@ Line Chart:
 Bar Chart
 
 ### Уровень 6. Economic Risk Layer
-Для оценки потенциальных финансовых потерь вероятность оттока объединяется с выручкой сегмента через показатель Revenue-at-Risk.
-Revenue-at-Risk = Revenue × Churn Probability
+Для оценки потенциальных финансовых потерь вероятность оттока объединяется с выручкой сегмента через показатель Revenue-at-Risk.  
+			Revenue-at-Risk = Revenue × Churn Probability   
 |Stage	|Revenue-at-Risk|
 |-------|---------------|
 |Active	|1.39M			|
