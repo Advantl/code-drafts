@@ -2007,7 +2007,7 @@ Horizontal Bar Chart
 - churn probability;  
 - customer value;  
 - потенциальный бизнес-эффект удержания.  
-Для оценки используется Priority Score.    
+Для оценки используется Priority Score.
 |Stage	|Priority Score |
 |-------|---------------|
 |Active	|11.9		    |
