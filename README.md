@@ -2006,9 +2006,9 @@ Horizontal Bar Chart
 Финальный уровень объединяет:  
 - churn probability;  
 - customer value;  
-- потенциальный бизнес-эффект удержания.  
+- потенциальный бизнес-эффект удержания.
+  
 Для оценки используется Priority Score.
-
 |Stage	|Priority Score |
 |-------|---------------|
 |Active	|11.9		    |
