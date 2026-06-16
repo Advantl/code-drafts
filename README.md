@@ -1853,7 +1853,7 @@ Recovery Modeling показал, что вероятность возврата
 Цель данного раздела — объединить результаты lifecycle analytics, cohort analytics и predictive modeling в единую систему Customer Health Monitoring, ориентированную на поддержку бизнес-решений.
 
 ### Бизнес-вопросы
-Разработанный framework отвечает на следующие вопросы.
+Разработанный framework отвечает на следующие вопросы.  
 **Customer Base Health**  
 - Насколько устойчива клиентская база?
 - Как меняется состояние клиентского портфеля во времени?
@@ -1896,19 +1896,20 @@ Recovery Modeling показал, что вероятность возврата
 Lifecycle KPI Framework представляет собой многоуровневую систему мониторинга клиентского здоровья, объединяющую структурные, поведенческие, финансовые и предиктивные показатели в единую модель оценки customer health.
 
 		Архитектура framework состоит из семи взаимосвязанных уровней:
-		Lifecycle Structure
-				↓
-		Behavioral Health
-				↓
-		Revenue Health
-				↓
-		Lifecycle Stability
-				↓
-		Churn Risk
-				↓
-		Revenue-at-Risk
-				↓
-		Retention Prioritization
+		
+			Lifecycle Structure
+					↓
+			Behavioral Health
+					↓
+			Revenue Health
+					↓
+			Lifecycle Stability
+					↓
+			Churn Risk
+					↓
+			Revenue-at-Risk
+					↓
+			Retention Prioritization
 Каждый последующий уровень добавляет новый слой информации о состоянии клиентского портфеля.
 
 ### Уровень 1. Lifecycle Structure Layer
@@ -2000,7 +2001,7 @@ Horizontal Bar Chart
 - churn probability;  
 - customer value;  
 - потенциальный бизнес-эффект удержания.  
-Для оценки используется Priority Score.  
+Для оценки используется Priority Score.    
 |Stage	|Priority Score |
 |-------|---------------|
 |Active	|11.9		    |
