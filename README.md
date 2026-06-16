@@ -2297,14 +2297,14 @@ Contraction Revenue ≈ 1.49M
 Данный сигнал особенно важен, поскольку возникает раньше полноценного churn.  
 Последовательность выглядит следующим образом:  
 
-			Expansion ↓
-			Contraction ↑
+			    Expansion ↓
+			    Contraction ↑
 			        ↓
-			Revenue Retention ↓
+			 Revenue Retention ↓
 			        ↓
-			Churn ↑
+			      Churn ↑
 			        ↓
-			Revenue Loss
+			   Revenue Loss
 			
 Таким образом, Contraction Revenue выступает одним из наиболее ранних индикаторов ухудшения customer health.
 
