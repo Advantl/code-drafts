@@ -1577,27 +1577,14 @@ SHAP-анализ показал, что наибольшее влияние н�
 	- Low Risk   
 	- Medium Risk   
 	- High Risk   
-	- Critical Risk  
+	- Critical Risk
+   
 После объединения двух измерений была построена стратегическая матрица клиентских сегментов. 
 
-### Визуализация №1
-Customer Value × Risk Matrix
-Тепловая карта.
-Ось X:
-	Low Value 
-	Medium Value 
-	High Value 
-Ось Y:
-	Very Low Risk 
-	Low Risk 
-	Medium Risk 
-	High Risk 
-	Critical Risk 
-Размер клетки:
-Количество клиентов.
-Цвет:
-Средняя выручка.
-________________________________________
+### Матрица приоритезации удержания клиентов: баланс между ценностью и риском
+
+![Customer Risk-Value Matrix](visualizations/risk_value_segments.png)
+
 ### Findings
 Анализ показал, что риск распределен между клиентами с принципиально различной коммерческой ценностью.  
 Наиболее крупным сегментом оказался   
