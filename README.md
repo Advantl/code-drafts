@@ -1581,6 +1581,9 @@ SHAP-анализ показал, что наибольшее влияние н�
    
 После объединения двух измерений была построена стратегическая матрица клиентских сегментов. 
 
+### Риск потери дохода
+![Revenue Exposure](visualizations/risk_segment_contribution.png)
+
 ### Матрица приоритезации удержания клиентов: баланс между ценностью и риском
 
 ![Customer Risk-Value Matrix](visualizations/risk_value_segments.png)
