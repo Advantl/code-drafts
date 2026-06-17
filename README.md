@@ -1642,7 +1642,8 @@ SHAP-анализ показал, что наибольшее влияние н�
   
 После расчета Recovery Probability была сформирована итоговая метрика:  
 - *Retention Priority Score*
-- *Retention Priority*  =  Churn Probability  ×  Expected Future Revenue×Recovery Probability
+
+		  Retention Priority*  =  Churn Probability  ×  Expected Future Revenue×Recovery Probability
 
 ### Визуализация №1  
 Recovery Probability Distribution  
@@ -1663,7 +1664,8 @@ Y = Expected Future Revenue
 Интегральный показатель Retention Priority Score позволил выделить группу клиентов, которые одновременно обладают:
 - высоким риском оттока; 
 - значительным будущим revenue potential; 
-- высокой вероятностью успешного восстановления. 
+- высокой вероятностью успешного восстановления.
+
 Анализ показал, что наиболее перспективными объектами для retention-инвестиций являются не только клиенты из At Risk сегмента, но и часть пользователей из Active и Loyal сегментов, демонстрирующих ранние признаки ухудшения поведения. 
 
 ### Business Implications
@@ -1737,14 +1739,9 @@ Retention Prioritization Score переводит систему управле�
   
 Такой подход позволяет разделить клиентскую базу на несколько стратегически различных групп.
 
-### Визуализация
-Вставить:
-Figure 32. Customer Saveability Matrix
-(Твой scatter plot)
-Ось X:
-Recovery Probability
-Ось Y:
-Churn Probability
+### Customer Saveability Matrix
+
+![Customer Saveability Matrix](visualizations/customer_saveability_matrix.png)
 
 ### Интерпретация квадрантов
 | Квадрант					| Интерпретация							|
