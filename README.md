@@ -1462,7 +1462,7 @@ Revenue per Retained User систематически увеличиваетс�
 
 #### Распределение SHAP-вкладов по всем признакам модели
 
-![ SHAP Summary Plot](Data/visualizations/shap_summary_plot.png)
+![SHAP Summary Plot](visualizations/shap_summary_plot.png)
 
 ### Ключевые драйверы churn-risk
 SHAP-анализ показал, что наибольшее влияние на вероятность оттока оказывают:
