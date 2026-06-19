@@ -3866,13 +3866,9 @@ CLV-модели позволяют:
 
 В сочетании с churn-моделями CLV-прогнозирование формирует основу для полноценного customer portfolio management.
 
-#### Визуализация
-Figure X. Forecasted Customer Lifetime Value Distribution
+#### Прогноз долгосрочной ценности клиентов по различным сегментам клиентской базы.
+![Forecasted Customer Lifetime Value Distribution](visualizations/forecasted_customer_lifetime.png)
 
-[ВСТАВИТЬ пример распределения прогнозируемого CLV]
-
-Подпись:
-Прогноз долгосрочной ценности клиентов по различным сегментам клиентской базы.
 
 ### 14.3 Uplift Modeling
 ### Бизнес-мотивация
