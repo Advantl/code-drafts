@@ -3557,7 +3557,7 @@ Shift Focus from Revenue Loss to Revenue Preservation
 Следующим шагом является внедрение результатов проекта в операционные процессы компании.
 Цель данного roadmap заключается в поэтапной трансформации CRM-системы от ретроспективной отчетности к проактивному управлению клиентским портфелем на основе данных.
 
-#### Phase 1. Customer Health Monitoring
+### Phase 1. Customer Health Monitoring
 ### Цель
 
 Создать единый контур мониторинга состояния клиентской базы.
@@ -3590,7 +3590,7 @@ Shift Focus from Revenue Loss to Revenue Preservation
 
 Компания получает единый источник информации о состоянии клиентского портфеля и ранних признаках его деградации.
 
-#### Phase 2. Predictive CRM
+### Phase 2. Predictive CRM
 #### Цель
 
 Перейти от мониторинга к прогнозированию клиентского поведения.
@@ -3619,7 +3619,7 @@ Shift Focus from Revenue Loss to Revenue Preservation
 
 Компания получает возможность распределять CRM-ресурсы на основе ожидаемого бизнес-эффекта.
 
-#### Phase 3. Retention Intelligence Layer
+### Phase 3. Retention Intelligence Layer
 #### Цель
 
 Перейти от сегментных кампаний к управлению драйверами поведения клиентов.
@@ -3643,7 +3643,7 @@ CRM-коммуникации должны запускаться не тольк
 
 Появляется возможность реагировать на ухудшение поведения еще до роста churn probability.
 
-#### Phase 4. Customer Intelligence Platform
+### Phase 4. Customer Intelligence Platform
 #### Цель
 
 Создать единую систему принятия решений на основе клиентской аналитики.
