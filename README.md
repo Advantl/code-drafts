@@ -1625,13 +1625,14 @@ SHAP-анализ показал, что наибольшее влияние н�
 Какие клиенты одновременно обладают высоким риском оттока, высокой будущей ценностью и высокой вероятностью восстановления активности?
 
 ### Methodology
-Для клиентов сегмента At Risk была построена отдельная recovery-модель.  
+Для ранжирования клиентов сегмента At Risk по относительному потенциалу восстановления активности и последующей приоритизации retention-инвестиций был построен Recovery scoring framework.    
 Целевая переменная:  
 - Recovered = 1
 
 если клиент в следующем периоде возвращается в:  
 - Active   
-- Loyal   
+- Loyal
+  
 состояние. 
 
 Для оценки вероятности восстановления использовались:
@@ -1647,7 +1648,7 @@ SHAP-анализ показал, что наибольшее влияние н�
 После расчета Recovery Probability была сформирована итоговая метрика:  
 - *Retention Priority Score*
 
-		  Retention Priority*  =  Churn Probability  ×  Expected Future Revenue×Recovery Probability
+		  Retention Priority  =  Churn Probability  ×  Expected Future Revenue×Recovery Probability
 
 ### Визуализация №1  
 Recovery Probability Distribution  
@@ -1713,7 +1714,7 @@ Y = Expected Future Revenue
 
 Модель эффективно ранжирует клиентов по ожидаемому recovery-потенциалу: обработка только топ-20% клиентов позволяет вернуть около 70% всей recoverable revenue. При расширении охвата до 30% клиентов покрытие увеличивается до 81%, что указывает на высокую концентрацию ценности в верхней части скоринга и позволяет существенно снизить операционные затраты на retention-кампании.
 
-### Кривая приоритезации удержания
+### Recovery Priority Portfolio
 ![Top 20 Customers by Priority Score ](visualizations/top_20_saveable_customers.png)
 
 ### Key Findings
