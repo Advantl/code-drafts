@@ -2214,17 +2214,12 @@ Reactivation остается относительно стабильным:
 Данный сигнал указывает на постепенную деградацию наиболее ценной части клиентской базы и может рассматриваться как раннее предупреждение будущих потерь выручки.  
 
 #### Визуализация
-📊 Customer Health Dynamics
-Линейный график:
-	Retention Rate 
-	Churn Rate 
-	Reactivation Rate 
-	Resurrection Rate 
 
-📊 Lifecycle Stability Dynamics
-Отдельный линейный график:
-	Lifecycle Stability Index 
-	Healthy Stability Index 
+![Customer Health Dynamics](visualizations/customer_health_dynamics.png)
+
+#### Визуализация
+
+![Lifecycle Stability Dynamics](visualizations/lifecycle_stability_dynamics.png)
 
 ### 9.5.2 Recovery Dynamics
 ### Цель
@@ -2242,11 +2237,8 @@ Reactivation остается относительно стабильным:
 Компания постепенно переходит от режима Retention-driven growth к режиму Acquisition-dependent growth? где удержание уже не покрывает естественный отток пользователей.
 
 #### Визуализация
-📊 Recovery Dynamics
-Линейный график:
-	Reactivation Rate 
-	Resurrection Rate 
-	Churn Rate 
+
+![Recovery Dynamics](visualizations/recovery_dynamics.png)
 
 ### 9.5.3 Revenue Dynamics
 ### Цель
@@ -2287,15 +2279,13 @@ Contraction Revenue ≈ 1.49M
 Таким образом, Contraction Revenue выступает одним из наиболее ранних индикаторов ухудшения customer health.
 
 ### Визуализация
-📊 Revenue Retention Trend
-Линейный график:
-	Revenue Retention 
-________________________________________
-📊 Expansion vs Contraction Dynamics
-Линейный график:
-	Expansion Revenue 
-	Contraction Revenue 
-с выделением точки пересечения кривых.
+
+![Revenue Retention Trend](visualizations/revenue_retention_trend.png) 
+
+### Визуализация
+
+![Expansion vs Contraction Dynamics](visualizations/expansion_contraction_dynamics.png)  
+
 
 ## 9.6 Revenue Concentration
 ### Цель анализа
