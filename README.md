@@ -4056,6 +4056,7 @@ Next-Best-Action Framework позволяет:
 #### Концептуальная схема автоматизированного выбора оптимального CRM-действия на основе customer health, churn-risk и customer value.
 
 Вариант 1. Next-Best-Action Decision Framework
+
 										                  Customer
 										                      │
 										          ┌───────────┴───────────┐
@@ -4072,18 +4073,6 @@ Next-Best-Action Framework позволяет:
 										Retention     Minimal
 										 Offer       Investment
 
-graph LR
-    Customer --> |High Risk| RecoveryHigh{Recovery High?}
-    Customer --> |Low Risk| LoyaltyProgram[Loyalty Program]
-    
-    RecoveryHigh --> |Yes| RetentionOffer[Retention Offer]
-    RecoveryHigh --> |No| MinimalInvestment[Minimal Investment]
-    
-    style Customer fill:#f9f,stroke:#333,stroke-width:2px
-    style RecoveryHigh fill:#ffd43b,stroke:#333,stroke-width:2px
-    style RetentionOffer fill:#4dabf7,stroke:#333,stroke-width:2px
-    style MinimalInvestment fill:#ced4da,stroke:#333,stroke-width:2px
-    style LoyaltyProgram fill:#51cf66,stroke:#333,stroke-width:2px
 
 Вариант 2. Decision Matrix
 
