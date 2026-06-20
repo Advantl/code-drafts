@@ -1903,9 +1903,6 @@ Lifecycle KPI Framework представляет собой многоуровн
 |Churn	|1340		|23.4%|
 
 Несмотря на относительно небольшой размер Loyal-сегмента, именно он формирует основу долгосрочной клиентской экономики компании.
-### Визуализация
- 📊 Lifecycle Distribution
-Donut Chart или Stacked Bar Chart
 
 ### Уровень 2. Behavioral Health Layer
 На втором уровне анализируются поведенческие характеристики сегментов.
@@ -1917,8 +1914,6 @@ Donut Chart или Stacked Bar Chart
 |New	|1.3			|12			|
 
 Наблюдается последовательное ухудшение поведенческих метрик по мере движения клиентов от активных состояний к стадиям риска и оттока.
-### Визуализация
-📊 Behavioral Metrics Heatmap
 
 ### Уровень 3. Revenue Health Layer
 Следующий уровень показывает экономическую значимость сегментов.
@@ -1931,9 +1926,6 @@ Donut Chart или Stacked Bar Chart
 
 Менее 16% клиентов формируют более половины всей выручки компании.
 Это свидетельствует о высокой концентрации customer value внутри ограниченного сегмента лояльных покупателей.
-### Визуализация
-📊 Revenue Share by Lifecycle Stage
-Bar Chart
 
 ### Уровень 4. Lifecycle Stability Layer
 Для оценки устойчивости клиентской базы дополнительно рассчитываются две агрегированные метрики.
@@ -1944,11 +1936,6 @@ Bar Chart
 Показывает долю клиентов из здоровых сегментов (Active и Loyal), сохранивших своё состояние между периодами.
 Метрика используется как ранний индикатор ухудшения customer health и позволяет оценивать устойчивость наиболее ценной части клиентской базы.
 Снижение данных показателей сигнализирует о росте деградации клиентского портфеля ещё до существенного ухудшения retention или revenue metrics.
-### Визуализация
-📊 Lifecycle Stability Trends
-Line Chart:
-	Lifecycle Stability Index
-	Healthy Stability Index
 
 ### Уровень 5. Risk Layer
 После интеграции результатов churn-модели становится возможным анализ распределения риска между сегментами.
@@ -1961,9 +1948,7 @@ Line Chart:
 |Churn	|0.95			|
 
 Наиболее высокий риск сосредоточен внутри At Risk и Active сегментов.
-### Визуализация
-📊 Average Churn Probability by Lifecycle Stage
-Bar Chart
+
 
 ### Уровень 6. Economic Risk Layer
 Для оценки потенциальных финансовых потерь вероятность оттока объединяется с выручкой сегмента через показатель Revenue-at-Risk.  
@@ -1978,9 +1963,7 @@ Bar Chart
 |New	|0.25M			|
 
 Основная часть потенциальных потерь сосредоточена внутри Active и At Risk сегментов.
-### Визуализация
-📊 Revenue-at-Risk by Lifecycle Stage
-Horizontal Bar Chart
+
 
 ### Уровень 7. Retention Prioritization Layer
 Финальный уровень объединяет:  
@@ -1997,9 +1980,7 @@ Horizontal Bar Chart
 |New	|2.1			|
 
 Полученные результаты показывают, что максимальный эффект retention-инвестиций ожидается внутри Active и At Risk сегментов.
-### Визуализация
-📊 Retention Priority Ranking
-Horizontal Bar Chart
+
 
 ## 9.3 KPI Dashboard
 ### Lifecycle KPI Trends
@@ -2055,11 +2036,11 @@ Mar → Apr	0.93M	1.34M
 Apr → May	1.06M	1.49M
 К концу периода contraction revenue начинает устойчиво превышать expansion revenue.
 Это один из наиболее ранних сигналов ухудшения customer health, поскольку снижение потребления появляется раньше полного оттока клиентов.
-________________________________________
-Визуализация
-📊 Expansion vs Contraction Trend
-Line Chart
-________________________________________
+
+### Expansion vs Contraction Trend
+
+![Expansion vs Contraction Dynamics](visualizations/expansion_contraction_dynamics.png)   
+
 ### • Lifecycle Stability Monitoring
 Дополнительно framework отслеживает устойчивость жизненного цикла клиентов между соседними периодами.
 Для этого используются:  
@@ -2071,11 +2052,8 @@ Healthy Stability Index показывает устойчивость наибо
 
 Снижение данных показателей интерпретируется как ранний сигнал ухудшения customer health и роста вероятности будущей деградации retention и revenue metrics.
 
-### Визуализация
-📊 Lifecycle Stability Trends
-Line Chart:
-	Lifecycle Stability Index
-	Healthy Stability Index
+### Lifecycle Stability Trends
+![Lifecycle Stability Trends ](visualizations/lifecycle_stability_dynamics.png) 
 
 ### Business Value
 Разработанный KPI Dashboard позволяет перейти от ретроспективного анализа к непрерывному мониторингу состояния клиентского портфеля.  
@@ -2090,7 +2068,7 @@ Framework обеспечивает:
 Таким образом компания получает единую систему Customer Health Monitoring, объединяющую результаты всех предыдущих аналитических разделов в платформу поддержки retention-решений.
 
 ## 9.4 Lifecycle Stability Analysis
-### Зачем нужен этот анализ
+### Цель анализа
 Retention, churn и revenue retention показывают результат происходящих процессов.   
 Однако они не отвечают на вопрос:  
 Насколько стабильна сама структура клиентской базы?  
@@ -2124,6 +2102,7 @@ Retention, churn и revenue retention показывают результат п
 - Loyal
   
 Формула:  
+
 		Healthy Stability Index  =  Healthy customers remaining healthy  /  Total healthy customers
 
 Показатель позволяет оценить способность бизнеса удерживать наиболее ценных клиентов внутри активной части lifecycle.
@@ -2161,17 +2140,8 @@ Lifecycle Stability Index выступает ранним индикатором
 Поэтому стабильность lifecycle-структуры может использоваться как leading indicator будущих проблем удержания.
 
 #### Визуализация
-Вставить после раздела:
-📊 Lifecycle Stability Trends
-Линейный график:
-	Lifecycle Stability Index 
-	Healthy Stability Index 
-По оси X:
-	Dec→Jan 
-	Jan→Feb 
-	Feb→Mar 
-	Mar→Apr 
-	Apr→May 
+
+![Lifecycle Stability Trends ](visualizations/lifecycle_stability_dynamics.png) 
 
 ## 9.5 Lifecycle KPI Trends
 После добавления новых метрик я бы полностью переработал старый подраздел KPI Trends.
