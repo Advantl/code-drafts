@@ -2027,12 +2027,14 @@ Line Chart
 
 ### • Expansion vs Contraction Monitoring
 
-Период	Expansion	Contraction
-Dec → Jan	1.06M	0.58M
-Jan → Feb	1.06M	0.84M
-Feb → Mar	1.23M	1.15M
-Mar → Apr	0.93M	1.34M
-Apr → May	1.06M	1.49M
+|Период	|Expansion	|Contraction|
+|-------|-----------|-----------|
+|Dec → Jan	|1.06M	|0.58M|
+|Jan → Feb	|1.06M	|0.84M|
+|Feb → Mar	|1.23M	|1.15M|
+|Mar → Apr	|0.93M	|1.34M|
+|Apr → May	|1.06M	|1.49M|
+
 К концу периода contraction revenue начинает устойчиво превышать expansion revenue.
 Это один из наиболее ранних сигналов ухудшения customer health, поскольку снижение потребления появляется раньше полного оттока клиентов.
 
@@ -2043,11 +2045,12 @@ Apr → May	1.06M	1.49M
 ### • Lifecycle Stability Monitoring
 Дополнительно framework отслеживает устойчивость жизненного цикла клиентов между соседними периодами.
 Для этого используются:  
+
 - *Lifecycle Stability Index;*  
-- *Healthy Stability Index.*
-  
-Lifecycle Stability Index отражает общую стабильность структуры клиентской базы.  
-Healthy Stability Index показывает устойчивость наиболее ценной части портфеля — клиентов сегментов Active и Loyal.  
+Отражает общую стабильность структуры клиентской базы.
+
+- *Healthy Stability Index.*  
+Показывает устойчивость наиболее ценной части портфеля — клиентов сегментов Active и Loyal.  
 
 Снижение данных показателей интерпретируется как ранний сигнал ухудшения customer health и роста вероятности будущей деградации retention и revenue metrics.
 
