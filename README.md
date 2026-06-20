@@ -3970,13 +3970,17 @@ Figure X. Uplift-Based Customer Segmentation
 В результате компания сможет понимать не только кто находится в зоне риска, но и какие действия способны изменить будущий исход.
 
 ### Иллюстративный пример
-#### Визуализация
+#### Концептуальная модель перехода от корреляционного анализа факторов риска к оценке причинного влияния retention-интервенци
 
-Figure X. Conceptual Causal Retention Framework
-
-[ВСТАВИТЬ схему причинно-следственных связей]
-
-Подпись: Концептуальная модель перехода от корреляционного анализа факторов риска к оценке причинного влияния retention-интервенций.
+Conceptual Causal Retention Framework
+			Retention Intervention
+			          ↓
+			 Frequency Growth
+			          ↓
+			 Customer Health
+			          ↓
+			 Future Revenue
+*Иллюстративная схема причинно-следственных связей между retention-интервенциями, пользовательским поведением и бизнес-результатами. В рамках текущего проекта анализ ограничивается выявлением статистических зависимостей. Представленная схема демонстрирует возможное направление развития аналитической платформы в сторону оценки причинного эффекта CRM-воздействий.*
 
 ### 14.5 Next-Best-Action Recommendation System
 ### Бизнес-мотивация
@@ -4049,13 +4053,37 @@ Next-Best-Action Framework позволяет:
 Таким образом, текущий проект может рассматриваться как первый шаг к созданию полноценной системы интеллектуального управления клиентским жизненным циклом.
 
 ### Иллюстративный пример
-#### Визуализация
+#### Концептуальная схема автоматизированного выбора оптимального CRM-действия на основе customer health, churn-risk и customer value.
 
-Figure X. Next-Best-Action Decision Framework
+Вариант 1. Next-Best-Action Decision Framework
+			                Customer
+			                      │
+			          ┌───────────┴───────────┐
+			          │                       │
+			      High Risk              Low Risk
+			          │                       │
+			          ▼                       ▼
+			  Recovery High?           Loyalty Program
+			          │
+			     ┌────┴────┐
+			     │         │
+			    Yes        No
+			     │          │
+			Retention     Minimal
+			 Offer       Investment
 
-[ВСТАВИТЬ decision tree или decision matrix]
+Вариант 2. Decision Matrix
 
-Подпись: Концептуальная схема автоматизированного выбора оптимального CRM-действия на основе customer health, churn-risk и customer value.
+| Customer State                      | Recommended Action    |
+| ----------------------------------- | --------------------- |
+| Loyal + Low Risk                    | Loyalty Program       |
+| Active + Medium Risk                | Engagement Campaign   |
+| At Risk + High Recovery Probability | Retention Offer       |
+| At Risk + Low Recovery Probability  | Minimal Contact       |
+| Churn + High Value                  | Reactivation Campaign |
+
+*Иллюстративный пример автоматизированной системы выбора оптимального CRM-действия на основе customer health, churn-risk и ожидаемой экономической ценности клиента. В рамках текущего проекта подобная система не реализовывалась и представлена как потенциальное направление развития существующего lifecycle analytics framework.*
+
 
 ### Заключение раздела Future Work
 
