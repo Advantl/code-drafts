@@ -2338,11 +2338,8 @@ Reactivation остается относительно стабильным: 7�
 #### Revenue Share by Lifecycle Stage
 ![Revenue Share by Lifecycle Stag](visualizations/revenue_concentration.png)
 
-#### Визуализации
-📊 Revenue Index by Lifecycle Stage
-Bar Chart
-Ось Y: Revenue Index
-Показать экономическую ценность сегментов относительно среднего клиента базы.
+#### Revenue Concentration Gap.
+![Revenue Concentration Gap.](visualizations/revenue_premium.png)
 
 ### Ключевой вывод
 
