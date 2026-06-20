@@ -1997,7 +1997,7 @@ Lifecycle KPI Framework представляет собой многоуровн
 - Churn увеличивается почти в пять раз;    
 - Reactivation и Resurrection частично компенсируют потери, но не способны переломить негативный тренд.   
 
-### Customer Health Dynamics
+### Customer Health Trends
 ![Customer Health Dynamics](visualizations/customer_health_trends.png)
 
 ![Recovery Dynamics](visualizations/recovery_trends.png) 
@@ -2016,9 +2016,8 @@ Lifecycle KPI Framework представляет собой многоуровн
 Несмотря на ухудшение пользовательских метрик, компания сохраняет около 80% выручки между соседними периодами.
 Это подтверждает вывод предыдущих разделов: удержанные клиенты обладают существенно большей ценностью, чем средний пользователь базы.
 
-### Визуализация
-📊 Revenue Retention Trend
-Line Chart
+### Revenue Retention Trend
+![Revenue Retention Trend](visualizations/revenue_retention_trend.png)  
 
 ### • Expansion vs Contraction Monitoring
 
@@ -2034,7 +2033,6 @@ Line Chart
 Это один из наиболее ранних сигналов ухудшения customer health, поскольку снижение потребления появляется раньше полного оттока клиентов.
 
 ### Expansion vs Contraction Trend
-
 ![Expansion vs Contraction Dynamics](visualizations/expansion_contraction_dynamics.png)   
 
 ### • Lifecycle Stability Monitoring
