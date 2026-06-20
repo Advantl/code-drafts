@@ -1997,16 +1997,11 @@ Lifecycle KPI Framework представляет собой многоуровн
 - Churn увеличивается почти в пять раз;    
 - Reactivation и Resurrection частично компенсируют потери, но не способны переломить негативный тренд.   
 
-### Визуализация
-📊 Customer Health Dynamics
-Line Chart:  
-- Retention Rate  
-- Churn Rate  
+### Customer Health Dynamics
+![Customer Health Dynamics](visualizations/customer_health_trends.png)
 
-📊 Recovery Dynamics
-Line Chart:
-	Reactivation Rate
-	Resurrection Rate
+![Recovery Dynamics](visualizations/recovery_trends.png) 
+
 
 ### • Revenue Dynamics
 Для оценки устойчивости выручки анализируется динамика revenue retention и баланс между расширением и сокращением потребления внутри удержанной клиентской базы.
