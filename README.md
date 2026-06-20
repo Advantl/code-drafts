@@ -2335,31 +2335,13 @@ Reactivation остается относительно стабильным: 7�
 
 Таким образом, Loyal-сегмент выступает главным экономическим активом клиентской базы.
 
-#### Визуализации
-📊 Revenue Share by Lifecycle Stage
-
-Donut Chart
-Показать долю общей выручки по lifecycle-сегментам.
-
-#### Визуализации
-📊 Revenue Concentration
-Bar Chart
-Ось X:
-New
-Active
-Loyal
-At Risk
-Churn
-
-Ось Y:
-Revenue Share %
+#### Revenue Share by Lifecycle Stage
+![Revenue Share by Lifecycle Stag](visualizations/revenue_concentration.png)
 
 #### Визуализации
 📊 Revenue Index by Lifecycle Stage
 Bar Chart
-
-Ось Y:
-Revenue Index
+Ось Y: Revenue Index
 Показать экономическую ценность сегментов относительно среднего клиента базы.
 
 ### Ключевой вывод
