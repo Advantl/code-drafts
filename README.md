@@ -4092,8 +4092,7 @@ graph TD
     style RetentionOffer fill:#4dabf7,stroke:#333,stroke-width:2px
     style MinimalInvestment fill:#ced4da,stroke:#333,stroke-width:2px
     style LoyaltyProgram fill:#51cf66,stroke:#333,stroke-width:2px
-
-
+```
 
 Вариант 2. Decision Matrix
 
