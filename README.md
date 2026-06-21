@@ -2446,15 +2446,8 @@ Reactivation остается относительно стабильным: 7�
 | Loyal   | Защита выручки            |
 
 #### Revenue-at-Risk by Lifecycle Stag
-📊 Revenue-at-Risk by Lifecycle Stage
-Horizontal Bar Chart
-Ось X: Revenue-at-Risk
-Ось Y: 
-New
-Active
-Loyal
-At Risk
-Churn
+![Revenue-at-Risk by Lifecycle Stage](visualizations/revenue_exposure_analysis.PNG)  
+
 
 #### Revenue vs Revenue-at-Risk
 📊 Revenue vs Revenue-at-Risk
