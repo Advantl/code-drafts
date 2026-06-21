@@ -2445,24 +2445,11 @@ Reactivation остается относительно стабильным: 7�
 | At Risk | Реактивация               |
 | Loyal   | Защита выручки            |
 
-#### Revenue-at-Risk by Lifecycle Stag
+#### Revenue-at-Risk by Lifecycle Stage
 ![Revenue-at-Risk by Lifecycle Stage](visualizations/revenue_exposure_analysis.PNG)  
 
-
-#### Revenue vs Revenue-at-Risk
-📊 Revenue vs Revenue-at-Risk
-Grouped Bar Chart
-Для каждого сегмента:
-Revenue
-Revenue-at-Risk
-Позволяет увидеть, какая часть выручки потенциально находится под угрозой.
-
-#### Revenue-at-Risk Distribution
-📊 Revenue-at-Risk Distribution
-Treemap
-Размер блока:Revenue-at-Risk
-Цвет: Average Churn Risk
-Очень сильная визуализация для senior-level проекта.
+#### Revenue-at-Risk Exposure Matrix
+![Revenue-at-Risk Exposure Matrix](visualizations/revenue_at_risk_exposure_matrix.png) 
 
 ### Ключевой вывод
 
