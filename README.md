@@ -2791,7 +2791,7 @@ Healthy Stability Index	71.0%
 Несмотря на ухудшение пользовательских метрик, компания удерживает 79% выручки между периодами, что подтверждает высокую ценность retained-аудитории.
 
 #### Executive KPI Cards  
-![Executive KPI Cards](visualizations/metric_cards_101) 
+![Executive KPI Cards](visualizations/metric_cards_101.png) 
 
 Разместить 6 KPI-карточек:  
 •	Retention Rate   
