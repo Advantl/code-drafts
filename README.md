@@ -3175,8 +3175,8 @@ SHAP-анализ и Feature Importance показали, что наиболе�
 Полученные результаты показывают, что ключевым сигналом риска является не текущее значение клиентских метрик, а ухудшение их динамики во времени.
 Особенно важным ранним индикатором выступает снижение частоты покупок и замедление темпов потребления.
 
-### *Strategic Recommendation 1*
-Build Early Warning Retention System
+### Strategic Recommendation 1
+*Build Early Warning Retention System*
 
 Результаты модели подтверждают возможность обнаружения признаков деградации клиентского поведения до фактического ухода клиента.
 Вместо запуска реактивных кампаний после перехода пользователя в At Risk компания должна использовать churn probability как систему раннего предупреждения.
@@ -3188,14 +3188,10 @@ Build Early Warning Retention System
 - сокращение затрат на реактивацию.  
 
 ### Strategic Recommendation 2
-Prioritize Customers by Expected Business Impact
+*Prioritize Customers by Expected Business Impact*
 
 Анализ показал, что высокий churn-risk сам по себе не является достаточным основанием для retention-инвестиций.
-Для оценки экономической эффективности удержания был разработан интегральный показатель:
-
-*Retention Priority Score*
-
-который объединяет:  
+Для оценки экономической эффективности удержания был разработан интегральный показатель Retention Priority Score, который объединяет:  
 - вероятность оттока;  
 - ожидаемую будущую выручку;  
 - вероятность успешной реактивации.  
@@ -3208,7 +3204,7 @@ Prioritize Customers by Expected Business Impact
 - повышение возврата инвестиций в retention.
 
 ### Strategic Recommendation 3
-Develop Recovery-Oriented Retention Programs
+*Develop Recovery-Oriented Retention Programs*
 
 Recovery-анализ показал, что часть клиентов из At Risk сегмента обладает высокой вероятностью возвращения в активное состояние.  
 При этом наиболее перспективные клиенты одновременно характеризуются:  
@@ -3228,7 +3224,7 @@ Recovery-анализ показал, что часть клиентов из At
 - снижение долгосрочного churn.  
 
 ### Strategic Recommendation 4
-Focus on Behavioral Deterioration Rather Than Lifecycle Labels
+*Focus on Behavioral Deterioration Rather Than Lifecycle Labels*
 
 Одним из наиболее важных результатов анализа стало то, что признаки будущего оттока появляются раньше, чем клиент меняет lifecycle-сегмент.  
 Поэтому CRM-система должна отслеживать не только текущую lifecycle-stage клиента, но и изменения его поведения:  
@@ -3294,7 +3290,7 @@ Focus on Behavioral Deterioration Rather Than Lifecycle Labels
 Наиболее устойчивыми остаются клиенты из здоровых сегментов Active и Loyal.
 
 ### Strategic Recommendation 1
-Increase Active → Loyal Conversion
+*Increase Active → Loyal Conversion*
 
 Переход клиентов из Active в Loyal является наиболее важным направлением долгосрочного роста.
 Именно в этом сегменте сосредоточен основной потенциал увеличения Customer Lifetime Value.
@@ -3311,7 +3307,7 @@ Increase Active → Loyal Conversion
 - повышение устойчивости выручки.
 
 ### Strategic Recommendation 2
-Monitor Healthy Stability as Core Portfolio KPI
+*Monitor Healthy Stability as Core Portfolio KPI*
 
 Healthy Stability Index показал высокий уровень устойчивости клиентов внутри здоровых lifecycle-состояний.
 Данная метрика должна использоваться как один из ключевых индикаторов качества клиентского портфеля.
@@ -3323,7 +3319,7 @@ Healthy Stability Index показал высокий уровень устой�
 - более быстрое принятие управленческих решений.
 
 ### Strategic Recommendation 3
-Reduce Active → At Risk Migration
+*Reduce Active → At Risk Migration*
 
 Результаты transition analytics показали, что именно Active-сегмент является ключевой точкой принятия решения клиентом о дальнейшем развитии жизненного цикла.
 Переходы из Active в At Risk выступают одним из основных механизмов формирования будущего churn.
@@ -3340,7 +3336,7 @@ Reduce Active → At Risk Migration
 - стабилизация клиентской базы.
 
 ### Strategic Recommendation 4
-### Protect the Loyal Segment
+*Protect the Loyal Segment*
 
 Loyal-клиенты являются основным источником выручки компании.
 При этом даже незначительное ухудшение удержания данного сегмента способно привести к существенным финансовым потерям.
@@ -3417,7 +3413,7 @@ Loyal-клиенты являются основным источником вы
 Данный результат указывает на постепенное ухудшение customer health еще до возникновения полного churn.
 
 ### Strategic Recommendation 1
-Protect High-Value Customer Base
+*Protect High-Value Customer Base*
 
 Поскольку более половины выручки формируется Loyal-сегментом, данная группа должна рассматриваться как стратегический актив бизнеса.  
 Для снижения риска потери наиболее ценных клиентов рекомендуется внедрить специализированную программу удержания, включающую:
@@ -3433,7 +3429,7 @@ Protect High-Value Customer Base
 - снижение концентрации финансовых рисков.
 
 ### Strategic Recommendation 2
-Institutionalize Revenue-at-Risk Monitoring
+*Institutionalize Revenue-at-Risk Monitoring*
 
 Revenue-at-Risk должен стать регулярным управленческим показателем наряду с традиционными метриками продаж.  
 Рекомендуется внедрить ежемесячный мониторинг:
@@ -3450,7 +3446,7 @@ Revenue-at-Risk должен стать регулярным управленч�
 - улучшение качества CRM-приоритизации.
 
 ### Strategic Recommendation 3
-Monitor Expansion-Contraction Balance
+*Monitor Expansion-Contraction Balance*
 
 Полный churn является лишь финальной стадией деградации клиентского поведения.
 Значительно раньше начинают проявляться признаки сокращения потребления внутри удержанной базы.
@@ -3463,7 +3459,7 @@ Monitor Expansion-Contraction Balance
 - снижение скрытых потерь выручки.
 
 ### Strategic Recommendation 4
-Shift Focus from Revenue Loss to Revenue Preservation
+*Shift Focus from Revenue Loss to Revenue Preservation*
 
 Традиционный подход концентрируется на компенсации уже произошедших потерь.
 Результаты анализа показывают необходимость перехода к модели превентивного управления выручкой.  
@@ -3496,7 +3492,7 @@ Shift Focus from Revenue Loss to Revenue Preservation
 
 Создать единый контур мониторинга состояния клиентской базы.
 
-#### Core Deliverables
+### Core Deliverables
 
 Внедрить регулярный мониторинг:  
 - Lifecycle Structure;  
@@ -3511,13 +3507,13 @@ Shift Focus from Revenue Loss to Revenue Preservation
 
 ### Recommended Dashboards  
 
-#### Lifecycle KPI Dashboard
+***Lifecycle KPI Dashboard***   
 Отображает структуру клиентской базы и состояние жизненного цикла.
 
-#### Revenue Health Dashboard
+***Revenue Health Dashboard***   
 Отслеживает концентрацию выручки и динамику revenue-at-risk.
 
-#### Customer Health Dashboard
+***Customer Health Dashboard***   
 Объединяет behavioral, revenue и risk indicators.
 
 ### Business Outcome
@@ -3525,11 +3521,11 @@ Shift Focus from Revenue Loss to Revenue Preservation
 Компания получает единый источник информации о состоянии клиентского портфеля и ранних признаках его деградации.
 
 ### Phase 2. Predictive CRM
-#### Цель
+### Цель
 
 Перейти от мониторинга к прогнозированию клиентского поведения.
 
-#### Core Deliverables
+### Core Deliverables
 
 Интегрировать результаты churn-модели в CRM-процессы.
 
@@ -3540,6 +3536,7 @@ Shift Focus from Revenue Loss to Revenue Preservation
 - Retention Priority Score.
   
 ### Customer Segmentation Logic
+
 | Segment                 | CRM Action           |
 | ----------------------- | -------------------- |
 | High Risk + High Value  | Priority Retention   |
@@ -3549,16 +3546,16 @@ Shift Focus from Revenue Loss to Revenue Preservation
 | New Customers           | Onboarding Program   |
 
 
-**Business Outcome**
+### Business Outcome
 
 Компания получает возможность распределять CRM-ресурсы на основе ожидаемого бизнес-эффекта.
 
 ### Phase 3. Retention Intelligence Layer
-#### Цель
+### Цель
 
 Перейти от сегментных кампаний к управлению драйверами поведения клиентов.
 
-#### Core Deliverables
+### Core Deliverables
 
 Использовать результаты SHAP-анализа для мониторинга основных факторов риска:
 
@@ -3573,16 +3570,17 @@ Shift Focus from Revenue Loss to Revenue Preservation
 
 CRM-коммуникации должны запускаться не только по lifecycle-stage, но и по изменениям данных метрик.
 
-**Business Outcome**
+### Business Outcome
 
 Появляется возможность реагировать на ухудшение поведения еще до роста churn probability.
 
 ### Phase 4. Customer Intelligence Platform
-#### Цель
+### Цель
 
 Создать единую систему принятия решений на основе клиентской аналитики.
 
-#### Target Architecture
+#### *Target Architecture*
+
 			Customer Transactions
 			          ↓
 			Lifecycle Analytics
@@ -3597,7 +3595,7 @@ CRM-коммуникации должны запускаться не тольк
 			          ↓
 			CRM Decision Engine
 
-#### Decision Logic
+### Decision Logic
 
 Для каждого клиента система автоматически определяет:  
 - уровень риска;  
@@ -3607,7 +3605,7 @@ CRM-коммуникации должны запускаться не тольк
 
 На основе этих параметров клиент направляется в соответствующий CRM-сценарий.
 
-**Business Outcome**
+### Business Outcome
 
 Компания переходит от ручного управления клиентской базой к интеллектуальной системе принятия решений, способной непрерывно оценивать состояние клиентского портфеля и автоматически приоритизировать действия по удержанию.
 
