@@ -225,7 +225,7 @@
 Для каждой пары последовательных snapshots были рассчитаны фактические переходы клиентов между lifecycle-состояниями.
 Полученные переходы были агрегированы за весь период наблюдения и визуализированы с помощью Sankey Diagram, отражающей движение клиентов между состояниями жизненного цикла.
 
-### *Figure 3. Агрегированные потоки клиентов между lifecycle-состояниями за весь период наблюдения.*  
+#### *Figure 3. Агрегированные потоки клиентов между lifecycle-состояниями за весь период наблюдения.*  
 
 ![Aggregated Lifecycle Transition Matrix](visualizations/users_sankey_diagram.PNG)
 
@@ -279,15 +279,15 @@
 -	Revenue Change Matrix;   
 -	Top Positive & Negative Revenue Drivers.   
 
-### Figure 4. Совокупная выручка, связанная с переходами между lifecycle-состояниями.
+#### *Figure 4. Совокупная выручка, связанная с переходами между lifecycle-состояниями.*
 
 ![Revenue Transition Matrix](visualizations/revenue_transition_matrix.png)
 
-### Figure 5. Изменение выручки для различных lifecycle transitions.
+#### *Figure 5. Изменение выручки для различных lifecycle transitions.*
 
 ![Revenue Transition Heatmap](visualizations/revenue_change_matrix.png)
 
-### Figure 6. Наиболее значимые источники роста и потери выручки
+#### *Figure 6. Наиболее значимые источники роста и потери выручки*
 
 ![Top Revenue Drivers](visualizations/revenue_drivers.png)
 
