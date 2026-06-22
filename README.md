@@ -2776,13 +2776,13 @@ Framework позволяет перейти от ретроспективног�
 ### 10.1 Lifecycle Health Snapshot
 #### Состояние клиентской базы
 
-KPI	Значение
-Retention Rate	47.3%
-Churn Rate	25.2%
-Reactivation Rate	11.2%
-Revenue Retention	79.0%
-Lifecycle Stability Index	67.7%
-Healthy Stability Index	71.0%
+KPI	Значение  
+Retention Rate	47.3%  
+Churn Rate	25.2%  
+Reactivation Rate	11.2%  
+Revenue Retention	79.0%  
+Lifecycle Stability Index	67.7%  
+Healthy Stability Index	71.0%  
 
 #### Интерпретация
 
@@ -2791,47 +2791,47 @@ Healthy Stability Index	71.0%
 Несмотря на ухудшение пользовательских метрик, компания удерживает 79% выручки между периодами, что подтверждает высокую ценность retained-аудитории.
 
 #### Визуализация
-📊 Executive KPI Cards
-Разместить 6 KPI-карточек:
-•	Retention Rate 
-•	Churn Rate 
-•	Revenue Retention 
-•	Reactivation Rate 
-•	Lifecycle Stability Index 
-•	Healthy Stability Index 
+📊 Executive KPI Cards  
+Разместить 6 KPI-карточек:  
+•	Retention Rate   
+•	Churn Rate   
+•	Revenue Retention   
+•	Reactivation Rate   
+•	Lifecycle Stability Index   
+•	Healthy Stability Index   
 
 ### 10.2 Customer Economics Snapshot
 Экономика жизненного цикла клиента
-KPI	Значение
-Early Retention (Month 1–2)	≈26%
-Revenue Retention Plateau	20–45%
-Revenue per Retained User Growth	до +43%
-Mature Cohort LTV	6.3–6.8 тыс.
+KPI	Значение  
+Early Retention (Month 1–2)	≈26%  
+Revenue Retention Plateau	20–45%  
+Revenue per Retained User Growth	до +43%  
+Mature Cohort LTV	6.3–6.8 тыс.  
 
 ### Интерпретация
 Главным ограничением экономики продукта является ранний churn.
 После первой покупки около 74% клиентов покидают систему до формирования устойчивого покупательского поведения.  
 При этом пользователи, остающиеся в продукте, демонстрируют рост customer value:   
-•	Revenue per Retained User увеличивается до 43%;   
-•	Revenue Retention существенно превышает User Retention;   
-•	LTV продолжает накапливаться даже на поздних стадиях жизненного цикла.   
+- Revenue per Retained User увеличивается до 43%;   
+- Revenue Retention существенно превышает User Retention;   
+- LTV продолжает накапливаться даже на поздних стадиях жизненного цикла.   
 Это означает, что проблема бизнеса заключается не в монетизации удержанных клиентов, а в недостаточном количестве клиентов, достигающих стадии долгосрочного удержания.
 
 #### Визуализация
-📊 Customer Economics Scorecard
-4 KPI-карточки:
-•	Early Retention 
-•	RPRU Growth 
-•	Revenue Retention Plateau 
-•	Mature Cohort LTV 
+📊 Customer Economics Scorecard   
+4 KPI-карточки:      
+•	Early Retention   
+•	RPRU Growth   
+•	Revenue Retention Plateau   
+•	Mature Cohort LTV   
 
 ### 10.3 Revenue Risk Snapshot
-Концентрация экономической ценности
-KPI	Значение
-Loyal Revenue Share	55.4%
-Revenue-at-Risk (Active)	1.39 млн
-Revenue-at-Risk (At Risk)	1.35 млн
-Combined Revenue-at-Risk	2.73 млн
+Концентрация экономической ценности  
+KPI	Значение  
+Loyal Revenue Share	55.4%  
+Revenue-at-Risk (Active)	1.39 млн  
+Revenue-at-Risk (At Risk)	1.35 млн  
+Combined Revenue-at-Risk	2.73 млн  
 
 ### Интерпретация
 Несмотря на то что сегмент Loyal составляет лишь 15.8% клиентской базы, он формирует более половины всей выручки компании.
@@ -2840,22 +2840,22 @@ Combined Revenue-at-Risk	2.73 млн
 Для бизнеса наиболее опасным является постепенное ухудшение customer health внутри активной аудитории.
 
 #### Визуализация
-📊 Revenue Risk Dashboard
+📊 Revenue Risk Dashboard  
 Слева:
-•	Loyal Revenue Share 
-Справа:
-•	Revenue-at-Risk Active 
-•	Revenue-at-Risk At Risk 
-•	Combined Revenue-at-Risk 
-
+•	Loyal Revenue Share     
+Справа:  
+•	Revenue-at-Risk Active   
+•	Revenue-at-Risk At Risk   
+•	Combined Revenue-at-Risk   
+  
 ### 10.4 Predictive Analytics Snapshot
 Качество модели прогнозирования оттока
-KPI	Значение
-ROC-AUC	0.89
-Precision	0.76
-Recall	0.95
-F1 Score	0.84
-Accuracy	0.82
+KPI	Значение  
+ROC-AUC	0.89  
+Precision	0.76  
+Recall	0.95  
+F1 Score	0.84  
+Accuracy	0.82  
 
 ### Интерпретация
 Разработанная churn-модель демонстрирует высокую способность выявлять клиентов с повышенной вероятностью оттока.
@@ -2863,13 +2863,13 @@ Accuracy	0.82
 Это делает модель пригодной для использования в CRM-процессах, системах раннего предупреждения и программах удержания клиентов.
 
 #### Визуализация
-📊 Predictive Model KPI Cards
-5 карточек:
-•	ROC-AUC 
-•	Precision 
-•	Recall 
-•	F1 
-•	Accuracy 
+📊 Predictive Model KPI Cards    
+5 карточек:    
+•	ROC-AUC   
+•	Precision   
+•	Recall   
+•	F1   
+•	Accuracy   
 
 ### 10.5 Executive Summary
 Проведённый анализ показывает, что клиентская база аптечной сети проходит через выраженный процесс ранней селекции.
