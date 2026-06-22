@@ -2800,6 +2800,292 @@ Healthy Stability Index	71.0%
 •	Lifecycle Stability Index   
 •	Healthy Stability Index   
 
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Карточки метрик · 2×3</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background: #f0f4f8;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      padding: 24px;
+    }
+
+    .card-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 24px;
+      max-width: 900px;
+      width: 100%;
+      background: transparent;
+      margin-bottom: 32px;
+    }
+
+    /* каждая карточка */
+    .metric-card {
+      background: #ffffff;
+      border-radius: 28px;
+      padding: 28px 16px 24px;
+      box-shadow: 0 12px 30px rgba(0, 0, 0, 0.06), 0 4px 8px rgba(0, 0, 0, 0.02);
+      text-align: center;
+      transition: transform 0.15s ease, box-shadow 0.2s;
+      border: 1px solid rgba(255, 255, 255, 0.5);
+      backdrop-filter: blur(2px);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .metric-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 20px 40px rgba(0, 20, 40, 0.08);
+    }
+
+    /* значение — крупное, жирное */
+    .metric-value {
+      font-size: 3.4rem;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      line-height: 1.1;
+      color: #0b1a2e;
+      margin-bottom: 8px;
+    }
+
+    /* подпись — мелкая, светлая */
+    .metric-label {
+      font-size: 1rem;
+      font-weight: 500;
+      color: #64748b;
+      letter-spacing: 0.02em;
+      text-transform: uppercase;
+      border-top: 1px solid #e9edf2;
+      padding-top: 12px;
+      width: 80%;
+      margin-top: 4px;
+    }
+
+    /* разные акценты для значений (опционально) */
+    .metric-card:nth-child(1) .metric-value { color: #1e3a5f; }   /* Retention */
+    .metric-card:nth-child(2) .metric-value { color: #b22234; }   /* Churn */
+    .metric-card:nth-child(3) .metric-value { color: #2a6f4c; }   /* Reactivation */
+    .metric-card:nth-child(4) .metric-value { color: #a0522d; }   /* Revenue Retention */
+    .metric-card:nth-child(5) .metric-value { color: #3b5e7a; }   /* Lifecycle Stability */
+    .metric-card:nth-child(6) .metric-value { color: #3d7a5a; }   /* Healthy Stability */
+
+    /* кнопка скачивания */
+    .download-btn {
+      background: #1e2f47;
+      color: white;
+      border: none;
+      border-radius: 60px;
+      padding: 14px 40px;
+      font-size: 1.1rem;
+      font-weight: 500;
+      letter-spacing: 0.3px;
+      cursor: pointer;
+      box-shadow: 0 8px 18px rgba(0, 20, 30, 0.12);
+      transition: background 0.2s, transform 0.1s;
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      background: #1a2b3f;
+      border: 1px solid #334a62;
+    }
+
+    .download-btn:hover {
+      background: #0f1f31;
+      box-shadow: 0 12px 24px rgba(0, 20, 30, 0.18);
+    }
+
+    .download-btn:active {
+      transform: scale(0.96);
+    }
+
+    .download-btn svg {
+      width: 20px;
+      height: 20px;
+      fill: currentColor;
+    }
+
+    /* для мобильной адаптации — 2 колонки на маленьких экранах, но мы оставляем 3 */
+    @media (max-width: 700px) {
+      .card-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 18px;
+      }
+      .metric-value {
+        font-size: 2.6rem;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .card-grid {
+        grid-template-columns: 1fr 1fr;
+        gap: 14px;
+      }
+      .metric-value {
+        font-size: 2.2rem;
+      }
+      .metric-label {
+        font-size: 0.8rem;
+        width: 90%;
+      }
+      .metric-card {
+        padding: 20px 10px 16px;
+      }
+    }
+
+    /* подпись, что карточки можно скопировать */
+    .hint {
+      margin-top: 12px;
+      color: #516b83;
+      font-size: 0.9rem;
+      opacity: 0.7;
+      text-align: center;
+    }
+    .hint a {
+      color: #1e3a5f;
+      text-decoration: none;
+      border-bottom: 1px dashed #8aa0b9;
+    }
+
+    /* контейнер для скриншота */
+    #capture-area {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    /* белая подложка для скачивания */
+    .capture-wrapper {
+      background: #f0f4f8;
+      padding: 24px 30px 30px;
+      border-radius: 48px;
+      width: 100%;
+      max-width: 960px;
+    }
+    .capture-wrapper .card-grid {
+      margin-bottom: 0;
+    }
+  </style>
+</head>
+<body>
+
+<div id="capture-area">
+  <div class="capture-wrapper" id="card-container">
+    <div class="card-grid">
+      <!-- 1. Retention Rate -->
+      <div class="metric-card">
+        <div class="metric-value">47.3%</div>
+        <div class="metric-label">Retention Rate</div>
+      </div>
+      <!-- 2. Churn Rate -->
+      <div class="metric-card">
+        <div class="metric-value">25.2%</div>
+        <div class="metric-label">Churn Rate</div>
+      </div>
+      <!-- 3. Reactivation Rate -->
+      <div class="metric-card">
+        <div class="metric-value">11.2%</div>
+        <div class="metric-label">Reactivation Rate</div>
+      </div>
+      <!-- 4. Revenue Retention -->
+      <div class="metric-card">
+        <div class="metric-value">79.0%</div>
+        <div class="metric-label">Revenue Retention</div>
+      </div>
+      <!-- 5. Lifecycle Stability Index -->
+      <div class="metric-card">
+        <div class="metric-value">67.7%</div>
+        <div class="metric-label">Lifecycle Stability Index</div>
+      </div>
+      <!-- 6. Healthy Stability Index -->
+      <div class="metric-card">
+        <div class="metric-value">71.0%</div>
+        <div class="metric-label">Healthy Stability Index</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- кнопка скачивания -->
+<button class="download-btn" id="downloadBtn">
+  <svg viewBox="0 0 24 24" width="20" height="20"><path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/></svg>
+  Скачать карточки (PNG)
+</button>
+<div class="hint">
+  ✦ 2 строки × 3 колонки · готово для README ✦
+</div>
+
+<!-- Подключаем html2canvas -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+
+<script>
+  (function() {
+    const downloadBtn = document.getElementById('downloadBtn');
+    const container = document.getElementById('card-container');
+
+    async function captureAndDownload() {
+      if (!container) return;
+
+      try {
+        // Временно убираем hover-эффекты (чтобы не искажали скрин)
+        const cards = container.querySelectorAll('.metric-card');
+        cards.forEach(c => c.style.transition = 'none');
+
+        const canvas = await html2canvas(container, {
+          scale: 2.5,               // для чёткости
+          backgroundColor: '#f0f4f8',
+          allowTaint: false,
+          useCORS: true,
+          logging: false,
+          borderRadius: '48px',
+          width: container.scrollWidth,
+          height: container.scrollHeight,
+        });
+
+        // Возвращаем transition
+        cards.forEach(c => c.style.transition = '');
+
+        // Создаём ссылку для скачивания
+        const link = document.createElement('a');
+        link.download = 'metric-cards-2x3.png';
+        link.href = canvas.toDataURL('image/png');
+        link.click();
+
+      } catch (error) {
+        console.error('Ошибка при создании скриншота:', error);
+        alert('Не удалось создать скриншот. Проверьте консоль.');
+        // возвращаем transition, если ошибка
+        const cards = container.querySelectorAll('.metric-card');
+        cards.forEach(c => c.style.transition = '');
+      }
+    }
+
+    downloadBtn.addEventListener('click', captureAndDownload);
+  })();
+</script>
+
+<!-- Дополнительно: стиль для красивого отображения в README (при вставке картинки) 
+     Но тут это просто визуальная помощь -->
+</body>
+</html>
+
 ### 10.2 Customer Economics Snapshot
 Экономика жизненного цикла клиента
 KPI	Значение  
