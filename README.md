@@ -97,7 +97,7 @@
 -	оценить устойчивость различных состояний жизненного цикла;   
 -	выявить основные сценарии деградации и удержания клиентов;   
 -	определить ключевые источники роста и потери выручки;   
--	проанализировать вклад retention, reactivation, expansion, contraction и churn в изменение финансовых результатов бизнеса.   
+-	проанализировать вклад *retention*, *reactivation*, *expansion*, *contraction* и *churn* в изменение финансовых результатов бизнеса.   
 
 ### Ключевые бизнес-вопросы
 
@@ -156,13 +156,11 @@
 Каждая матрица отражает вероятность перехода клиентов между lifecycle-состояниями в течение наблюдаемого периода.
 Для получения устойчивой оценки поведенческих закономерностей все матрицы были агрегированы в единую Lifecycle Transition Matrix.
 
-#### *Figure 1. Evolution of Lifecycle Transition Matrices*
-[Вставить рисунок 1]
-Коллаж из пяти transition matrices.
-Подпись:
-Матрицы переходов между lifecycle-состояниями для последовательных временных периодов.
+#### *Figure 1. Матрицы переходов между lifecycle-состояниями для последовательных временных периодов*
 
-#### *Figure 2. Агрегированная матрица переходов между lifecycle-состояниями за весь период наблюдения.*
+![Evolution of Lifecycle Transition Matrices](visualizations/transition_matrices_collage.png)
+
+#### *Figure 2. Агрегированная матрица переходов между lifecycle-состояниями за весь период наблюдения*
 
 ![Aggregated Lifecycle Transition Matrix](visualizations/aggregated_transition_matrix.png)
 
