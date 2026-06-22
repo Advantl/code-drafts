@@ -2842,7 +2842,10 @@ Combined Revenue-at-Risk	2.73 млн
 Это означает, что деградация поведения начинается значительно раньше момента формального перехода клиента в стадию риска.
 Для бизнеса наиболее опасным является постепенное ухудшение customer health внутри активной аудитории.
 
-#### Визуализация
+#### Revenue Risk Dashboard
+
+![Revenue Risk Dashboard](visualizations/metric_cards_103.png) 
+
 📊 Revenue Risk Dashboard  
 Слева:
 •	Loyal Revenue Share     
@@ -2865,7 +2868,10 @@ Accuracy	0.82
 Особенно важным является Recall на уровне 95%, что означает успешное обнаружение большинства будущих churn-клиентов.
 Это делает модель пригодной для использования в CRM-процессах, системах раннего предупреждения и программах удержания клиентов.
 
-#### Визуализация
+#### Predictive Model KPI Cards  
+
+![Predictive Model KPI Cards  ](visualizations/metric_cards_104.png) 
+
 📊 Predictive Model KPI Cards    
 5 карточек:    
 •	ROC-AUC   
