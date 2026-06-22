@@ -2541,13 +2541,7 @@ Horizontal Bar Chart
 Показать ранжирование сегментов по Priority Score.
 
 #### Revenue-at-Risk vs Priority Score
-📊 Revenue-at-Risk vs Priority Score
-Scatter Plot
-X: Revenue-at-Risk
-Y: Priority Score
-Размер пузыря: Customers
-Цвет: Lifecycle Stage
-Очень сильная senior-level визуализация.
+![Revenue-at-Risk vs Priority Score](visualizations/retention_priority_matrix.png) 
 
 ### Ключевой вывод
 
