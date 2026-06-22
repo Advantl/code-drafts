@@ -753,7 +753,7 @@ Retention Heatmap подтверждает результаты агрегиро
 
 #### *Figure 16. Stabilization Summary*
 
-![TABLE Stabilization Summary](visualizations/stabilization_summary.PNG)
+![TABLE Stabilization Summary](visualizations/stabilization_summary.png)
 
 
 ### Findings
