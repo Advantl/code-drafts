@@ -2621,7 +2621,7 @@ Loyal
 At Risk  
 Churn  
 
-Для каждого сегмента указать стратегию:
+Для каждого сегмента указать стратегию:  
 Activate  
 Monitor & Develop  
 Protect & Grow  
