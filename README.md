@@ -2608,26 +2608,9 @@ Active-клиенты одновременно характеризуются:
 - выборочный возврат наиболее ценных клиентов;  
 - контроль стоимости реактивации.  
   
-#### Визуализация
-📊 Retention Strategy Matrix
-Квадрантная диаграмма.
-Ось X: Business Value
-Ось Y: Churn Risk
+#### Retention Strategy Matrix
 
-Точки:
-New  
-Active   
-Loyal  
-At Risk  
-Churn  
-
-Для каждого сегмента указать стратегию:  
-Activate  
-Monitor & Develop  
-Protect & Grow  
-Recover  
-Win-back  
-
+![Retention Strategy Matrix](visualizations/retention_strategy_matrix.png) 
 
 ### Business Value
 
