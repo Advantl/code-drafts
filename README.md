@@ -2803,6 +2803,7 @@ Healthy Stability Index	71.0%
 
 ### 10.2 Customer Economics Snapshot
 Экономика жизненного цикла клиента
+
 KPI	Значение  
 Early Retention (Month 1–2)	≈26%  
 Revenue Retention Plateau	20–45%  
@@ -2818,8 +2819,9 @@ Mature Cohort LTV	6.3–6.8 тыс.
 - LTV продолжает накапливаться даже на поздних стадиях жизненного цикла.   
 Это означает, что проблема бизнеса заключается не в монетизации удержанных клиентов, а в недостаточном количестве клиентов, достигающих стадии долгосрочного удержания.
 
-#### Визуализация
-📊 Customer Economics Scorecard   
+#### Customer Economics Scorecard
+![Customer Economics Scorecard](visualizations/metric_cards_102.png)     
+
 4 KPI-карточки:      
 •	Early Retention   
 •	RPRU Growth   
