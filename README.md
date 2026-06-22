@@ -2791,15 +2791,7 @@ Healthy Stability Index	71.0%
 Несмотря на ухудшение пользовательских метрик, компания удерживает 79% выручки между периодами, что подтверждает высокую ценность retained-аудитории.
 
 #### Executive KPI Cards  
-![Executive KPI Cards](visualizations/metric_cards_101.png) 
-
-Разместить 6 KPI-карточек:  
-•	Retention Rate   
-•	Churn Rate   
-•	Revenue Retention   
-•	Reactivation Rate   
-•	Lifecycle Stability Index   
-•	Healthy Stability Index   
+![Executive KPI Cards](visualizations/metric_cards_101.png)  
 
 ### 10.2 Customer Economics Snapshot
 Экономика жизненного цикла клиента
@@ -2820,13 +2812,8 @@ Mature Cohort LTV	6.3–6.8 тыс.
 Это означает, что проблема бизнеса заключается не в монетизации удержанных клиентов, а в недостаточном количестве клиентов, достигающих стадии долгосрочного удержания.
 
 #### Customer Economics Scorecard
-![Customer Economics Scorecard](visualizations/metric_cards_102.png)     
 
-4 KPI-карточки:      
-•	Early Retention   
-•	RPRU Growth   
-•	Revenue Retention Plateau   
-•	Mature Cohort LTV   
+![Customer Economics Scorecard](visualizations/metric_cards_102.png)         
 
 ### 10.3 Revenue Risk Snapshot
 Концентрация экономической ценности  
@@ -2844,15 +2831,7 @@ Combined Revenue-at-Risk	2.73 млн
 
 #### Revenue Risk Dashboard
 
-![Revenue Risk Dashboard](visualizations/metric_cards_103.png) 
-
-📊 Revenue Risk Dashboard  
-Слева:
-•	Loyal Revenue Share     
-Справа:  
-•	Revenue-at-Risk Active   
-•	Revenue-at-Risk At Risk   
-•	Combined Revenue-at-Risk   
+![Revenue Risk Dashboard](visualizations/metric_cards_103.png)  
   
 ### 10.4 Predictive Analytics Snapshot
 Качество модели прогнозирования оттока
@@ -2871,14 +2850,6 @@ Accuracy	0.82
 #### Predictive Model KPI Cards  
 
 ![Predictive Model KPI Cards  ](visualizations/metric_cards_104.png) 
-
-📊 Predictive Model KPI Cards    
-5 карточек:    
-•	ROC-AUC   
-•	Precision   
-•	Recall   
-•	F1   
-•	Accuracy   
 
 ### 10.5 Executive Summary
 Проведённый анализ показывает, что клиентская база аптечной сети проходит через выраженный процесс ранней селекции.
