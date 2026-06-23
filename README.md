@@ -133,7 +133,7 @@
 
 Результатом является понимание того, какие изменения пользовательского поведения формируют рост и снижение выручки компании.
 
-<hr style="border: none; border-top: 1px solid #d0d7de;">
+<hr style="border: none; border-top: 0.5em solid #d0d7de;">
 
 ### Layer 2. Cohort Retention & Customer Value Dynamics
 
@@ -155,8 +155,6 @@
 
 #
 
----
-
 ### Layer 3. Predictive Customer Analytics
 
 **Ключевой вопрос:**
@@ -176,7 +174,7 @@
 
 На данном этапе проект переходит от описания прошлого к оценке будущих бизнес-рисков.
 
----
+#
 
 ### Layer 4. Lifecycle KPI Framework & Customer Health Monitoring
 
