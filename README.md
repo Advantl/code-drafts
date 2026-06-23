@@ -137,16 +137,16 @@
 
 Полученные данные используются для решения четырех взаимосвязанных аналитических задач:
 
-***Lifecycle Transition Analytics***  
+**Lifecycle Transition Analytics**  
 Анализ миграции клиентов между lifecycle-состояниями и исследование факторов изменения выручки.
 
-***Cohort Retention & Customer Value Dynamics***   
+**Cohort Retention & Customer Value Dynamics**     
 Изучение закономерностей удержания пользователей и формирования долгосрочной клиентской ценности.
 
-***Predictive Customer Analytics***  
+**Predictive Customer Analytics**  
 Прогнозирование риска оттока, оценка будущей ценности клиентов и приоритизация retention-инвестиций.
 
-***Customer Health Monitoring***  
+**Customer Health Monitoring**    
 Формирование системы KPI для постоянного мониторинга устойчивости клиентской базы и раннего выявления retention-рисков.
 
 Таким образом, используемый набор данных обеспечивает достаточную глубину наблюдений для построения единой аналитической системы, объединяющей descriptive, diagnostic, predictive и monitoring analytics в рамках customer lifecycle management framework.
