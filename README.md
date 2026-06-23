@@ -3741,13 +3741,15 @@ Framework позволяет перейти от ретроспективног�
 ### 10.1 Lifecycle Health Snapshot
 #### Состояние клиентской базы
 
-KPI	Значение  
-Retention Rate	47.3%  
-Churn Rate	25.2%  
-Reactivation Rate	11.2%  
-Revenue Retention	79.0%  
-Lifecycle Stability Index	67.7%  
-Healthy Stability Index	71.0%  
+| KPI                       |  Значение |
+| ------------------------- | --------: |
+| Retention Rate            | **47.3%** |
+| Churn Rate                | **25.2%** |
+| Reactivation Rate         | **11.2%** |
+| Revenue Retention         | **79.0%** |
+| Lifecycle Stability Index | **67.7%** |
+| Healthy Stability Index   | **71.0%** |
+
 
 #### Интерпретация
 
@@ -3759,13 +3761,15 @@ Healthy Stability Index	71.0%
 ![Executive KPI Cards](visualizations/metric_cards_101.png)  
 
 ### 10.2 Customer Economics Snapshot
-Экономика жизненного цикла клиента
+#### Экономика жизненного цикла клиента
 
-KPI	Значение  
-Early Retention (Month 1–2)	≈26%  
-Revenue Retention Plateau	20–45%  
-Revenue per Retained User Growth	до +43%  
-Mature Cohort LTV	6.3–6.8 тыс.  
+| KPI                              |         Значение |
+| -------------------------------- | ---------------: |
+| Early Retention (Month 1–2)      |         **≈26%** |
+| Revenue Retention Plateau        |       **20–45%** |
+| Revenue per Retained User Growth |      **до +43%** |
+| Mature Cohort LTV                | **6.3–6.8 тыс.** |
+
 
 ### Интерпретация
 Главным ограничением экономики продукта является ранний churn.
@@ -3781,11 +3785,15 @@ Mature Cohort LTV	6.3–6.8 тыс.
 ![Customer Economics Scorecard](visualizations/metric_cards_102.png)         
 
 ### 10.3 Revenue Risk Snapshot
-Концентрация экономической ценности  
-KPI	Значение  
-Loyal Revenue Share	55.4%  
-Revenue-at-Risk (Active)	1.39 млн  
-Revenue-at-Risk (At Risk)	1.35 млн  
+#### Концентрация экономической ценности  
+
+| KPI                       |     Значение |
+| ------------------------- | -----------: |
+| Loyal Revenue Share       |    **55.4%** |
+| Revenue-at-Risk (Active)  | **1.39 млн** |
+| Revenue-at-Risk (At Risk) | **1.35 млн** |
+| Combined Revenue-at-Risk  | **2.73 млн** |
+
 Combined Revenue-at-Risk	2.73 млн  
 
 ### Интерпретация
@@ -3799,13 +3807,16 @@ Combined Revenue-at-Risk	2.73 млн
 ![Revenue Risk Dashboard](visualizations/metric_cards_103.png)  
   
 ### 10.4 Predictive Analytics Snapshot
-Качество модели прогнозирования оттока
-KPI	Значение  
-ROC-AUC	0.89  
-Precision	0.76  
-Recall	0.95  
-F1 Score	0.84  
-Accuracy	0.82  
+#### Качество модели прогнозирования оттока
+
+| KPI       | Значение |
+| --------- | -------: |
+| ROC-AUC   | **0.89** |
+| Precision | **0.76** |
+| Recall    | **0.95** |
+| F1 Score  | **0.84** |
+| Accuracy  | **0.82** |
+
 
 ### Интерпретация
 Разработанная churn-модель демонстрирует высокую способность выявлять клиентов с повышенной вероятностью оттока.
