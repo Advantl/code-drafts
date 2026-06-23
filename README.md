@@ -85,7 +85,7 @@
 
 ## 4.2 Data Structure
 
-### Table 1. Core Dataset Structure
+#### *Table 1. Core Dataset Structure*
 
 | Variable       | Description                           |
 | -------------- | ------------------------------------- |
@@ -95,7 +95,7 @@
 | shop           | Идентификатор аптеки                  |
 | summ_with_disc | Сумма покупки после применения скидок |
 
-### Dataset Summary
+#### Dataset Summary
 
 | Metric              | Value                        |
 | ------------------- | ---------------------------- |
@@ -106,7 +106,7 @@
 | Snapshot Frequency  | Monthly                      |
 | Observation Window  | Rolling 6-Month Window       |
 
-### Lifecycle Snapshot Framework
+#### Lifecycle Snapshot Framework
 
 Для анализа поведения клиентов были сформированы последовательные месячные snapshots:
 
