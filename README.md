@@ -133,7 +133,7 @@
 
 Результатом является понимание того, какие изменения пользовательского поведения формируют рост и снижение выручки компании.
 
-<hr style="border: none; border-top: 0.5em solid #d0d7de;">
+#
 
 ### Layer 2. Cohort Retention & Customer Value Dynamics
 
@@ -153,7 +153,7 @@
 
 Данный слой позволяет определить критические точки потери клиентов, момент стабилизации удержания и механизмы формирования долгосрочной клиентской ценности.
 
-<div style="height: 1px; background: #d0d7de;"></div>
+#
 
 ### Layer 3. Predictive Customer Analytics
 
@@ -212,8 +212,6 @@
 
 Данные сегменты становятся базовой единицей анализа для всех последующих этапов проекта.
 
-↓
-
 ### Step 2. Lifecycle Transition Analysis
 
 Для последовательных временных snapshot-ов рассчитываются переходы пользователей между lifecycle-состояниями.
@@ -228,8 +226,6 @@
 Результат:
 
 понимание механизмов удержания, деградации и восстановления клиентской базы.
-
-↓
 
 ### Step 3. Cohort Retention Analysis
 
@@ -247,7 +243,6 @@
 
 выявление ключевых закономерностей жизненного цикла клиента и формирование понимания долгосрочного customer value.
 
-↓
 
 ### Step 4. Predictive Customer Analytics
 
@@ -264,7 +259,6 @@
 
 оценка вероятности потери клиентов и потенциальных финансовых последствий.
 
-↓
 
 ### Step 5. Retention Prioritization
 
@@ -278,7 +272,6 @@
 
 ранжирование клиентов по ожидаемой эффективности retention-интервенций.
 
-↓
 
 ### Step 6. Customer Health Monitoring
 
@@ -294,11 +287,10 @@
 
 единая система контроля устойчивости клиентской базы и поддержки управленческих решений.
 
----
 
-### Figure 3. Multi-Layer Analytical Workflow
+#### Figure 3. Multi-Layer Analytical Workflow
 
-**[ВСТАВИТЬ СХЕМУ PIPELINE]**
+Последовательная аналитическая архитектура проекта, объединяющая descriptive, diagnostic, predictive и monitoring analytics в единую систему управления customer lifecycle.
 
 ```text
 Lifecycle Segmentation
@@ -313,10 +305,6 @@ Retention Prioritization
           ↓
 Customer Health Monitoring
 ```
-
-**Подпись:** Последовательная аналитическая архитектура проекта, объединяющая descriptive, diagnostic, predictive и monitoring analytics в единую систему управления customer lifecycle.
-
----
 
 ## 5.4 Expected Business Outcomes
 
