@@ -3760,8 +3760,6 @@ Framework позволяет перейти от ретроспективног�
 #### *Executive KPI Cards*  
 ![Executive KPI Cards](visualizations/metric_cards_101.png)  
 
-#
-
 ## 10.2 Customer Economics Snapshot
 #### Экономика жизненного цикла клиента
 
@@ -3786,8 +3784,6 @@ Framework позволяет перейти от ретроспективног�
 
 ![Customer Economics Scorecard](visualizations/metric_cards_102.png)         
 
-# 
-
 ## 10.3 Revenue Risk Snapshot
 #### Концентрация экономической ценности  
 
@@ -3810,8 +3806,6 @@ Combined Revenue-at-Risk	2.73 млн
 
 ![Revenue Risk Dashboard](visualizations/metric_cards_103.png)  
 
-#
-
 ## 10.4 Predictive Analytics Snapshot
 #### Качество модели прогнозирования оттока
 
@@ -3832,8 +3826,6 @@ Combined Revenue-at-Risk	2.73 млн
 #### Predictive Model KPI Cards  
 
 ![Predictive Model KPI Cards  ](visualizations/metric_cards_104.png) 
-
-#
 
 ## 10.5 Executive Summary
 Проведённый анализ показывает, что клиентская база аптечной сети проходит через выраженный процесс ранней селекции.
