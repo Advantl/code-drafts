@@ -56,8 +56,6 @@
 
 ---
 
-начала бизнес-проблема → затем аналитическая архитектура → затем ключевые результаты → затем переход к деталям в следующих разделах.
-
 # 1. Executive Summary
 
 ## 1.1 Business Challenge
@@ -5302,6 +5300,208 @@ Next-Best-Action Framework позволяет:
 5. Next-Best-Action Recommendation System — автоматизация принятия CRM-решений.  
 
 Совместное использование данных подходов позволит эволюционировать от прогнозирования клиентского поведения к полноценной интеллектуальной системе управления клиентским жизненным циклом, ориентированной на максимизацию долгосрочной ценности клиентской базы и эффективности retention-инвестиций.
+
+# 13. Technical Stack
+
+## 13.1 Analytics Environment
+
+Проект реализован полностью в экосистеме Python и охватывает полный аналитический цикл: от подготовки транзакционных данных и построения lifecycle snapshots до разработки предиктивных моделей, интерпретации результатов и формирования бизнес-рекомендаций.
+
+Анализ выполнялся в среде Jupyter Notebook, что обеспечило воспроизводимость расчетов, прозрачность аналитического процесса и возможность поэтапной валидации результатов на каждом уровне исследования.
+
+Для управления версиями и публикации проекта использовались Git и GitHub, что позволило организовать структуру проекта в формате воспроизводимого аналитического исследования.
+
+---
+
+## 13.2 Data Processing
+
+### Core Data Processing
+
+**Python**
+
+Основной язык анализа данных и разработки аналитических моделей.
+
+**Pandas**
+
+Использовался для обработки транзакционных данных, построения lifecycle snapshots, расчета пользовательских метрик, формирования когорт и подготовки аналитических датасетов для последующего моделирования.
+
+**NumPy**
+
+Использовался для численных вычислений, feature engineering, расчета производных показателей и подготовки признакового пространства для predictive analytics.
+
+### Feature Engineering
+
+В рамках проекта были сформированы пользовательские признаки нескольких уровней:
+
+* RFM-показатели (Recency, Frequency, Monetary);
+* transactional cadence metrics;
+* behavioral trend indicators;
+* growth metrics;
+* lifecycle-stage features;
+* revenue-at-risk indicators;
+* retention prioritization metrics.
+
+Дополнительно были построены последовательные monthly snapshots на основе скользящего шестимесячного окна наблюдения, что позволило перейти от статического анализа клиентской базы к исследованию динамики пользовательского поведения во времени.
+
+### Version Control & Reproducibility
+
+**Git**
+
+Использовался для контроля версий и отслеживания изменений аналитического пайплайна.
+
+**GitHub**
+
+Использовался для хранения проекта, публикации результатов исследования и обеспечения воспроизводимости аналитической работы.
+
+## 13.3 Predictive Modeling
+
+Для построения предиктивных моделей использовались методы машинного обучения, ориентированные на решение задач прогнозирования пользовательского поведения и поддержки retention-стратегии.
+
+| Tool                        | Purpose                                                                             |
+| --------------------------- | ----------------------------------------------------------------------------------- |
+| Scikit-learn                | Построение churn prediction и recovery scoring моделей                              |
+| Random Forest Classifier    | Оценка вероятности оттока клиентов                                                  |
+| Random Forest Classifier    | Оценка вероятности восстановления активности клиентов из сегмента At Risk           |
+| Time-Based Train/Test Split | Предотвращение temporal leakage и моделирование production-сценария прогнозирования |
+| SHAP                        | Интерпретация факторов риска и объяснение предсказаний модели                       |
+
+### Predictive Analytics Components
+
+В рамках проекта были реализованы следующие аналитические модули:
+
+* Churn Prediction Model;
+* SHAP-Based Feature Importance Analysis;
+* Customer Risk Segmentation;
+* Revenue-at-Risk Assessment;
+* Recovery Potential Scoring;
+* Retention Priority Score Framework.
+
+Для оценки качества модели использовались стандартные метрики бинарной классификации:
+
+* ROC-AUC;
+* Precision;
+* Recall;
+* F1-score;
+* Accuracy.
+
+Полученные результаты подтвердили высокую способность модели выявлять клиентов с повышенной вероятностью перехода в стадии At Risk и Churn.
+
+---
+
+## 13.4 Visualization & Reporting
+
+Для визуализации результатов исследования использовался набор инструментов, ориентированных на аналитическую отчетность и бизнес-интерпретацию данных.
+
+| Tool                     | Purpose                                                  |
+| ------------------------ | -------------------------------------------------------- |
+| Matplotlib               | Базовые аналитические визуализации                       |
+| Seaborn                  | Статистические графики и распределения                   |
+| Plotly                   | Интерактивные бизнес-визуализации и executive dashboards |
+| SHAP Visualization Tools | Интерпретация моделей машинного обучения                 |
+
+### Key Visualization Categories
+
+В рамках проекта были реализованы визуализации нескольких аналитических уровней:
+
+#### Lifecycle Analytics
+
+* Lifecycle Transition Matrix;
+* Revenue Transition Matrix;
+* Revenue Driver Decomposition;
+* Revenue Waterfall Analysis.
+
+#### Cohort Analytics
+
+* Cohort Retention Curves;
+* Revenue Retention Curves;
+* Revenue per Retained User Dynamics;
+* Cohort Lifetime Value Analysis;
+* Cohort Variability Assessment.
+
+#### Predictive Analytics
+
+* ROC Curve;
+* Probability Distribution Analysis;
+* SHAP Summary Plot;
+* Risk Segmentation Framework;
+* Customer Value & Risk Matrix;
+* Saveability Matrix.
+
+#### Executive Monitoring
+
+* Lifecycle KPI Dashboard;
+* Revenue-at-Risk Monitoring;
+* Lifecycle Stability Framework;
+* Retention Prioritization Dashboard.
+
+Все визуализации ориентированы на поддержку управленческих решений и связывают статистические результаты с бизнес-интерпретацией.
+
+---
+
+## 13.5 Analytical Techniques
+
+Проект объединяет несколько уровней аналитических подходов, последовательно переходя от описательной аналитики к предиктивному моделированию и поддержке принятия решений.
+
+### Descriptive Analytics
+
+Использовалась для анализа текущей структуры клиентской базы и исследования исторических закономерностей поведения пользователей.
+
+Методы:
+
+* RFM Analysis;
+* Lifecycle Segmentation;
+* Revenue Flow Analysis;
+* Revenue Driver Decomposition;
+* Customer Migration Analysis.
+
+### Cohort Analytics
+
+Использовалась для оценки долгосрочного удержания клиентов и динамики customer value.
+
+Методы:
+
+* Cohort Retention Analysis;
+* Retention Decay Analysis;
+* Revenue Retention Analysis;
+* Cohort LTV Analysis;
+* Cohort Variability Assessment.
+
+### Predictive Analytics
+
+Использовалась для прогнозирования будущего поведения клиентов и оценки коммерческих рисков.
+
+Методы:
+
+* Churn Prediction Modeling;
+* Recovery Scoring;
+* Revenue-at-Risk Assessment;
+* Retention Prioritization Framework;
+* Customer Value Forecasting.
+
+### Decision-Support Analytics
+
+Использовалась для трансформации аналитических результатов в практические бизнес-рекомендации.
+
+Методы:
+
+* Customer Risk Segmentation;
+* Retention Strategy Matrix;
+* Saveability Analysis;
+* Lifecycle KPI Framework;
+* Customer Health Monitoring.
+
+Таким образом, проект формирует сквозную аналитическую систему, объединяющую исследование жизненного цикла клиентов, когортный анализ, машинное обучение и механизмы поддержки управленческих решений в рамках единой retention-oriented аналитической архитектуры.
+
+					Project Scale
+					
+					• 21,075 transactions
+					• [X] unique customers
+					• 6 monthly lifecycle snapshots
+					• 21,878 customer-snapshot observations
+					• 4 analytical layers
+					• 30+ business visualizations
+					• End-to-end retention analytics framework
+
 
 
 
