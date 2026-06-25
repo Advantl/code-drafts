@@ -1892,7 +1892,7 @@ Lifecycle-состояния могут использоваться как ос
 -	в агрегированном виде по всем когортам.  
  
 Это позволило оценить как общую retention-модель бизнеса, так и различия между поколениями клиентов.
-
+#
 #### *Figure 10. User Retention Dynamics*
 
 ![User Retention Curves](visualizations/user_retention_curves.png)
@@ -1907,7 +1907,7 @@ Lifecycle-состояния могут использоваться как ос
 ### Business Interpretation
 
 Основная потеря клиентской базы происходит практически сразу после первой покупки. Значительная часть пользователей остается в категории transactional customers и не переходит к регулярному потреблению. При этом пользователи, сохранившие активность после первых месяцев жизненного цикла, демонстрируют существенно более высокий уровень долгосрочного удержания. Фактически именно прохождение раннего post-acquisition периода определяет вероятность формирования долгосрочной клиентской ценности.
-
+#
 #### *Figure 11. Cohort Retention Heatmap*
 
 ![Cohort Retention Heatmap](visualizations/user_retention_table.png)
@@ -1924,7 +1924,7 @@ Retention Heatmap подтверждает результаты агрегиро
 ### Key Insight
 
 Ключевой проблемой retention-модели является не долгосрочное удержание клиентов, а низкая конверсия новых покупателей в repeat customers.
-
+#
 #### *Figure 12. Cohort Retention Curves*
 
 ![Average Cohort Retention Curve](visualizations/average_retention.png)
@@ -1963,7 +1963,7 @@ Retention Heatmap подтверждает результаты агрегиро
 Относительное изменение retention относительно предыдущего периода.  
 
 Использование обеих метрик позволяет оценить не только величину потерь клиентов, но и скорость деградации retention-модели.
-
+#
 #### *Figure 13. Absolute Retention Decay*
 
 ![Absolute Retention Decay Plot](visualizations/absolute_retention_drop.png)
@@ -1981,7 +1981,7 @@ Retention Heatmap подтверждает результаты агрегиро
 
 Практически весь будущий объем клиентской базы определяется в течение первых недель после первой покупки.
 После прохождения этого этапа система теряет клиентов значительно медленнее.
-
+#
 #### *Figure 14. Relative Retention Decay*
 
 ![Relative Retention Decay Plot](visualizations/relative_retention_decay.png)
@@ -2052,7 +2052,7 @@ Retention-модель бизнеса имеет ярко выраженную �
 -	на уровне отдельных когорт;   
 -	на уровне агрегированной динамики;    
 -	в сравнении с User Retention.   
-
+#
 #### *Figure 17. Revenue Retention Dynamics Across Cohorts (График динамики Revenue Retention по всем когортам.)*
 
 ![Revenue Retention Curves](visualizations/revenue_retention_curves.png)
@@ -2074,7 +2074,7 @@ Retention-модель бизнеса имеет ярко выраженную �
 
 Иными словами:
 бизнес теряет количество клиентов быстрее, чем качество оставшейся аудитории.
-
+#
 #### *Figure 18. Revenue Retention Matrix*
 
 ![Revenue Retention Heatmap](visualizations/revenue_retention_table.png)
@@ -2086,7 +2086,7 @@ Retention-модель бизнеса имеет ярко выраженную �
 ### Key Insight
 
 Revenue Retention систематически превосходит User Retention. Это означает, что удержанные пользователи обладают более высокой экономической ценностью по сравнению со средним клиентом исходной когорты.
-
+#
 #### *Figure 19. Revenue Retention vs User Retention*
 
 ![Combined User Retention vs Revenue Retention Chart](visualizations/average_retention.png)
@@ -2117,7 +2117,7 @@ Revenue Retention систематически превосходит User Reten
 ### Methodology
 
 Для оценки качества удержанной аудитории рассчитывался показатель *Revenue per Retained User (RPRU)*. Метрика отражает среднюю выручку на одного активного пользователя внутри каждой когорты на каждом этапе жизненного цикла. Использование RPRU позволяет отделить изменения количества пользователей от изменений их экономической ценности.
-
+#
 #### *Figure 20. Revenue per Retained User Dynamics*
 
 ![RPRU by Cohort](visualizations/revenue_per_retained_user.png)
@@ -2129,12 +2129,11 @@ Revenue Retention систематически превосходит User Reten
 ### Business Interpretation
 
 Retention decay сопровождается естественной селекцией клиентской базы. Продукт постепенно теряет низкововлеченных пользователей и сохраняет клиентов с более высокой покупательской активностью. В результате средняя ценность одного retained customer со временем увеличивается.
-
+#
 #### *Figure 21. Relative Growth of Customer Value*
 (индекс относительно Month 0 = 100%)
 
 ![Normalized RPRU Growth Chart](visualizations/rpru_normalized.png)
-
 
 ## Findings
 
@@ -2143,7 +2142,7 @@ Retention decay сопровождается естественной селек
 ## Interpretation
 
 Долгосрочное удержание связано не только с сохранением клиентов. Оно связано с ростом качества оставшейся аудитории. По мере развития жизненного цикла в продукте концентрируются пользователи с более высокой частотой покупок, большим средним чеком и более устойчивыми потребительскими привычками.
-
+#
 #### *Figure 22. Average Monetization Growth*
 
 ![Average RPRU Growth Curve](visualizations/average_rpru_growth_curve.png)
@@ -2236,7 +2235,7 @@ Retention decay сопровождается естественной селек
 -	темпы накопления LTV; 
 -	различия между когортами; 
 -	точки замедления роста ценности клиента. 
-
+#
 #### *Figure 24. Cohort LTV Matrix*
 
 ![Cohort LTV Heatmap](visualizations/cohort_ltv_table.png)
@@ -2244,7 +2243,7 @@ Retention decay сопровождается естественной селек
 ### Findings
 
 Когортный анализ показывает устойчивый рост накопленной ценности клиента практически во всех когортах. Наиболее зрелые когорты достигают LTV на уровне 6.3–6.8 тыс. денежных единиц к 10–11 месяцу жизненного цикла. Несмотря на существенный churn, накопленная выручка продолжает увеличиваться на протяжении всего наблюдаемого горизонта.
-
+#
 #### *Figure 25. Cohort LTV Curves*
 
 ![Cohort LTV Curves](visualizations/cohort_ltv_curves.png)
@@ -2262,7 +2261,7 @@ LTV-кривые демонстрируют две характерные фаз
 -	формирование будущих лояльных клиентов.
 
 Поэтому любые изменения поведения пользователей в первые месяцы жизненного цикла оказывают непропорционально сильное влияние на итоговый LTV.
-
+#
 ### LTV Accumulation Analysis
 #### *Figure 26. Агрегированная средняя кривая.*
 ![Average Cumulative LTV Curve](visualizations/avg_cumulative_ltv_curve.png)
