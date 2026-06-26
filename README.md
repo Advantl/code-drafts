@@ -5398,8 +5398,6 @@ Next-Best-Action Framework позволяет:
 
 Полученные результаты подтвердили высокую способность модели выявлять клиентов с повышенной вероятностью перехода в стадии At Risk и Churn.
 
----
-
 ## 14.4 Visualization & Reporting
 
 Для визуализации результатов исследования использовался набор инструментов, ориентированных на аналитическую отчетность и бизнес-интерпретацию данных.
@@ -5448,10 +5446,10 @@ Next-Best-Action Framework позволяет:
 
 Все визуализации ориентированы на поддержку управленческих решений и связывают статистические результаты с бизнес-интерпретацией.
 
-## 13.5 Analytical Techniques
+## 14.5 Analytical Techniques
 
 Проект объединяет несколько уровней аналитических подходов, последовательно переходя от описательной аналитики к предиктивному моделированию и поддержке принятия решений.
-
+#
 ### Descriptive Analytics
 
 Использовалась для анализа текущей структуры клиентской базы и исследования исторических закономерностей поведения пользователей.
@@ -5463,7 +5461,7 @@ Next-Best-Action Framework позволяет:
 * Revenue Flow Analysis;
 * Revenue Driver Decomposition;
 * Customer Migration Analysis.
-
+#
 ### Cohort Analytics
 
 Использовалась для оценки долгосрочного удержания клиентов и динамики customer value.
@@ -5475,7 +5473,7 @@ Next-Best-Action Framework позволяет:
 * Revenue Retention Analysis;
 * Cohort LTV Analysis;
 * Cohort Variability Assessment.
-
+#
 ### Predictive Analytics
 
 Использовалась для прогнозирования будущего поведения клиентов и оценки коммерческих рисков.
@@ -5487,7 +5485,7 @@ Next-Best-Action Framework позволяет:
 * Revenue-at-Risk Assessment;
 * Retention Prioritization Framework;
 * Customer Value Forecasting.
-
+#
 ### Decision-Support Analytics
 
 Использовалась для трансформации аналитических результатов в практические бизнес-рекомендации.
