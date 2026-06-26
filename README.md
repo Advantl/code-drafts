@@ -5376,7 +5376,7 @@ Next-Best-Action Framework позволяет:
 | Random Forest Classifier    | Оценка вероятности восстановления активности клиентов из сегмента At Risk           |
 | Time-Based Train/Test Split | Предотвращение temporal leakage и моделирование production-сценария прогнозирования |
 | SHAP                        | Интерпретация факторов риска и объяснение предсказаний модели                       |
-#
+
 ### Predictive Analytics Components
 
 В рамках проекта были реализованы следующие аналитические модули:
