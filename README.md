@@ -1396,11 +1396,11 @@ Customer Health Monitoring
 Каждая матрица отражает вероятность перехода клиентов между lifecycle-состояниями в течение наблюдаемого периода.
 Для получения устойчивой оценки поведенческих закономерностей все матрицы были агрегированы в единую Lifecycle Transition Matrix.
 
-#### *Figure 1. Матрицы переходов между lifecycle-состояниями для последовательных временных периодов*
+#### *Figure 7. Матрицы переходов между lifecycle-состояниями для последовательных временных периодов*
 
 ![Evolution of Lifecycle Transition Matrices](visualizations/transition_matrices_collage.png)
 
-#### *Figure 2. Агрегированная матрица переходов между lifecycle-состояниями за весь период наблюдения*
+#### *Figure 8. Агрегированная матрица переходов между lifecycle-состояниями за весь период наблюдения*
 
 ![Aggregated Lifecycle Transition Matrix](visualizations/aggregated_transition_matrix.png)
 #
@@ -1465,7 +1465,7 @@ Customer Health Monitoring
 Для каждой пары последовательных snapshots были рассчитаны фактические переходы клиентов между lifecycle-состояниями.
 Полученные переходы были агрегированы за весь период наблюдения и визуализированы с помощью Sankey Diagram, отражающей движение клиентов между состояниями жизненного цикла.
 
-#### *Figure 3. Агрегированные потоки клиентов между lifecycle-состояниями за весь период наблюдения.*  
+#### *Figure 9. Агрегированные потоки клиентов между lifecycle-состояниями за весь период наблюдения.*  
 
 ![Aggregated Lifecycle Transition Matrix](visualizations/users_sankey_diagram.PNG)
 #
@@ -1520,15 +1520,15 @@ Customer Health Monitoring
 -	Revenue Change Matrix;   
 -	Top Positive & Negative Revenue Drivers.   
 
-#### *Figure 4. Совокупная выручка, связанная с переходами между lifecycle-состояниями.*
+#### *Figure 10. Совокупная выручка, связанная с переходами между lifecycle-состояниями.*
 
 ![Revenue Transition Matrix](visualizations/revenue_transition_matrix.png)
 
-#### *Figure 5. Изменение выручки для различных lifecycle transitions.*
+#### *Figure 11. Изменение выручки для различных lifecycle transitions.*
 
 ![Revenue Transition Heatmap](visualizations/revenue_change_matrix.png)
 
-#### *Figure 6. Наиболее значимые источники роста и потери выручки*
+#### *Figure 12. Наиболее значимые источники роста и потери выручки*
 
 ![Top Revenue Drivers](visualizations/revenue_drivers.png)
 
@@ -1571,14 +1571,14 @@ Customer Health Monitoring
 - *Contraction* - Снижение выручки среди удержанных клиентов.  
 - *Churn* - - Потери выручки вследствие прекращения активности клиентов.    
 
-#### *Figure 7. Структура изменения выручки по поведенческим драйверам.*
+#### *Figure 13. Структура изменения выручки по поведенческим драйверам.*
 
 ![Revenue Driver Classification Chart](visualizations/revenue_driver_classification.png)
 #
 ### Revenue Growth Decomposition
 После определения основных драйверов изменения выручки необходимо оценить их совокупный вклад в итоговую динамику бизнеса. Для этого используется модель Revenue Growth Decomposition, которая позволяет разложить изменение выручки на ключевые компоненты роста бизнеса и количественно оценить влияние каждого из них на итоговый финансовый результат.
 
-#### *Figure 8. Декомпозиция изменения выручки по основным поведенческим драйверам.*
+#### *Figure 14. Декомпозиция изменения выручки по основным поведенческим драйверам.*
 
 ![Revenue Decomposition Waterfall](visualizations/revenue_decomposition.PNG)
 
@@ -1640,7 +1640,7 @@ Revenue Driver Framework позволяет перейти от анализа �
 
 Такой подход позволяет оценить качество удержания клиентской базы, а не только факт ее сохранения.
 
-#### *Figure 9. Совокупный вклад роста и снижения потребления внутри удержанной клиентской базы.*
+#### *Figure 15. Совокупный вклад роста и снижения потребления внутри удержанной клиентской базы.*
 
 ![Retained Customer Revenue Contribution](visualizations/expansion_contraction_revenue.PNG) 
 
@@ -1887,7 +1887,7 @@ Lifecycle-состояния могут использоваться как ос
  
 Это позволило оценить как общую retention-модель бизнеса, так и различия между поколениями клиентов.
 #
-#### *Figure 10. User Retention Dynamics*
+#### *Figure 16. User Retention Dynamics*
 
 ![User Retention Curves](visualizations/user_retention_curves.png)
 
@@ -1902,7 +1902,7 @@ Lifecycle-состояния могут использоваться как ос
 
 Основная потеря клиентской базы происходит практически сразу после первой покупки. Значительная часть пользователей остается в категории transactional customers и не переходит к регулярному потреблению. При этом пользователи, сохранившие активность после первых месяцев жизненного цикла, демонстрируют существенно более высокий уровень долгосрочного удержания. Фактически именно прохождение раннего post-acquisition периода определяет вероятность формирования долгосрочной клиентской ценности.
 #
-#### *Figure 11. Cohort Retention Heatmap*
+#### *Figure 17. Cohort Retention Heatmap*
 
 ![Cohort Retention Heatmap](visualizations/user_retention_table.png)
 
@@ -1919,7 +1919,7 @@ Retention Heatmap подтверждает результаты агрегиро
 
 Ключевой проблемой retention-модели является не долгосрочное удержание клиентов, а низкая конверсия новых покупателей в repeat customers.
 #
-#### *Figure 12. Cohort Retention Curves*
+#### *Figure 18. Cohort Retention Curves*
 
 ![Average Cohort Retention Curve](visualizations/average_retention.png)
 
@@ -1958,7 +1958,7 @@ Retention Heatmap подтверждает результаты агрегиро
 
 Использование обеих метрик позволяет оценить не только величину потерь клиентов, но и скорость деградации retention-модели.
 #
-#### *Figure 13. Absolute Retention Decay*
+#### *Figure 19. Absolute Retention Decay*
 
 ![Absolute Retention Decay Plot](visualizations/absolute_retention_drop.png)
 
@@ -1976,7 +1976,7 @@ Retention Heatmap подтверждает результаты агрегиро
 Практически весь будущий объем клиентской базы определяется в течение первых недель после первой покупки.
 После прохождения этого этапа система теряет клиентов значительно медленнее.
 #
-#### *Figure 14. Relative Retention Decay*
+#### *Figure 20. Relative Retention Decay*
 
 ![Relative Retention Decay Plot](visualizations/relative_retention_decay.png)
 
@@ -1988,13 +1988,13 @@ Retention Heatmap подтверждает результаты агрегиро
 
 Для выявления момента формирования устойчивого клиентского ядра дополнительно была рассчитана точка стабилизации жизненного цикла (Lifecycle Stabilization Point). В рамках данного исследования точкой стабилизации считается первый месяц, после которого абсолютное снижение User Retention остается ниже 5 процентных пунктов на протяжении как минимум двух последовательных периодов. Такой критерий позволяет отделить фазу быстрого первоначального оттока от этапа относительно стабильного поведения удержанных клиентов и определить момент перехода к более устойчивой структуре клиентской базы.
 
-#### *Figure 15. Stabilization Point: Retention and Decay Dynamics*
+#### *Figure 21. Stabilization Point: Retention and Decay Dynamics*
 
 ![Lifecycle Stabilization Point Chart](visualizations/lifecycle_stabilization_point.png)
 
 Полученная визуализация позволяет одновременно оценить как уровень удержания клиентов и выручки, так и скорость их изменения на различных этапах жизненного цикла. Для более детального анализа динамики стабилизации ниже представлены агрегированные значения retention и показателей снижения retention по месяцам жизненного цикла.
 
-#### *Figure 16. Stabilization Summary*
+#### *Figure 22. Stabilization Summary*
 
 ![TABLE Stabilization Summary](visualizations/stabilization_summary.png)
 
@@ -2047,7 +2047,7 @@ Retention-модель бизнеса имеет ярко выраженную �
 -	на уровне агрегированной динамики;    
 -	в сравнении с User Retention.   
 #
-#### *Figure 17. Revenue Retention Dynamics Across Cohorts (График динамики Revenue Retention по всем когортам.)*
+#### *Figure 23. Revenue Retention Dynamics Across Cohorts (График динамики Revenue Retention по всем когортам.)*
 
 ![Revenue Retention Curves](visualizations/revenue_retention_curves.png)
 
@@ -2069,7 +2069,7 @@ Retention-модель бизнеса имеет ярко выраженную �
 Иными словами:
 бизнес теряет количество клиентов быстрее, чем качество оставшейся аудитории.
 #
-#### *Figure 18. Revenue Retention Matrix*
+#### *Figure 24. Revenue Retention Matrix*
 
 ![Revenue Retention Heatmap](visualizations/revenue_retention_table.png)
 
@@ -2081,7 +2081,7 @@ Retention-модель бизнеса имеет ярко выраженную �
 
 Revenue Retention систематически превосходит User Retention. Это означает, что удержанные пользователи обладают более высокой экономической ценностью по сравнению со средним клиентом исходной когорты.
 #
-#### *Figure 19. Revenue Retention vs User Retention*
+#### *Figure 25. Revenue Retention vs User Retention*
 
 ![Combined User Retention vs Revenue Retention Chart](visualizations/average_retention.png)
 
@@ -2112,7 +2112,7 @@ Revenue Retention систематически превосходит User Reten
 
 Для оценки качества удержанной аудитории рассчитывался показатель *Revenue per Retained User (RPRU)*. Метрика отражает среднюю выручку на одного активного пользователя внутри каждой когорты на каждом этапе жизненного цикла. Использование RPRU позволяет отделить изменения количества пользователей от изменений их экономической ценности.
 #
-#### *Figure 20. Revenue per Retained User Dynamics*
+#### *Figure 26. Revenue per Retained User Dynamics*
 
 ![RPRU by Cohort](visualizations/revenue_per_retained_user.png)
 
@@ -2124,7 +2124,7 @@ Revenue Retention систематически превосходит User Reten
 
 Retention decay сопровождается естественной селекцией клиентской базы. Продукт постепенно теряет низкововлеченных пользователей и сохраняет клиентов с более высокой покупательской активностью. В результате средняя ценность одного retained customer со временем увеличивается.
 #
-#### *Figure 21. Relative Growth of Customer Value*
+#### *Figure 27. Relative Growth of Customer Value*
 (индекс относительно Month 0 = 100%)
 
 ![Normalized RPRU Growth Chart](visualizations/rpru_normalized.png)
@@ -2137,7 +2137,7 @@ Retention decay сопровождается естественной селек
 
 Долгосрочное удержание связано не только с сохранением клиентов. Оно связано с ростом качества оставшейся аудитории. По мере развития жизненного цикла в продукте концентрируются пользователи с более высокой частотой покупок, большим средним чеком и более устойчивыми потребительскими привычками.
 #
-#### *Figure 22. Average Monetization Growth*
+#### *Figure 28. Average Monetization Growth*
 
 ![Average RPRU Growth Curve](visualizations/average_rpru_growth_curve.png)
 
@@ -2184,7 +2184,7 @@ Retention decay сопровождается естественной селек
 
 Сравнение user retention и revenue retention (Figure 19) выявило устойчивое расхождение между динамикой клиентской базы и динамикой выручки. После первого месяца жизненного цикла пользовательская база сокращается примерно до 26% первоначального размера, тогда как Revenue Retention остается существенно выше и сохраняет значительную часть исходной выручки. Это означает, что потери пользователей не приводят к пропорциональному снижению финансовой ценности клиентской базы. По мере развития жизненного цикла происходит концентрация выручки среди меньшего количества клиентов.
 
-#### *Figure 23. Retention vs Customer Value*
+#### *Figure 29. Retention vs Customer Value*
 
 ![Average User Retention vs Average RPRU Growth](visualizations/retention_vs_monetization.png)
 
@@ -2230,7 +2230,7 @@ Retention decay сопровождается естественной селек
 -	различия между когортами; 
 -	точки замедления роста ценности клиента. 
 #
-#### *Figure 24. Cohort LTV Matrix*
+#### *Figure 30. Cohort LTV Matrix*
 
 ![Cohort LTV Heatmap](visualizations/cohort_ltv_table.png)
 
@@ -2238,7 +2238,7 @@ Retention decay сопровождается естественной селек
 
 Когортный анализ показывает устойчивый рост накопленной ценности клиента практически во всех когортах. Наиболее зрелые когорты достигают LTV на уровне 6.3–6.8 тыс. денежных единиц к 10–11 месяцу жизненного цикла. Несмотря на существенный churn, накопленная выручка продолжает увеличиваться на протяжении всего наблюдаемого горизонта.
 #
-#### *Figure 25. Cohort LTV Curves*
+#### *Figure 31. Cohort LTV Curves*
 
 ![Cohort LTV Curves](visualizations/cohort_ltv_curves.png)
 
@@ -2257,7 +2257,7 @@ LTV-кривые демонстрируют две характерные фаз
 Поэтому любые изменения поведения пользователей в первые месяцы жизненного цикла оказывают непропорционально сильное влияние на итоговый LTV.
 #
 ### LTV Accumulation Analysis
-#### *Figure 26. Агрегированная средняя кривая.*
+#### *Figure 32. Агрегированная средняя кривая.*
 ![Average Cumulative LTV Curve](visualizations/avg_cumulative_ltv_curve.png)
 
 ### Findings
@@ -2314,7 +2314,7 @@ LTV-кривые демонстрируют две характерные фаз
   
 Цель анализа — определить, становится ли клиентская база более или менее однородной по мере развития жизненного цикла.
 #
-#### *Figure 27. Monetization Variability Across Cohorts*
+#### *Figure 33. Monetization Variability Across Cohorts*
 
 ![Monetization Variability Across Cohorts](visualizations/cohort_variability.png)
 
