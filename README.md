@@ -2693,7 +2693,7 @@ Revenue per Retained User систематически увеличиваетс�
 Высокое качество модели само по себе недостаточно для принятия бизнес-решений.
 Поэтому дополнительно был проведен SHAP-анализ, позволяющий определить факторы, оказывающие наибольшее влияние на прогнозируемый риск оттока.
 
-#### *Figure 35. Распределение факторов оттока (анализ SHAP)
+#### *Figure 35. Распределение факторов оттока (анализ SHAP)*
 
 ![SHAP Summary Plot](visualizations/shap_summary_plot.png)
 #
@@ -2819,7 +2819,7 @@ SHAP-анализ показал, что наибольшее влияние н�
    
 После объединения двух измерений была построена стратегическая матрица клиентских сегментов. 
 #
-#### *Figure 38. Матрица приоритезации удержания клиентов: баланс между ценностью и риском
+#### *Figure 38. Матрица приоритезации удержания клиентов: баланс между ценностью и риском*
 
 ![Customer Risk-Value Matrix](visualizations/risk_value_segments.png)
 #
@@ -2884,20 +2884,19 @@ SHAP-анализ показал, что наибольшее влияние н�
 
 		  Retention Priority  =  Churn Probability  ×  Expected Future Revenue×Recovery Probability
 #
-### Визуализация №1  
-Recovery Probability Distribution  
-Гистограмма Recovery Probability.  
+#### *Figure Гистограмма Recovery Probability.*  
+![Recovery Probability Distribution]()
+ 
+#### *Figure Распределение итогового приоритетного балла.*  
+![Retention Priority Score Distribution]()  
 
-### Визуализация №2  
-Retention Priority Score Distribution  
-Распределение итогового приоритетного балла.  
-
-### Визуализация №3
-Top Saveable Customers
+#### *Figure Визуализация №3*
+![Top Saveable Customers]()
 Bubble Chart
 X = Churn Probability
 Y = Expected Future Revenue
 Размер точки = Recovery Probability
+
 #
 ### Findings
 Интегральный показатель Retention Priority Score позволил выделить группу клиентов, которые одновременно обладают:
@@ -3110,7 +3109,7 @@ Recovery Modeling показал, что вероятность возврата
 ### Концепция Framework
 Lifecycle KPI Framework представляет собой многоуровневую систему мониторинга клиентского здоровья, объединяющую структурные, поведенческие, финансовые и предиктивные показатели в единую модель оценки customer health.
 
-		Архитектура framework состоит из семи взаимосвязанных уровней:
+Архитектура framework состоит из семи взаимосвязанных уровней:
 		
 						Lifecycle Structure
 								↓
@@ -3288,7 +3287,7 @@ Lifecycle KPI Framework представляет собой многоуровн
 
 Снижение данных показателей интерпретируется как ранний сигнал ухудшения customer health и роста вероятности будущей деградации retention и revenue metrics.
 
-#### *Figure 46. Lifecycle Stability Trends
+#### *Figure 46. Lifecycle Stability Trends*
 ![Lifecycle Stability Trends ](visualizations/lifecycle_stability_dynamics.png) 
 #
 ### Business Value
@@ -4076,7 +4075,7 @@ Combined Revenue-at-Risk	2.73 млн
 Это означает, что деградация поведения начинается значительно раньше момента формального перехода клиента в стадию риска.
 Для бизнеса наиболее опасным является постепенное ухудшение customer health внутри активной аудитории.
 
-#### *Figure 61. Revenue Risk Dashboard
+#### *Figure 61. Revenue Risk Dashboard*
 
 ![Revenue Risk Dashboard](visualizations/metric_cards_103.png)  
 
