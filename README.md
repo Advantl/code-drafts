@@ -1015,8 +1015,9 @@ What should the company do?
 #
 Таким образом, используемый набор данных обеспечивает достаточную глубину наблюдений для построения единой аналитической системы, объединяющей descriptive, diagnostic, predictive и monitoring analytics в рамках customer lifecycle management framework.
 
-#### *Figure 2. Dataset-to-Analytics Pipeline*
-*Преобразование исходных транзакционных данных в многоуровневую систему customer lifecycle analytics.*
+#### *Figure 5. Преобразование исходных транзакционных данных в многоуровневую систему customer lifecycle analytics.*
+
+Dataset-to-Analytics Pipeline
 
 ```text
 Transactional Data
@@ -1249,8 +1250,9 @@ Customer Health Monitoring
 
 единая система контроля устойчивости клиентской базы и поддержки управленческих решений.
 
-Последовательная аналитическая архитектура проекта, объединяющая descriptive, diagnostic, predictive и monitoring analytics в единую систему управления customer lifecycle.
-#### *Figure 3. Multi-Layer Analytical Workflow*
+#### *Figure 3. Последовательная аналитическая архитектура проекта, объединяющая descriptive, diagnostic, predictive и monitoring analytics в единую систему управления customer lifecycle.*
+
+Multi-Layer Analytical Workflow
 
 ```text
 Lifecycle Segmentation
