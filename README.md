@@ -1250,7 +1250,7 @@ Customer Health Monitoring
 
 единая система контроля устойчивости клиентской базы и поддержки управленческих решений.
 
-#### *Figure 3. Последовательная аналитическая архитектура проекта, объединяющая descriptive, diagnostic, predictive и monitoring analytics в единую систему управления customer lifecycle.*
+#### *Figure 6. Последовательная аналитическая архитектура проекта, объединяющая descriptive, diagnostic, predictive и monitoring analytics в единую систему управления customer lifecycle.*
 
 Multi-Layer Analytical Workflow
 
