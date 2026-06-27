@@ -672,7 +672,7 @@ Monitoring & Decision Framework
 
 #### Figure 3. Information Flow Across Analytical Layers
 
-**Последовательное преобразование транзакционных данных в систему принятия retention-решений.**
+Последовательное преобразование транзакционных данных в систему принятия retention-решений.
 
 ```text
 Transactional Data
@@ -795,7 +795,7 @@ Business Decisions
 
 #### Figure 4. Business Decision Framework
 
-**Переход от аналитических результатов к управленческим действиям.**
+Переход от аналитических результатов к управленческим действиям.
 
 ```text
 Lifecycle Analytics
