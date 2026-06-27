@@ -2882,7 +2882,7 @@ SHAP-анализ показал, что наибольшее влияние н�
 После расчета Recovery Probability была сформирована итоговая метрика:  
 - *Retention Priority Score*
 
-		  Retention Priority  =  Churn Probability  ×  Expected Future Revenue×Recovery Probability
+		  Retention Priority  =  Churn Probability  ×  Expected Future Revenue  ×  Recovery Probability
 #
 #### *Figure 39. Потенциал восстановления клиентов в сегментах, находящихся в группе риска.*  
 
