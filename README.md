@@ -2884,8 +2884,9 @@ SHAP-анализ показал, что наибольшее влияние н�
 
 		  Retention Priority  =  Churn Probability  ×  Expected Future Revenue×Recovery Probability
 #
-#### *Figure Гистограмма Recovery Probability.*  
-![Recovery Probability Distribution]()
+#### *Figure 39. Потенциал восстановления клиентов в сегментах, находящихся в группе риска.*  
+
+![Recovery Probability Distribution](visualizations/recovery_probability_distribution.png)
  
 #### *Figure Распределение итогового приоритетного балла.*  
 ![Retention Priority Score Distribution]()  
