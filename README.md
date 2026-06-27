@@ -2953,8 +2953,10 @@ Y = Expected Future Revenue
 
 ![Cumulative Recovery Value Curve](visualizations/retention_priority_curve.png)
 
-#### *Figure 40. Recovery Priority Portfolio*
+#### *Figure 40. Стратегическая сегментация клиентов на основе риска и ценности*
+
 ![Top 20 Customers by Priority Score ](visualizations/top_20_saveable_customers.png)
+
 #
 ### Key Findings
 Модель эффективно ранжирует клиентов по ожидаемому recovery-потенциалу: обработка только топ-20% клиентов позволяет вернуть около 70% всей recoverable revenue. При расширении охвата до 30% клиентов покрытие увеличивается до 81%, что указывает на высокую концентрацию ценности в верхней части скоринга и позволяет существенно снизить операционные затраты на retention-кампании.    
