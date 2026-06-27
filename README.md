@@ -798,25 +798,24 @@ Business Decisions
 Business Decision Framework
 
 ```text
-Lifecycle Analytics
-        ↓
-What is happening?
+Lifecycle Analytics  ←  What is happening?
+        │
+        ▼
 
-Cohort Analytics
-        ↓
-Why is it happening?
+Cohort Analytics  ←  Why is it happening?
+        │
+        ▼
 
-Predictive Analytics
-        ↓
-What will happen next?
+Predictive Analytics  ←  What will happen next?
+        │
+        ▼
 
-KPI Framework
-        ↓
-What should be monitored?
+KPI Framework  ←  What should be monitored?
+        │
+        ▼
 
-Business Decisions
-        ↓
-What should the company do?
+Business Decisions  ← What should the company do?
+        
 ```
 
 #
