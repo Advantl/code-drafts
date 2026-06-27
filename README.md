@@ -2909,8 +2909,10 @@ Y = Expected Future Revenue
 #
 ### Business Implications
 Главный вывод данного раздела состоит в том, что бизнесу необходимо управлять не churn probability, а объемом будущей выручки под риском.
-Показатель  
+Показатель   
+
 		*Revenue-at-Risk = Expected Future Revenue × Churn Probability*  
+
 позволяет перейти от классического churn management к системе экономически обоснованной retention-приоритизации.    
 Интеграция:  
 - Churn Prediction; 
