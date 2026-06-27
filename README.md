@@ -2669,7 +2669,7 @@ Revenue per Retained User систематически увеличиваетс�
 |  Accuracy				|82%		 |
 |  Recall (Churn Class)	|95%		 |
 
-#### Оценка эффективности модели прогнозирования оттока
+#### *Figure 34 Оценка эффективности модели прогнозирования оттока*
 
 ![ROC Curve & Precision-Recall](visualizations/churn_model_performance.png)
 #
@@ -2693,7 +2693,7 @@ Revenue per Retained User систематически увеличиваетс�
 Высокое качество модели само по себе недостаточно для принятия бизнес-решений.
 Поэтому дополнительно был проведен SHAP-анализ, позволяющий определить факторы, оказывающие наибольшее влияние на прогнозируемый риск оттока.
 
-#### Распределение факторов оттока (анализ SHAP)
+#### *Figure 35. Распределение факторов оттока (анализ SHAP)
 
 ![SHAP Summary Plot](visualizations/shap_summary_plot.png)
 #
@@ -2766,10 +2766,10 @@ SHAP-анализ показал, что наибольшее влияние н�
   
 Это позволило оценить не только уровень риска, но и коммерческий профиль каждой группы клиентов. 
 #
-### Риск потери дохода
+#### *Figure 36. Риск потери дохода*
 ![Revenue Exposure](visualizations/risk_segment_contribution.png)
 
-### Сопоставление эффективности монетизации и вероятности оттока клиентов
+#### *Figure 37. Сопоставление эффективности монетизации и вероятности оттока клиентов*
 ![Monetization Efficiency vs. Churn Probability Mapping](visualizations/monetary_value_vs_churn_risk.png)
 #
 ### Findings
@@ -2819,7 +2819,7 @@ SHAP-анализ показал, что наибольшее влияние н�
    
 После объединения двух измерений была построена стратегическая матрица клиентских сегментов. 
 #
-### Матрица приоритезации удержания клиентов: баланс между ценностью и риском
+#### *Figure 38. Матрица приоритезации удержания клиентов: баланс между ценностью и риском
 
 ![Customer Risk-Value Matrix](visualizations/risk_value_segments.png)
 #
@@ -2942,11 +2942,11 @@ Y = Expected Future Revenue
   
 Данный подход позволяет перейти от управления риском к управлению ожидаемой экономической отдачей от retention-интервенций. 
 #
-### Кривая приоритезации удержания
+#### *Figure 39. Кривая приоритезации удержания*
 
 ![Cumulative Recovery Value Curve](visualizations/retention_priority_curve.png)
 
-### Recovery Priority Portfolio
+#### *Figure 40. Recovery Priority Portfolio*
 ![Top 20 Customers by Priority Score ](visualizations/top_20_saveable_customers.png)
 #
 ### Key Findings
@@ -2978,7 +2978,7 @@ Retention Prioritization Score переводит систему управле�
   
 Такой подход позволяет разделить клиентскую базу на несколько стратегически различных групп.
 #
-### Customer Saveability Matrix
+#### *Figure 41. Customer Saveability Matrix*
 
 ![Customer Saveability Matrix](visualizations/customer_saveability_matrix.png)
 #
@@ -3237,9 +3237,10 @@ Lifecycle KPI Framework представляет собой многоуровн
 
 Полученные результаты следует интерпретировать с учетом ограничений наблюдаемого периода. Анализ основан на snapshot-подходе и охватывает относительно ранний этап формирования lifecycle-структуры. Рост доли At Risk и Churn клиентов частично обусловлен естественным эффектом созревания когорт.
 
-#### Customer Health Trends
+#### *Figure 42. Customer Health Trends*
 ![Customer Health Dynamics](visualizations/customer_health_trends.png)
 
+#### *Figure 43. Recovery Dynamics*
 ![Recovery Dynamics](visualizations/recovery_trends.png) 
 
 #
@@ -3256,7 +3257,7 @@ Lifecycle KPI Framework представляет собой многоуровн
 Несмотря на ухудшение пользовательских метрик, компания сохраняет около 80% выручки между соседними периодами.
 Это подтверждает вывод предыдущих разделов: удержанные клиенты обладают существенно большей ценностью, чем средний пользователь базы.
 
-#### Revenue Retention Trend
+#### *Figure 44. Revenue Retention Trend*
 ![Revenue Retention Trend](visualizations/revenue_retention_trend.png)  
 #
 ### • Expansion vs Contraction Monitoring
@@ -3272,7 +3273,7 @@ Lifecycle KPI Framework представляет собой многоуровн
 К концу периода contraction revenue начинает устойчиво превышать expansion revenue.
 Это один из наиболее ранних сигналов ухудшения customer health, поскольку снижение потребления появляется раньше полного оттока клиентов.
 
-#### Expansion vs Contraction Trend
+#### *Figure 45. Expansion vs Contraction Trend*
 ![Expansion vs Contraction Dynamics](visualizations/expansion_contraction_dynamics.png)   
 #
 ### • Lifecycle Stability Monitoring
@@ -3287,7 +3288,7 @@ Lifecycle KPI Framework представляет собой многоуровн
 
 Снижение данных показателей интерпретируется как ранний сигнал ухудшения customer health и роста вероятности будущей деградации retention и revenue metrics.
 
-#### Lifecycle Stability Trends
+#### *Figure 46. Lifecycle Stability Trends
 ![Lifecycle Stability Trends ](visualizations/lifecycle_stability_dynamics.png) 
 #
 ### Business Value
@@ -3380,7 +3381,7 @@ Lifecycle Stability Index выступает ранним индикатором
 				
 Поэтому стабильность lifecycle-структуры может использоваться как leading indicator будущих проблем удержания.
 
-#### Lifecycle Stability Trends
+#### *Figure 47. Lifecycle Stability Trends*
 
 ![Lifecycle Stability Trends](visualizations/lifecycle_stability_dynamics.png) 
 
@@ -3427,10 +3428,10 @@ Reactivation остается относительно стабильным: 7�
 Особое внимание заслуживает снижение устойчивости Active и Loyal клиентов.
 Данный сигнал указывает на постепенную деградацию наиболее ценной части клиентской базы и может рассматриваться как раннее предупреждение будущих потерь выручки.
 
-#### Customer Health Dynamics
+#### *Figure 48. Customer Health Dynamics*
 ![Customer Health Dynamics](visualizations/customer_health_dynamics.png)   
 
-#### Lifecycle Stability Dynamics
+#### *Figure 49. Lifecycle Stability Dynamics*
 ![Lifecycle Stability Dynamics](visualizations/lifecycle_stability_dynamics.png) 
 
 ## 9.4.2 Recovery Dynamics
@@ -3452,7 +3453,7 @@ Reactivation остается относительно стабильным: 7�
 
 Компания постепенно переходит от режима *Retention-driven growth* к режиму *Acquisition-dependent growth*, где удержание уже не покрывает естественный отток пользователей.
 
- #### Recovery Dynamics
+ #### *Figure 50. Recovery Dynamics*
 ![Recovery Dynamics](visualizations/recovery_dynamics.png)   
 
 
@@ -3499,10 +3500,10 @@ Reactivation остается относительно стабильным: 7�
 
 Таким образом, Contraction Revenue выступает одним из наиболее ранних индикаторов ухудшения customer health.
 
-#### Revenue Retention Trend
+#### *Figure 51. Revenue Retention Trend*
 ![Revenue Retention Trend](visualizations/revenue_retention_trend.png)  
 
-#### Expansion vs Contraction Dynamics
+#### *Figure 52. Expansion vs Contraction Dynamics*
 ![Expansion vs Contraction Dynamics](visualizations/expansion_contraction_dynamics.png)
 
 ## 9.5 Revenue Concentration
@@ -3578,10 +3579,10 @@ Reactivation остается относительно стабильным: 7�
 
 Таким образом, Loyal-сегмент выступает главным экономическим активом клиентской базы.
 
-#### Revenue Share by Lifecycle Stage
+#### *Figure 53. Revenue Share by Lifecycle Stage*
 ![Revenue Share by Lifecycle Stag](visualizations/revenue_concentration.png)
 
-#### Revenue Concentration Gap.
+#### *Figure 54. Revenue Concentration Gap.*
 ![Revenue Concentration Gap.](visualizations/revenue_premium.png)
 #
 ### Ключевой вывод
@@ -3685,10 +3686,10 @@ Reactivation остается относительно стабильным: 7�
 | At Risk | Реактивация               |
 | Loyal   | Защита выручки            |
 
-#### *Revenue-at-Risk by Lifecycle Stage*
+#### *Figure 55. Revenue-at-Risk by Lifecycle Stage*
 ![Revenue-at-Risk by Lifecycle Stage](visualizations/revenue_exposure_analysis.PNG)  
 
-#### *Revenue-at-Risk Exposure Matrix*
+#### *Figure 56. Revenue-at-Risk Exposure Matrix*
 ![Revenue-at-Risk Exposure Matrix](visualizations/revenue_at_risk_exposure_matrix.png) 
 #
 ### Ключевой вывод
@@ -3770,7 +3771,7 @@ Active-клиенты одновременно характеризуются:
 - **Loyal**  
 Защита наиболее ценной части выручки.
 
-#### Revenue-at-Risk vs Priority Score
+#### *Figure 57. Revenue-at-Risk vs Priority Score*
 ![Revenue-at-Risk vs Priority Score](visualizations/retention_priority_matrix.png) 
 #
 ### Ключевой вывод
@@ -3843,7 +3844,7 @@ Active-клиенты одновременно характеризуются:
 - выборочный возврат наиболее ценных клиентов;  
 - контроль стоимости реактивации.  
   
-#### Retention Strategy Matrix
+#### *Figure 58. Retention Strategy Matrix*
 
 ![Retention Strategy Matrix](visualizations/retention_strategy_matrix.png) 
 #
@@ -4030,7 +4031,7 @@ Framework позволяет перейти от ретроспективног�
 Одновременно наблюдается постепенное ухудшение retention dynamics: churn достигает 25.2%, а retention снижается до 47.3%, что указывает на нарастающее давление на долгосрочное удержание клиентской базы.
 Несмотря на ухудшение пользовательских метрик, компания удерживает 79% выручки между периодами, что подтверждает высокую ценность retained-аудитории.
 
-#### *Executive KPI Cards*  
+#### *Figure 59. Executive KPI Cards*  
 ![Executive KPI Cards](visualizations/metric_cards_101.png)  
 
 ## 10.2 Customer Economics Snapshot
@@ -4053,7 +4054,7 @@ Framework позволяет перейти от ретроспективног�
 
 Это означает, что проблема бизнеса заключается не в монетизации удержанных клиентов, а в недостаточном количестве клиентов, достигающих стадии долгосрочного удержания.
 
-#### *Customer Economics Scorecard*
+#### *Figure 60. Customer Economics Scorecard*
 
 ![Customer Economics Scorecard](visualizations/metric_cards_102.png)         
 
@@ -4075,7 +4076,7 @@ Combined Revenue-at-Risk	2.73 млн
 Это означает, что деградация поведения начинается значительно раньше момента формального перехода клиента в стадию риска.
 Для бизнеса наиболее опасным является постепенное ухудшение customer health внутри активной аудитории.
 
-#### Revenue Risk Dashboard
+#### *Figure 61. Revenue Risk Dashboard
 
 ![Revenue Risk Dashboard](visualizations/metric_cards_103.png)  
 
@@ -4096,7 +4097,7 @@ Combined Revenue-at-Risk	2.73 млн
 Особенно важным является Recall на уровне 95%, что означает успешное обнаружение большинства будущих churn-клиентов.
 Это делает модель пригодной для использования в CRM-процессах, системах раннего предупреждения и программах удержания клиентов.
 
-#### Predictive Model KPI Cards  
+#### *Figure 62. Predictive Model KPI Cards*  
 
 ![Predictive Model KPI Cards  ](visualizations/metric_cards_104.png) 
 
@@ -5020,7 +5021,7 @@ Lifecycle-модель построена на основе snapshot-подхо�
 Таким образом, компания сможет перейти от оценки вероятности ухода к прогнозированию полного жизненного цикла клиента.
 
 ### *Иллюстративный пример*
-#### *Вероятность сохранения клиентской активности во времени для различных lifecycle-сегментов*
+#### *Figure 63. Вероятность сохранения клиентской активности во времени для различных lifecycle-сегментов*
 
 ![Survival Curve by Lifecycle Stage](visualizations/kaplan_meier_survival_curve.png)
 *Иллюстративный пример Kaplan–Meier survival curves для различных lifecycle-сегментов.*
@@ -5063,7 +5064,7 @@ CLV-модели позволяют:
 В сочетании с churn-моделями CLV-прогнозирование формирует основу для полноценного customer portfolio management.
 
 ### *Иллюстративный пример*
-#### *Прогноз долгосрочной ценности клиентов по различным сегментам клиентской базы.*
+#### *Figure 64. Прогноз долгосрочной ценности клиентов по различным сегментам клиентской базы.*
 ![Forecasted Customer Lifetime Value Distribution](visualizations/forecasted_customer_lifetime.png)
 
 *Иллюстративный пример распределения прогнозируемой долгосрочной ценности клиентов по lifecycle-сегментам.*
