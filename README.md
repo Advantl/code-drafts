@@ -372,6 +372,7 @@ Project Architecture Diagram
 ```text
 Transactional Data
         ↓
+
 Lifecycle Snapshots
         ↓
 
