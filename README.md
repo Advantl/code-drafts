@@ -2896,13 +2896,6 @@ Recovery probability демонстрирует неравномерное ра�
 
 Retention Priority Score демонстрирует распределение с «тяжелым хвостом», указывая на то, что небольшая группа клиентов концентрирует непропорционально большую долю ценности удержания. Это позволяет эффективно распределять ресурсы удержания на высокоэффективные возможности восстановления.
 
-#### *Figure Визуализация №3*
-![Top Saveable Customers](visualizations/)
-Bubble Chart
-X = Churn Probability
-Y = Expected Future Revenue
-Размер точки = Recovery Probability
-
 #
 ### Findings
 Интегральный показатель Retention Priority Score позволил выделить группу клиентов, которые одновременно обладают:
