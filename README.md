@@ -2766,8 +2766,8 @@ SHAP-анализ показал, что наибольшее влияние н�
   
 Это позволило оценить не только уровень риска, но и коммерческий профиль каждой группы клиентов. 
 #
-#### *Figure 36. Риск потери дохода*
-![Revenue Exposure](visualizations/risk_segment_contribution.png)
+#### *Figure 36. Количественная оценка рисков оттока клиентов для бизнеса*
+![Revenue Exposure](visualizations/revenue_at_risk_by_segment.png)
 
 #### *Figure 37. Сопоставление эффективности монетизации и вероятности оттока клиентов*
 ![Monetization Efficiency vs. Churn Probability Mapping](visualizations/monetary_value_vs_churn_risk.png)
