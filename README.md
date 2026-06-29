@@ -2527,7 +2527,7 @@ Revenue per Retained User систематически увеличиваетс�
 Будущая информация не участвует в расчёте признаков и не влияет на обучение модели.
 Это позволяет рассматривать полученные результаты как реалистичную оценку качества прогнозирования в реальном бизнес-процессе. 
 #
-#### *Figure Архитектурная схема бизнес-логики принятия решений.*
+#### *Figure 34. Архитектурная схема бизнес-логики принятия решений.*
 
       Snapshot Features
               ↓
@@ -2583,7 +2583,7 @@ Revenue per Retained User систематически увеличиваетс�
 
 Именно данные признаки впоследствии оказываются среди наиболее сильных драйверов модели и позволяют фиксировать ранние признаки деградации клиентского поведения. 
 #
-#### *Figure Структура признакового пространства*
+#### *Figure 35. Структура признакового пространства*
 
 				Current State
 		(Recency, Frequency, Monetary)
@@ -2670,7 +2670,7 @@ Revenue per Retained User систематически увеличиваетс�
 |  Accuracy				|82%		 |
 |  Recall (Churn Class)	|95%		 |
 
-#### *Figure 34 Оценка эффективности модели прогнозирования оттока*
+#### *Figure 36. Оценка эффективности модели прогнозирования оттока*
 
 ![ROC Curve & Precision-Recall](visualizations/churn_model_performance.png)
 #
@@ -2694,7 +2694,7 @@ Revenue per Retained User систематически увеличиваетс�
 Высокое качество модели само по себе недостаточно для принятия бизнес-решений.
 Поэтому дополнительно был проведен SHAP-анализ, позволяющий определить факторы, оказывающие наибольшее влияние на прогнозируемый риск оттока.
 
-#### *Figure 35. Поведенческие паттерны, связанные с потенциалом восстановления отношений с клиентами*
+#### *Figure 37. Поведенческие паттерны, связанные с потенциалом восстановления отношений с клиентами*
 Распределение факторов оттока (анализ SHAP)
 ![SHAP Summary Plot](visualizations/shap_summary_plot.png)
 #
@@ -2767,10 +2767,10 @@ SHAP-анализ показал, что наибольшее влияние н�
   
 Это позволило оценить не только уровень риска, но и коммерческий профиль каждой группы клиентов. 
 #
-#### *Figure 36. Количественная оценка рисков оттока клиентов для бизнеса*
+#### *Figure 38. Количественная оценка рисков оттока клиентов для бизнеса*
 ![Revenue Exposure](visualizations/revenue_at_risk_by_segment.png)
 
-#### *Figure 37. Сопоставление эффективности монетизации и вероятности оттока клиентов*
+#### *Figure 39. Сопоставление эффективности монетизации и вероятности оттока клиентов*
 ![Monetization Efficiency vs. Churn Probability Mapping](visualizations/monetary_value_vs_churn_risk.png)
 #
 ### Findings
@@ -2820,7 +2820,7 @@ SHAP-анализ показал, что наибольшее влияние н�
    
 После объединения двух измерений была построена стратегическая матрица клиентских сегментов. 
 #
-#### *Figure 38. Матрица приоритезации удержания клиентов: баланс между ценностью и риском*
+#### *Figure 40. Матрица приоритезации удержания клиентов: баланс между ценностью и риском*
 
 ![Customer Risk-Value Matrix](visualizations/risk_value_segments.png)
 #
@@ -2890,13 +2890,13 @@ SHAP-анализ показал, что наибольшее влияние н�
 
 		  Retention Priority  =  Churn Probability  ×  Expected Future Revenue  ×  Recovery Probability
 #
-#### *Figure 39. Потенциал восстановления клиентов в сегментах, находящихся в группе риска.*  
+#### *Figure 41. Потенциал восстановления клиентов в сегментах, находящихся в группе риска.*  
 
 ![Recovery Probability Distribution](visualizations/recovery_probability_distribution.png)
 
 Recovery probability демонстрирует неравномерное распределение, указывая на то, что значительная часть клиентов, находящихся в группе риска, сохраняет высокий потенциал для повторной активации, что подтверждает необходимость дифференцированных стратегий удержания, а не бинарного таргетирования оттока.
 
-#### *Figure 40. Распределение итогового приоритетного балла.*  
+#### *Figure 42. Распределение итогового приоритетного балла.*  
 
 ![Retention Priority Score Distribution](visualizations/recovery_priority_score_distribution.png)  
 
@@ -2950,11 +2950,11 @@ Retention Priority Score демонстрирует распределение �
   
 Данный подход позволяет перейти от управления риском к управлению ожидаемой экономической отдачей от retention-интервенций. 
 #
-#### *Figure 39. Кривая приоритезации удержания*
+#### *Figure 43. Кривая приоритезации удержания*
 
 ![Cumulative Recovery Value Curve](visualizations/retention_priority_curve.png)
 
-#### *Figure 40. Стратегическая сегментация клиентов на основе риска и ценности*
+#### *Figure 44. Стратегическая сегментация клиентов на основе риска и ценности*
 
 ![Top 20 Customers by Priority Score ](visualizations/top_20_saveable_customers.png)
 
@@ -2990,7 +2990,7 @@ Retention Prioritization Score переводит систему управле�
   
 Такой подход позволяет разделить клиентскую базу на несколько стратегически различных групп.
 #
-#### *Figure 41. Customer Saveability Matrix*
+#### *Figure 45. Customer Saveability Matrix*
 
 ![Customer Saveability Matrix](visualizations/customer_saveability_matrix.png)
 #
@@ -3249,10 +3249,10 @@ Lifecycle KPI Framework представляет собой многоуровн
 
 Полученные результаты следует интерпретировать с учетом ограничений наблюдаемого периода. Анализ основан на snapshot-подходе и охватывает относительно ранний этап формирования lifecycle-структуры. Рост доли At Risk и Churn клиентов частично обусловлен естественным эффектом созревания когорт.
 
-#### *Figure 42. Customer Health Trends*
+#### *Figure 46. Customer Health Trends*
 ![Customer Health Dynamics](visualizations/customer_health_trends.png)
 
-#### *Figure 43. Recovery Dynamics*
+#### *Figure 47. Recovery Dynamics*
 ![Recovery Dynamics](visualizations/recovery_trends.png) 
 
 #
@@ -3269,7 +3269,7 @@ Lifecycle KPI Framework представляет собой многоуровн
 Несмотря на ухудшение пользовательских метрик, компания сохраняет около 80% выручки между соседними периодами.
 Это подтверждает вывод предыдущих разделов: удержанные клиенты обладают существенно большей ценностью, чем средний пользователь базы.
 
-#### *Figure 44. Revenue Retention Trend*
+#### *Figure 48. Revenue Retention Trend*
 ![Revenue Retention Trend](visualizations/revenue_retention_trend.png)  
 #
 ### • Expansion vs Contraction Monitoring
@@ -3285,7 +3285,7 @@ Lifecycle KPI Framework представляет собой многоуровн
 К концу периода contraction revenue начинает устойчиво превышать expansion revenue.
 Это один из наиболее ранних сигналов ухудшения customer health, поскольку снижение потребления появляется раньше полного оттока клиентов.
 
-#### *Figure 45. Expansion vs Contraction Trend*
+#### *Figure 49. Expansion vs Contraction Trend*
 ![Expansion vs Contraction Dynamics](visualizations/expansion_contraction_dynamics.png)   
 #
 ### • Lifecycle Stability Monitoring
@@ -3300,7 +3300,7 @@ Lifecycle KPI Framework представляет собой многоуровн
 
 Снижение данных показателей интерпретируется как ранний сигнал ухудшения customer health и роста вероятности будущей деградации retention и revenue metrics.
 
-#### *Figure 46. Lifecycle Stability Trends*
+#### *Figure 50. Lifecycle Stability Trends*
 ![Lifecycle Stability Trends ](visualizations/lifecycle_stability_dynamics.png) 
 #
 ### Business Value
@@ -3393,7 +3393,7 @@ Lifecycle Stability Index выступает ранним индикатором
 				
 Поэтому стабильность lifecycle-структуры может использоваться как leading indicator будущих проблем удержания.
 
-#### *Figure 47. Lifecycle Stability Trends*
+#### *Figure 51. Lifecycle Stability Trends*
 
 ![Lifecycle Stability Trends](visualizations/lifecycle_stability_dynamics.png) 
 
@@ -3440,10 +3440,10 @@ Reactivation остается относительно стабильным: 7�
 Особое внимание заслуживает снижение устойчивости Active и Loyal клиентов.
 Данный сигнал указывает на постепенную деградацию наиболее ценной части клиентской базы и может рассматриваться как раннее предупреждение будущих потерь выручки.
 
-#### *Figure 48. Customer Health Dynamics*
+#### *Figure 52. Customer Health Dynamics*
 ![Customer Health Dynamics](visualizations/customer_health_dynamics.png)   
 
-#### *Figure 49. Lifecycle Stability Dynamics*
+#### *Figure 53. Lifecycle Stability Dynamics*
 ![Lifecycle Stability Dynamics](visualizations/lifecycle_stability_dynamics.png) 
 
 ## 9.4.2 Recovery Dynamics
