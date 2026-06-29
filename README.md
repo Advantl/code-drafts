@@ -3465,7 +3465,7 @@ Reactivation остается относительно стабильным: 7�
 
 Компания постепенно переходит от режима *Retention-driven growth* к режиму *Acquisition-dependent growth*, где удержание уже не покрывает естественный отток пользователей.
 
- #### *Figure 50. Recovery Dynamics*
+ #### *Figure 54. Recovery Dynamics*
 ![Recovery Dynamics](visualizations/recovery_dynamics.png)   
 
 
@@ -3512,10 +3512,10 @@ Reactivation остается относительно стабильным: 7�
 
 Таким образом, Contraction Revenue выступает одним из наиболее ранних индикаторов ухудшения customer health.
 
-#### *Figure 51. Revenue Retention Trend*
+#### *Figure 55. Revenue Retention Trend*
 ![Revenue Retention Trend](visualizations/revenue_retention_trend.png)  
 
-#### *Figure 52. Expansion vs Contraction Dynamics*
+#### *Figure 56. Expansion vs Contraction Dynamics*
 ![Expansion vs Contraction Dynamics](visualizations/expansion_contraction_dynamics.png)
 
 ## 9.5 Revenue Concentration
@@ -3591,10 +3591,10 @@ Reactivation остается относительно стабильным: 7�
 
 Таким образом, Loyal-сегмент выступает главным экономическим активом клиентской базы.
 
-#### *Figure 53. Revenue Share by Lifecycle Stage*
+#### *Figure 57. Revenue Share by Lifecycle Stage*
 ![Revenue Share by Lifecycle Stag](visualizations/revenue_concentration.png)
 
-#### *Figure 54. Revenue Concentration Gap.*
+#### *Figure 58. Revenue Concentration Gap.*
 ![Revenue Concentration Gap.](visualizations/revenue_premium.png)
 #
 ### Ключевой вывод
@@ -3699,10 +3699,10 @@ Reactivation остается относительно стабильным: 7�
 | At Risk | Реактивация               |
 | Loyal   | Защита выручки            |
 
-#### *Figure 55. Revenue-at-Risk by Lifecycle Stage*
+#### *Figure 59. Revenue-at-Risk by Lifecycle Stage*
 ![Revenue-at-Risk by Lifecycle Stage](visualizations/revenue_exposure_analysis.PNG)  
 
-#### *Figure 56. Revenue-at-Risk Exposure Matrix*
+#### *Figure 60. Revenue-at-Risk Exposure Matrix*
 ![Revenue-at-Risk Exposure Matrix](visualizations/revenue_at_risk_exposure_matrix.png) 
 #
 ### Ключевой вывод
@@ -3782,7 +3782,7 @@ Active-клиенты одновременно характеризуются:
 - **Loyal**  
 Защита наиболее ценной части выручки.
 
-#### *Figure 57. Revenue-at-Risk vs Priority Score*
+#### *Figure 61. Revenue-at-Risk vs Priority Score*
 ![Revenue-at-Risk vs Priority Score](visualizations/retention_priority_matrix.png) 
 #
 ### Ключевой вывод
@@ -3850,7 +3850,7 @@ Active-клиенты одновременно характеризуются:
 - выборочный возврат наиболее ценных клиентов;  
 - контроль стоимости реактивации.  
   
-#### *Figure 58. Retention Strategy Matrix*
+#### *Figure 62. Retention Strategy Matrix*
 
 ![Retention Strategy Matrix](visualizations/retention_strategy_matrix.png) 
 #
@@ -3994,7 +3994,7 @@ Retention Prioritization Framework показал следующую струк�
 
 Framework позволяет перейти от ретроспективного анализа клиентского поведения к системному управлению состоянием клиентского портфеля и может использоваться как основа для CRM-аналитики, retention reporting и стратегического управления жизненным циклом клиентов.
 #
-#### *Figure Customer Health Monitoring Framework*
+#### *Figure 63. Customer Health Monitoring Framework*
 
 			Lifecycle Structure
 			        ↓
@@ -4039,7 +4039,7 @@ Framework позволяет перейти от ретроспективног�
 Одновременно наблюдается постепенное ухудшение retention dynamics: churn достигает 25.2%, а retention снижается до 47.3%, что указывает на нарастающее давление на долгосрочное удержание клиентской базы.
 Несмотря на ухудшение пользовательских метрик, компания удерживает 79% выручки между периодами, что подтверждает высокую ценность retained-аудитории.
 
-#### *Figure 59. Executive KPI Cards*  
+#### *Figure 64. Executive KPI Cards*  
 ![Executive KPI Cards](visualizations/metric_cards_101.png)  
 
 ## 10.2 Customer Economics Snapshot
@@ -4062,7 +4062,7 @@ Framework позволяет перейти от ретроспективног�
 
 Это означает, что проблема бизнеса заключается не в монетизации удержанных клиентов, а в недостаточном количестве клиентов, достигающих стадии долгосрочного удержания.
 
-#### *Figure 60. Customer Economics Scorecard*
+#### *Figure 65. Customer Economics Scorecard*
 
 ![Customer Economics Scorecard](visualizations/metric_cards_102.png)         
 
@@ -4084,7 +4084,7 @@ Combined Revenue-at-Risk	2.73 млн
 Это означает, что деградация поведения начинается значительно раньше момента формального перехода клиента в стадию риска.
 Для бизнеса наиболее опасным является постепенное ухудшение customer health внутри активной аудитории.
 
-#### *Figure 61. Revenue Risk Dashboard*
+#### *Figure 66. Revenue Risk Dashboard*
 
 ![Revenue Risk Dashboard](visualizations/metric_cards_103.png)  
 
@@ -4105,7 +4105,7 @@ Combined Revenue-at-Risk	2.73 млн
 Особенно важным является Recall на уровне 95%, что означает успешное обнаружение большинства будущих churn-клиентов.
 Это делает модель пригодной для использования в CRM-процессах, системах раннего предупреждения и программах удержания клиентов.
 
-#### *Figure 62. Predictive Model KPI Cards*  
+#### *Figure 67. Predictive Model KPI Cards*  
 
 ![Predictive Model KPI Cards  ](visualizations/metric_cards_104.png) 
 
@@ -4204,7 +4204,7 @@ Revenue-at-Risk:
 
 Именно раннее удержание является главным рычагом роста LTV, Revenue Retention и общей эффективности клиентской экономики.
 #
-#### *Figure Integrated Insights Framework*
+#### *Figure 68. Integrated Insights Framework*
 
 			High Early Churn
 			        ↓
@@ -4275,7 +4275,7 @@ Revenue-at-Risk:
 
 Именно здесь аналитика превращается в инструмент принятия решений.
 #
-#### *Figure Unified Customer Lifecycle Model*
+#### *Figure 69. Unified Customer Lifecycle Model*
 
 			Customer Acquisition
 			          ↓
@@ -4359,7 +4359,7 @@ Lifecycle-анализ показал высокую концентрацию в
 
 Это позволяет превратить результаты анализа в постоянно действующую систему поддержки управленческих решений.
 #
-#### *Figure Strategic Priorities Roadmap (Стратегическая карта)*
+#### *Figure 70. Strategic Priorities Roadmap (Стратегическая карта)*
 
 			Early Retention
 			        ↓
@@ -4385,7 +4385,7 @@ Lifecycle-анализ показал высокую концентрацию в
 На основе результатов проекта был построен Lifecycle KPI Framework, объединяющий показатели удержания, монетизации, клиентского здоровья и прогнозного риска в единую систему мониторинга. Такой подход позволяет не только объяснять происходящие изменения клиентской базы, но и управлять ими в режиме непрерывного наблюдения. В целом результаты исследования показывают, что основной потенциал роста бизнеса находится не в расширении объема привлечения клиентов и не в дополнительной монетизации существующей лояльной аудитории. Наибольший экономический эффект может быть достигнут за счет улучшения раннего удержания, увеличения доли клиентов, переходящих в сегмент регулярных покупателей, и более эффективного управления Revenue-at-Risk.
 Именно развитие retention-системы, основанной на данных и прогнозной аналитике, представляет собой наиболее перспективное направление повышения долгосрочной клиентской ценности, устойчивости выручки и эффективности инвестиций в развитие клиентской базы.
 
-####  *Figure End-to-End Customer Lifecycle Intelligence Framework*
+####  *Figure 71. End-to-End Customer Lifecycle Intelligence Framework*
 
 			Customer Acquisition
 			          ↓
@@ -4836,7 +4836,7 @@ CRM-коммуникации должны запускаться не тольк
 
 Создать единую систему принятия решений на основе клиентской аналитики.
 
-#### *Figure Target Architecture*
+#### *Figure 72. Target Architecture*
 
 			Customer Transactions
 			          ↓
@@ -5029,7 +5029,7 @@ Lifecycle-модель построена на основе snapshot-подхо�
 Таким образом, компания сможет перейти от оценки вероятности ухода к прогнозированию полного жизненного цикла клиента.
 
 ### *Иллюстративный пример*
-#### *Figure 63. Вероятность сохранения клиентской активности во времени для различных lifecycle-сегментов*
+#### *Figure 73. Вероятность сохранения клиентской активности во времени для различных lifecycle-сегментов*
 
 ![Survival Curve by Lifecycle Stage](visualizations/kaplan_meier_survival_curve.png)
 *Иллюстративный пример Kaplan–Meier survival curves для различных lifecycle-сегментов.*
@@ -5072,7 +5072,7 @@ CLV-модели позволяют:
 В сочетании с churn-моделями CLV-прогнозирование формирует основу для полноценного customer portfolio management.
 
 ### *Иллюстративный пример*
-#### *Figure 64. Прогноз долгосрочной ценности клиентов по различным сегментам клиентской базы.*
+#### *Figure 74. Прогноз долгосрочной ценности клиентов по различным сегментам клиентской базы.*
 ![Forecasted Customer Lifetime Value Distribution](visualizations/forecasted_customer_lifetime.png)
 
 *Иллюстративный пример распределения прогнозируемой долгосрочной ценности клиентов по lifecycle-сегментам.*
@@ -5188,7 +5188,7 @@ CLV-модели позволяют:
 В результате компания сможет понимать не только кто находится в зоне риска, но и какие действия способны изменить будущий исход.
 
 ### *Иллюстративный пример*
-#### *Figure Концептуальная модель перехода от корреляционного анализа факторов риска к оценке причинного влияния retention-интервенци*
+#### *Figure 75. Концептуальная модель перехода от корреляционного анализа факторов риска к оценке причинного влияния retention-интервенци*
 
 Conceptual Causal Retention Framework
 
@@ -5271,7 +5271,7 @@ Next-Best-Action Framework позволяет:
 Таким образом, текущий проект может рассматриваться как первый шаг к созданию полноценной системы интеллектуального управления клиентским жизненным циклом.
 
 ### *Иллюстративный пример*
-#### *Figure Концептуальная схема автоматизированного выбора оптимального CRM-действия на основе customer health, churn-risk и customer value.*
+#### *Figure 76. Концептуальная схема автоматизированного выбора оптимального CRM-действия на основе customer health, churn-risk и customer value.*
 
 *Вариант 1. Next-Best-Action Decision Framework*
 
