@@ -1,7 +1,7 @@
 # Contents
 
 - [1. Executive Summary](#1-executive-summary)
-- [2. Business Background](#2-business_background)
+- [2. Business Background](#2-business-background)
 - [3. Project Architecture](#3-project-architecture)
 - [4. Business Objectives](#4-business-objectives)
 - [5. Dataset Overview](#5-dataset-overview)
