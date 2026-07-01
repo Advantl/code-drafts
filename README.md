@@ -1412,7 +1412,7 @@ Customer Health Monitoring
 
 ![Evolution of Lifecycle Transition Matrices](visualizations/transition_matrices_collage.png)
 
-#### *Figure 8. Отток клиентов возникает в результате прогрессирующей деградации жизненного цикла*
+#### *Figure 8. Отток клиентов возникает в результате прогрессирующей деградации жизненного цикла.*
 *Агрегированная матрица переходов между lifecycle-состояниями, обобщающая перемещения клиентов между этапами жизненного цикла за все периоды наблюдения.*
 ![Aggregated Lifecycle Transition Matrix](visualizations/aggregated_transition_matrix.png)
 #
@@ -1477,7 +1477,8 @@ Customer Health Monitoring
 Для каждой пары последовательных snapshots были рассчитаны фактические переходы клиентов между lifecycle-состояниями.
 Полученные переходы были агрегированы за весь период наблюдения и визуализированы с помощью Sankey Diagram, отражающей движение клиентов между состояниями жизненного цикла.
 
-#### *Figure 9. Агрегированные потоки клиентов между lifecycle-состояниями за весь период наблюдения.*  
+#### *Figure 9. Большинство клиентов движется по двум устойчивым сценариям: развитию (New → Active → Loyal) или постепенному уходу (Active → At Risk → Churn).*
+*Агрегированные потоки переходов клиентов между lifecycle-состояниями за весь период наблюдения (Sankey Diagram).*  
 
 ![Aggregated Lifecycle Transition Matrix](visualizations/users_sankey_diagram.PNG)
 #
