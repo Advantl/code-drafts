@@ -2206,7 +2206,8 @@ Retention decay сопровождается естественной селек
 #
 ### Retention vs Customer Value
 
-#### *Figure 29. Retention vs Customer Value*
+#### *Figure 29. Ценность удержанных клиентов растет, но этого недостаточно, чтобы компенсировать потери аудитории.*
+*Средний User Retention и индекс роста Revenue per Retained User (RPRU) по месяцам жизни когорты.*
 
 ![Average User Retention vs Average RPRU Growth](visualizations/retention_vs_monetization.png)
 
