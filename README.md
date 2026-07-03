@@ -1939,7 +1939,7 @@ Retention Heatmap подтверждает результаты агрегиро
 #
 ### Cohort Retention Curves
 #### *Figure 18. Средняя retention-кривая разделяет жизненный цикл клиента на фазу раннего churn и устойчивого удержания.*
-*Средняя когортная кривая удержания пользователей за весь период наблюдения.*
+*Средняя когортная кривая удержания пользователей за весь период наблюдения (серые столбцы показывают количество когорт, доступных для расчета на каждом этапе).*
 
 ![Average Cohort Retention Curve](visualizations/avg_user_retention_curve.png)
 
@@ -2110,7 +2110,7 @@ Revenue Retention систематически превосходит User Reten
 #
 ### Revenue Retention vs User Retention
 #### *Figure 25. Удержанные клиенты формируют непропорционально большую долю выручки по сравнению с их численностью.*
-*Сравнение средней динамики User Retention и Revenue Retention по всем когортам.*
+*Сравнение средней динамики User Retention и Revenue Retention по всем когортам (серые столбцы показывают количество когорт, доступных для расчета на каждом этапе).*
 
 ![Combined User Retention vs Revenue Retention Chart](visualizations/average_retention.png)
 
@@ -2298,7 +2298,7 @@ LTV-кривые демонстрируют две характерные фаз
 #
 ### LTV Accumulation Analysis
 #### *Figure 32. Большая часть долгосрочной ценности клиента формируется в первые 5–6 месяцев.*
-*Средняя кривая накопленного LTV по всем acquisition-когортам.*
+*Средняя кривая накопленного LTV по всем acquisition-когортам (серые столбцы — количество доступных когорт для оценки).*
 ![Average Cumulative LTV Curve](visualizations/avg_cumulative_ltv_curve.png)
 
 ### Findings
@@ -2355,7 +2355,8 @@ LTV-кривые демонстрируют две характерные фаз
   
 Цель анализа — определить, становится ли клиентская база более или менее однородной по мере развития жизненного цикла.
 #
-#### *Figure 33. Monetization Variability Across Cohorts*
+#### *Figure 33. Основные различия между когортами формируются в монетизации, а не в удержании клиентов.*
+*Стандартное отклонение Revenue Retention и Revenue per Retained User между acquisition-когортами по месяцам жизненного цикла (серые столбцы показывают количество когорт, доступных для расчета на каждом этапе).*
 
 ![Monetization Variability Across Cohorts](visualizations/cohort_variability.png)
 
