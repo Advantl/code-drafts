@@ -3039,8 +3039,8 @@ Retention Prioritization Score переводит систему управле�
   
 Такой подход позволяет разделить клиентскую базу на несколько стратегически различных групп.
 #
-#### *Figure 45. Customer Saveability Matrix*
-
+#### *Figure 45. Среди клиентов с высоким риском оттока сохраняется значительный потенциал успешного удержания.*
+*Распределение клиентов по вероятности оттока (Churn Probability) и вероятности успешного восстановления (Recovery Probability) за весь период наблюдения.*
 ![Customer Saveability Matrix](visualizations/customer_saveability_matrix.png)
 #
 ### Интерпретация квадрантов
