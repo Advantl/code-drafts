@@ -3299,10 +3299,12 @@ Lifecycle KPI Framework представляет собой многоуровн
 
 Полученные результаты следует интерпретировать с учетом ограничений наблюдаемого периода. Анализ основан на snapshot-подходе и охватывает относительно ранний этап формирования lifecycle-структуры. Рост доли At Risk и Churn клиентов частично обусловлен естественным эффектом созревания когорт.
 
-#### *Figure 46. Customer Health Trends*
+#### *Figure 46. Клиентская база постепенно теряет устойчивость: удержание снижается быстрее, чем компенсируется восстановление.*
+*Динамика Retention и Churn по последовательным snapshot-периодам.*
 ![Customer Health Dynamics](visualizations/customer_health_trends.png)
 
-#### *Figure 47. Recovery Dynamics*
+#### *Figure 47. Восстановление клиентов частично компенсирует потери, но не меняет общий тренд деградации.*
+*Динамика Reactivation и Resurrection между соседними snapshot-периодами.*
 ![Recovery Dynamics](visualizations/recovery_trends.png) 
 
 #
@@ -3319,7 +3321,8 @@ Lifecycle KPI Framework представляет собой многоуровн
 Несмотря на ухудшение пользовательских метрик, компания сохраняет около 80% выручки между соседними периодами.
 Это подтверждает вывод предыдущих разделов: удержанные клиенты обладают существенно большей ценностью, чем средний пользователь базы.
 
-#### *Figure 48. Revenue Retention Trend*
+#### *Figure 48. Удержанные клиенты продолжают сохранять основную часть выручки несмотря на ухудшение customer health.*
+*Динамика Revenue Retention по последовательным snapshot-периодам.*
 ![Revenue Retention Trend](visualizations/revenue_retention_trend.png)  
 #
 ### • Expansion vs Contraction Monitoring
@@ -3335,7 +3338,8 @@ Lifecycle KPI Framework представляет собой многоуровн
 К концу периода contraction revenue начинает устойчиво превышать expansion revenue.
 Это один из наиболее ранних сигналов ухудшения customer health, поскольку снижение потребления появляется раньше полного оттока клиентов.
 
-#### *Figure 49. Expansion vs Contraction Trend*
+#### *Figure 49. Снижение потребления начинает опережать рост потребления — ранний сигнал будущей деградации выручки.*
+*Динамика Expansion Revenue и Contraction Revenue внутри удержанной клиентской базы.*
 ![Expansion vs Contraction Dynamics](visualizations/expansion_contraction_dynamics.png)   
 #
 ### • Lifecycle Stability Monitoring
@@ -3350,7 +3354,8 @@ Lifecycle KPI Framework представляет собой многоуровн
 
 Снижение данных показателей интерпретируется как ранний сигнал ухудшения customer health и роста вероятности будущей деградации retention и revenue metrics.
 
-#### *Figure 50. Lifecycle Stability Trends*
+#### *Figure 50. Стабильность жизненного цикла восстанавливается после локального снижения.*
+*Динамика Lifecycle Stability Index и Healthy Stability Index между последовательными snapshot-периодами.*
 ![Lifecycle Stability Trends ](visualizations/lifecycle_stability_dynamics.png) 
 #
 ### Business Value
