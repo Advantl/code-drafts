@@ -3356,7 +3356,7 @@ Lifecycle KPI Framework представляет собой многоуровн
 
 #### *Figure 50. Стабильность жизненного цикла восстанавливается после локального снижения.*
 *Динамика Lifecycle Stability Index и Healthy Stability Index между последовательными snapshot-периодами.*
-<br>
+  
 ![Lifecycle Stability Trends ](visualizations/lifecycle_stability_dynamics.png) 
 #
 ### Business Value
