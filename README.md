@@ -3416,7 +3416,7 @@ Retention, churn и revenue retention показывают результат п
 Показатель позволяет оценить способность бизнеса удерживать наиболее ценных клиентов внутри активной части lifecycle.
 #
 ### Reference Visualization
-[Figure 50](#fig50)Динамика Lifecycle Stability Index и Healthy Stability Index между последовательными snapshot-периодами.
+См. [Figure 50](#fig50) Динамика Lifecycle Stability Index и Healthy Stability Index между последовательными snapshot-периодами.
 
 #
 ### Результаты анализа
