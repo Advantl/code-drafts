@@ -3572,6 +3572,7 @@ Reactivation остается относительно стабильным: 7�
 Таким образом, Contraction Revenue выступает одним из наиболее ранних индикаторов ухудшения customer health.
 
 #### *Figure 55. Revenue Retention Trend*
+*Динамика Revenue Retention по последовательным snapshot-периодам.*
 ![Revenue Retention Trend](visualizations/revenue_retention_trend.png)  
 
 #### *Figure 56. Expansion vs Contraction Dynamics*
