@@ -3354,6 +3354,7 @@ Lifecycle KPI Framework представляет собой многоуровн
 
 Снижение данных показателей интерпретируется как ранний сигнал ухудшения customer health и роста вероятности будущей деградации retention и revenue metrics.
 
+<a id="fig50"></a>
 #### *Figure 50. Стабильность жизненного цикла восстанавливается после локального снижения.*
 *Динамика Lifecycle Stability Index и Healthy Stability Index между последовательными snapshot-периодами.*
 ![Lifecycle Stability Trends ](visualizations/lifecycle_stability_dynamics.png) 
@@ -3414,6 +3415,10 @@ Retention, churn и revenue retention показывают результат п
 
 Показатель позволяет оценить способность бизнеса удерживать наиболее ценных клиентов внутри активной части lifecycle.
 #
+### Reference Visualization
+[Figure 50](#fig50)Динамика Lifecycle Stability Index и Healthy Stability Index между последовательными snapshot-периодами.
+
+#
 ### Результаты анализа
 #### Общая стабильность клиентской базы
 Анализ показал, что по мере развития жизненного цикла структура клиентской базы становится менее устойчивой.
@@ -3449,10 +3454,6 @@ Retention, churn и revenue retention показывают результат п
 			    Потеря выручки
 				
 Поэтому стабильность lifecycle-структуры может использоваться как leading indicator будущих проблем удержания.
-
-#### *Figure 51. Lifecycle Stability Trends*
-*Динамика Lifecycle Stability Index и Healthy Stability Index между последовательными snapshot-периодами.*
-![Lifecycle Stability Trends](visualizations/lifecycle_stability_dynamics.png) 
 
 ## 10.4.1 Customer Health Dynamics
 ### Цель
