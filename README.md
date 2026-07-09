@@ -3526,7 +3526,8 @@ Reactivation остается относительно стабильным: 7�
 
 Компания постепенно переходит от режима *Retention-driven growth* к режиму *Acquisition-dependent growth*, где удержание уже не покрывает естественный отток пользователей.
 
- #### *Figure 54. Recovery Dynamics*
+ #### *Figure 54. Recovery Gap продолжает расширяться: восстановление клиентов больше не компенсирует ускоряющийся churn.*
+ *Динамика долей клиентов, ушедших в churn, реактивированных из группы риска и восстановленных после churn по последовательным snapshot-периодам.*
 ![Recovery Dynamics](visualizations/recovery_dynamics.png)   
 
 
