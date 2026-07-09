@@ -3575,6 +3575,7 @@ Reactivation остается относительно стабильным: 7�
 ![Revenue Retention Trend](visualizations/revenue_retention_trend.png)  
 
 #### *Figure 56. Expansion vs Contraction Dynamics*
+*Динамика Expansion Revenue и Contraction Revenue внутри удержанной клиентской базы.*
 ![Expansion vs Contraction Dynamics](visualizations/expansion_contraction_dynamics.png)
 
 ## 10.5 Revenue Concentration
