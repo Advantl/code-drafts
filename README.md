@@ -3497,13 +3497,12 @@ Reactivation остается относительно стабильным: 7�
 
 Особое внимание заслуживает снижение устойчивости Active и Loyal клиентов.
 Данный сигнал указывает на постепенную деградацию наиболее ценной части клиентской базы и может рассматриваться как раннее предупреждение будущих потерь выручки.
+#
+### Reference Visualization
+См. [Figure 50](#fig50) Динамика Lifecycle Stability Index и Healthy Stability Index между последовательными snapshot-периодами.
 
 #### *Figure 52. Текущие показатели реактивации и восстановления не компенсируют фундаментальное снижение лояльности*
 ![Customer Health Dynamics](visualizations/customer_health_dynamics.png)   
-
-#### *Figure 53. Lifecycle Stability Dynamics*
-*Динамика Lifecycle Stability Index и Healthy Stability Index между последовательными snapshot-периодами.*
-![Lifecycle Stability Dynamics](visualizations/lifecycle_stability_dynamics.png) 
 
 ## 10.4.2 Recovery Dynamics
 ### Цель
