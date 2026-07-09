@@ -3321,6 +3321,7 @@ Lifecycle KPI Framework представляет собой многоуровн
 Несмотря на ухудшение пользовательских метрик, компания сохраняет около 80% выручки между соседними периодами.
 Это подтверждает вывод предыдущих разделов: удержанные клиенты обладают существенно большей ценностью, чем средний пользователь базы.
 
+<a id="fig48"></a>
 #### *Figure 48. Удержанные клиенты продолжают сохранять основную часть выручки несмотря на ухудшение customer health.*
 *Динамика Revenue Retention по последовательным snapshot-периодам.*
 ![Revenue Retention Trend](visualizations/revenue_retention_trend.png)  
@@ -3570,10 +3571,9 @@ Reactivation остается относительно стабильным: 7�
 					   Revenue Loss
 
 Таким образом, Contraction Revenue выступает одним из наиболее ранних индикаторов ухудшения customer health.
-
-#### *Figure 55. Revenue Retention Trend*
-*Динамика Revenue Retention по последовательным snapshot-периодам.*
-![Revenue Retention Trend](visualizations/revenue_retention_trend.png)  
+#
+### Reference Visualization
+См. [Figure 48](#fig48)
 
 #### *Figure 56. Expansion vs Contraction Dynamics*
 *Динамика Expansion Revenue и Contraction Revenue внутри удержанной клиентской базы.*
