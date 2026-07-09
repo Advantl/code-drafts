@@ -3451,7 +3451,7 @@ Retention, churn и revenue retention показывают результат п
 Поэтому стабильность lifecycle-структуры может использоваться как leading indicator будущих проблем удержания.
 
 #### *Figure 51. Lifecycle Stability Trends*
-
+*Динамика Lifecycle Stability Index и Healthy Stability Index между последовательными snapshot-периодами.*
 ![Lifecycle Stability Trends](visualizations/lifecycle_stability_dynamics.png) 
 
 ## 10.4.1 Customer Health Dynamics
@@ -3501,6 +3501,7 @@ Reactivation остается относительно стабильным: 7�
 ![Customer Health Dynamics](visualizations/customer_health_dynamics.png)   
 
 #### *Figure 53. Lifecycle Stability Dynamics*
+*Динамика Lifecycle Stability Index и Healthy Stability Index между последовательными snapshot-периодами.*
 ![Lifecycle Stability Dynamics](visualizations/lifecycle_stability_dynamics.png) 
 
 ## 10.4.2 Recovery Dynamics
