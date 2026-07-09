@@ -3502,7 +3502,8 @@ Reactivation остается относительно стабильным: 7�
 ### Reference Visualization
 См. [Figure 50](#fig50) Динамика Lifecycle Stability Index и Healthy Stability Index между последовательными snapshot-периодами.
 
-#### *Figure 52. Текущие показатели реактивации и восстановления не компенсируют фундаментальное снижение лояльности*
+#### *Figure 52. Текущие показатели реактивации и восстановления не компенсируют фундаментальное снижение лояльности.*
+*Совокупная динамика Retention Rate, Churn Rate, Reactivation Rate и Resurrection Rate между последовательными snapshot-периодами.*
 ![Customer Health Dynamics](visualizations/customer_health_dynamics.png)   
 
 ## 10.4.2 Recovery Dynamics
