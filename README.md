@@ -3577,8 +3577,8 @@ Reactivation остается относительно стабильным: 7�
 ### Reference Visualization
 См. [Figure 48](#fig48) Динамика Revenue Retention по последовательным snapshot-периодам.
 
-#### *Figure 56. Expansion vs Contraction Dynamics*
-*Динамика Expansion Revenue и Contraction Revenue внутри удержанной клиентской базы.*
+#### *Figure 56. Рост потерь внутри существующей базы опережает ее расширение — появляется ранний сигнал ухудшения customer health*
+*Динамика Expansion Revenue и Contraction Revenue внутри удержанной клиентской базы по последовательным snapshot-периодам.*
 ![Expansion vs Contraction Dynamics](visualizations/expansion_contraction_dynamics.png)
 
 ## 10.5 Revenue Concentration
