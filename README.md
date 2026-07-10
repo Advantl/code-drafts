@@ -3654,10 +3654,12 @@ Reactivation остается относительно стабильным: 7�
 
 Таким образом, Loyal-сегмент выступает главным экономическим активом клиентской базы.
 
-#### *Figure 57. Revenue Share by Lifecycle Stage*
+#### *Figure 57. Более 95% выручки сосредоточено в трех lifecycle-сегментах, при этом Loyal формирует основную экономическую ценность клиентской базы.*
+*Распределение доли выручки по lifecycle-сегментам и накопленная кумулятивная доля выручки (Pareto-анализ).*
 ![Revenue Share by Lifecycle Stag](visualizations/revenue_concentration.png)
 
-#### *Figure 58. Revenue Concentration Gap.*
+#### *Figure 58. Loyal-клиенты генерируют существенно больше выручки, чем соответствует их численности, тогда как остальные сегменты недопредставлены в доходах.*
+*Отклонение доли выручки от доли клиентской базы по lifecycle-сегментам (Revenue Share − Customer Share, п.п.).*
 ![Revenue Concentration Gap.](visualizations/revenue_premium.png)
 #
 ### Ключевой вывод
