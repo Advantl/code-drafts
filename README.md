@@ -3764,10 +3764,12 @@ Reactivation остается относительно стабильным: 7�
 | At Risk | Реактивация               |
 | Loyal   | Защита выручки            |
 
-#### *Figure 59. Revenue-at-Risk by Lifecycle Stage*
+#### *Figure 59. Основной риск потери выручки возникает ещё до перехода клиентов в At Risk.*
+*Revenue-at-Risk по lifecycle-сегментам: вклад каждого сегмента в потенциальные финансовые потери и ожидаемую сохраняемую выручку.*
 ![Revenue-at-Risk by Lifecycle Stage](visualizations/revenue_exposure_analysis.PNG)  
 
-#### *Figure 60. Revenue-at-Risk Exposure Matrix*
+#### *Figure 60. Разные сегменты требуют разных retention-стратегий в зависимости от риска и стоимости потерь*
+*Матрица Revenue-at-Risk: средняя вероятность оттока, объём потенциальных финансовых потерь и размер клиентской базы по lifecycle-сегментам.*
 ![Revenue-at-Risk Exposure Matrix](visualizations/revenue_at_risk_exposure_matrix.png) 
 #
 ### Ключевой вывод
