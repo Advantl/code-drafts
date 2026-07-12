@@ -3849,7 +3849,8 @@ Active-клиенты одновременно характеризуются:
 - **Loyal**  
 Защита наиболее ценной части выручки.
 
-#### *Figure 61. Revenue-at-Risk vs Priority Score*
+#### *Figure 61. Максимальный эффект retention-инвестиций сосредоточен в сегментах Active и At Risk.*
+*Матрица приоритетов lifecycle-сегментов по Revenue-at-Risk и интегральному Priority Score.*
 ![Revenue-at-Risk vs Priority Score](visualizations/retention_priority_matrix.png) 
 #
 ### Ключевой вывод
