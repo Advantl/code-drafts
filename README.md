@@ -3918,8 +3918,8 @@ Active-клиенты одновременно характеризуются:
 - выборочный возврат наиболее ценных клиентов;  
 - контроль стоимости реактивации.  
   
-#### *Figure 62. Retention Strategy Matrix*
-
+#### *Figure 62. Основной риск потери выручки сосредоточен в сегментах At Risk и Active, тогда как Loyal требует стратегии защиты и роста.*
+*Матрица сегментов по доле выручки и среднему риску оттока с рекомендованными retention-стратегиями для каждого lifecycle-сегмента.*
 ![Retention Strategy Matrix](visualizations/retention_strategy_matrix.png) 
 #
 ### Business Value
