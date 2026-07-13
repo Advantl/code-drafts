@@ -3339,6 +3339,7 @@ Lifecycle KPI Framework представляет собой многоуровн
 К концу периода contraction revenue начинает устойчиво превышать expansion revenue.
 Это один из наиболее ранних сигналов ухудшения customer health, поскольку снижение потребления появляется раньше полного оттока клиентов.
 
+<a id="fig49"></a>
 #### *Figure 49. Снижение потребления начинает опережать рост потребления — ранний сигнал будущей деградации выручки.*
 *Динамика Expansion Revenue и Contraction Revenue внутри удержанной клиентской базы.*
 ![Expansion vs Contraction Dynamics](visualizations/expansion_contraction_dynamics.png)   
@@ -3576,10 +3577,7 @@ Reactivation остается относительно стабильным: 7�
 #
 ### Reference Visualization
 См. [Figure 48](#fig48) Динамика Revenue Retention по последовательным snapshot-периодам.
-
-#### *Figure 56. Рост потерь внутри существующей базы опережает ее расширение — появляется ранний сигнал ухудшения customer health*
-*Динамика Expansion Revenue и Contraction Revenue внутри удержанной клиентской базы по последовательным snapshot-периодам.*
-![Expansion vs Contraction Dynamics](visualizations/expansion_contraction_dynamics.png)
+См. [Figure 49](#fig49) Динамика Expansion Revenue и Contraction Revenue внутри удержанной клиентской базы по последовательным snapshot-периодам..
 
 ## 10.5 Revenue Concentration
 ### Цель анализа
