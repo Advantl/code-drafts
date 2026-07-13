@@ -3577,6 +3577,7 @@ Reactivation остается относительно стабильным: 7�
 #
 ### Reference Visualization
 См. [Figure 48](#fig48) Динамика Revenue Retention по последовательным snapshot-периодам.
+
 См. [Figure 49](#fig49) Динамика Expansion Revenue и Contraction Revenue внутри удержанной клиентской базы по последовательным snapshot-периодам..
 
 ## 10.5 Revenue Concentration
