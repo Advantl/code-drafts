@@ -1,6 +1,6 @@
 ## «Customer Retention Decision Framework for Pharmacy Retail»
 
-# Contents
+## Contents
 
 - [1. Executive Summary](#1-executive-summary)
 - [2. Business Background](#2-business-background)
