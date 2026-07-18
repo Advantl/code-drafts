@@ -15,7 +15,7 @@
   	- [7.6 Revenue Driver Framework](#76-revenue-driver-framework)
     - [7.7 Retained Customer Economics](#77-retained-customer-economics)
     - [7.8 Key Findings & Business Implications](#78-key-findings--business-implications)
-  - [8. Layer 2. Cohort Retention & Customer Value Dynamics](#8-layer-2-cohort-retention--customer-value-dynamics)
+  - [8. Layer 2. Cohort Retention & er Value Dynamics](#8-layer-2-cohort-retention--er-value-dynamics)
   	- [8.1 Business Objective](#81-business-objective)
     - [8.2 Analytical Approach](#82-analytical-approach)
     - [8.3 Cohort Retention Analysis](#83-cohort-retention-analysis)
@@ -980,7 +980,7 @@ What should the company do?
 | ------------------- | ---------------------------- |
 | Analysis Period     | 2021-07-12 — 2022-06-09      |
 | Transactions        | 21,075                       |
-| Customers           | **[добавить после расчета]** |
+| Customers           | 5734						 |
 | Lifecycle Snapshots | 6                            |
 | Snapshot Frequency  | Monthly                      |
 | Observation Window  | Rolling 6-Month Window       |
@@ -5577,7 +5577,7 @@ Next-Best-Action Framework позволяет:
 					Project Scale
 					
 					• 21,075 transactions
-					• [X] unique customers
+					• 5734 unique customers
 					• 6 monthly lifecycle snapshots
 					• 21,878 customer-snapshot observations
 					• 4 analytical layers
