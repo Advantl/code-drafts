@@ -1,4 +1,5 @@
 ## «Customer Retention Decision Framework for Pharmacy Retail»
+Динамика доходов, моделирование оттока клиентов и оптимизация инвестиций в удержание клиентов.
 
 ## Contents
 
