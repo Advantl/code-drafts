@@ -1485,7 +1485,7 @@ Customer Health Monitoring
 
 ![Aggregated Lifecycle Transition Matrix](visualizations/users_sankey_diagram.PNG)
 
-Interactive version: [Open Plotly chart](visualizations/project-1/customer_lifecycle_transition_flow.html)
+Interactive version: [Open Plotly chart](visualizations/customer_lifecycle_transition_flow.html)
 
 #
 ### Ключевые результаты
