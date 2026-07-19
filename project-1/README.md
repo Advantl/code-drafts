@@ -379,7 +379,7 @@ Revenue per Retained User демонстрирует рост до 43% отно�
 
 ### Архитектура исследования
 
-#### *Figure 1. Общая архитектура проекта и взаимосвязь аналитических слоев.*
+#### * 1. Общая архитектура проекта и взаимосвязь аналитических слоев.*
 
 *Project Architecture Diagram*
 
@@ -537,7 +537,7 @@ Strategic Recommendations
 
 Каждый аналитический уровень отвечает на собственный класс бизнес-вопросов, однако наибольшая ценность возникает при их совместном использовании.
 
-#### *Figure 2. Взаимосвязь аналитических слоев и последовательное развитие бизнес-инсайтов.*
+#### * 2. Взаимосвязь аналитических слоев и последовательное развитие бизнес-инсайтов.*
 
 *Multi-Layer Analytics Framework*
 
@@ -684,7 +684,7 @@ Monitoring & Decision Framework
 
 ### Сквозной поток информации
 
-#### *Figure 3. Последовательное преобразование транзакционных данных в систему принятия retention-решений.* 
+#### * 3. Последовательное преобразование транзакционных данных в систему принятия retention-решений.* 
 
 *Information Flow Across Analytical Layers*
 
@@ -807,7 +807,7 @@ Business Decisions
 
 ### Decision Framework
 
-#### *Figure 4. Переход от аналитических результатов к управленческим действиям.*
+#### * 4. Переход от аналитических результатов к управленческим действиям.*
 
 *Business Decision Framework*
 
@@ -1032,7 +1032,7 @@ What should the company do?
 #
 Таким образом, используемый набор данных обеспечивает достаточную глубину наблюдений для построения единой аналитической системы, объединяющей descriptive, diagnostic, predictive и monitoring analytics в рамках customer lifecycle management framework.
 
-#### *Figure 5. Преобразование исходных транзакционных данных в многоуровневую систему customer lifecycle analytics.*
+#### * 5. Преобразование исходных транзакционных данных в многоуровневую систему customer lifecycle analytics.*
 
 *Dataset-to-Analytics Pipeline*
 
@@ -1267,7 +1267,7 @@ Customer Health Monitoring
 
 единая система контроля устойчивости клиентской базы и поддержки управленческих решений.
 
-#### *Figure 6. Последовательная аналитическая архитектура проекта, объединяющая descriptive, diagnostic, predictive и monitoring analytics в единую систему управления customer lifecycle.*
+#### * 6. Последовательная аналитическая архитектура проекта, объединяющая descriptive, diagnostic, predictive и monitoring analytics в единую систему управления customer lifecycle.*
 
 *Multi-Layer Analytical Workflow*
 
@@ -1484,6 +1484,9 @@ Customer Health Monitoring
 *Агрегированные потоки переходов клиентов между lifecycle-состояниями за весь период наблюдения (Sankey Diagram).*  
 
 ![Aggregated Lifecycle Transition Matrix](visualizations/users_sankey_diagram.PNG)
+
+Interactive version: [Open Plotly chart](visualizations/project-1/customer_lifecycle_transition_flow.html)
+
 #
 ### Ключевые результаты
 Анализ клиентских потоков показал, что большая часть пользователей перемещается между ограниченным набором состояний жизненного цикла.
@@ -1599,7 +1602,7 @@ Customer Health Monitoring
 
 ![Revenue Decomposition Waterfall](visualizations/revenue_decomposition.PNG)
 
-Interactive version: [Open Plotly chart](visualizations/revenue_decomposition.html)
+Interactive version: [Open Plotly chart](visualizations/project-1/revenue_decomposition.html)
 #
 ### Ключевые результаты
 
@@ -5345,7 +5348,7 @@ Next-Best-Action Framework позволяет:
 Таким образом, текущий проект может рассматриваться как первый шаг к созданию полноценной системы интеллектуального управления клиентским жизненным циклом.
 #
 ### *Иллюстративный пример*
-#### *Figure 72. Концептуальная схема автоматизированного выбора оптимального CRM-действия на основе customer health, churn-risk и customer value.*
+#### * 72. Концептуальная схема автоматизированного выбора оптимального CRM-действия на основе customer health, churn-risk и customer value.*
 
 *Вариант 1. Next-Best-Action Decision Framework*
 
