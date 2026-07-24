@@ -13,4 +13,4 @@
 
 ## Sankey Diagram
 1. Customer Lifecycle Transition Flow
-[📓](./notebooks/customer_lifecycle_transition_flow.ipynb)
+[📓](./notebooks/sankey_diagram_customer_lifecycle_transition_flow.ipynb)
