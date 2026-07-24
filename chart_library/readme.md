@@ -12,8 +12,9 @@
 [📓](./notebooks/heatmap_revenue_change_matrix.ipynb)
 
 ## Sankey Diagram
-1. Customer Lifecycle Transition Flow
+1. Sankey Diagram (Customer Lifecycle Transition Flow)
 [📓](./notebooks/sankey_diagram_customer_lifecycle_transition_flow.ipynb)
 
-Diverging Bar Chart
-1. 
+## Diverging Bar Chart
+1. Diverging Bar Chart (Revenue Growth and Loss Drivers)
+[📓](./notebooks/diverging_bar_chart_revenue_drivers.ipynb)
