@@ -10,3 +10,7 @@
 
 3. Heatmap (Heatmap Revenue Change Matrix) в seaborn
 [📓](./notebooks/heatmap_revenue_change_matrix.ipynb)
+
+## Sankey Diagram
+1. Customer Lifecycle Transition Flow
+[📓](./notebooks/customer_lifecycle_transition_flow.ipynb)
