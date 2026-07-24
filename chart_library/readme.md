@@ -14,3 +14,6 @@
 ## Sankey Diagram
 1. Customer Lifecycle Transition Flow
 [📓](./notebooks/sankey_diagram_customer_lifecycle_transition_flow.ipynb)
+
+Diverging Bar Chart
+1. 
