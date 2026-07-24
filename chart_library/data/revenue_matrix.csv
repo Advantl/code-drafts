@@ -1,0 +1,17 @@
+From,To,Revenue,Revenue_Change,Customers,Revenue_M,Revenue_Change_M,Revenue_Driver
+Active,Active,7323667.0,317150.0,4211,7.323667,0.31715,Expansion
+Active,At Risk,2864477.0,-164591.0,2113,2.864477,-0.164591,Contraction
+Active,Loyal,1808909.0,668920.0,479,1.808909,0.66892,Expansion
+At Risk,Active,742862.0,144261.0,436,0.742862,0.144261,Reactivation
+At Risk,At Risk,5069889.0,-883654.0,4202,5.069889,-0.883654,Contraction
+At Risk,Churn,0.0,-1510818.0,1446,0.0,-1.510818,Churn
+At Risk,Loyal,394206.0,91892.0,92,0.394206,0.091892,Reactivation
+Churn,Active,116080.0,116080.0,105,0.11608,0.11608,Reactivation
+Churn,Churn,0.0,0.0,2353,0.0,0.0,Churn
+Churn,Loyal,2856.0,2856.0,1,0.002856,0.002856,Reactivation
+Loyal,Active,576597.0,-338914.0,242,0.576597,-0.338914,Contraction
+Loyal,At Risk,1101541.0,-302678.0,307,1.101541,-0.302678,Contraction
+Loyal,Loyal,27478185.0,977809.0,3419,27.478185,0.977809,Expansion
+New,Active,3051581.0,296727.0,2179,3.051581,0.296727,Expansion
+New,Loyal,926572.0,479613.0,181,0.926572,0.479613,Expansion
+New,New,175103.0,47976.0,112,0.175103,0.047976,Acquisition
