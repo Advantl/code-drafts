@@ -7,11 +7,10 @@
 
 2. Heatmap (Revenue Transition Matrix) в seaborn
 [📓](./notebooks/heatmap_revenue_transition_matrix.ipynb)   
-
-  Особенности:  
-  - Создание colorbar вручную    
-  - Форматирование значений colorbar в виде "0М"  
-  - Явно задаем порядок следования стадий на графике  
+      Особенности:  
+      - Создание colorbar вручную    
+      - Форматирование значений colorbar в виде "0М"  
+      - Явно задаем порядок следования стадий на графике  
 
 
 4. Heatmap (Heatmap Revenue Change Matrix) в seaborn
