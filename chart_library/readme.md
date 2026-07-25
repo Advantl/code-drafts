@@ -23,3 +23,6 @@
 ## Diverging Bar Chart
 1. Diverging Bar Chart (Revenue Growth and Loss Drivers)
 [📓](./notebooks/diverging_bar_chart_revenue_drivers.ipynb)
+
+2. Diverging Bar Chart (Revenue Driver Classification)
+[📓](./notebooks/diverging_bar_chart_revenue_driver_classification.ipynb)
