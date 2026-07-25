@@ -1,6 +1,6 @@
 # 📊 Библиотека подключений к источникам данных
 1. Подключение к SQL-базе данных.
-[📓](./notebooks/db_connection.ipynb.ipynb)
+[📓](./notebooks/db_connection.ipynb)
 
 Особенности реализации:
 - реализован ООП класс PostgresConnection
