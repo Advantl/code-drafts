@@ -26,3 +26,6 @@
 
 2. Diverging Bar Chart (Revenue Driver Classification)
 [📓](./notebooks/diverging_bar_chart_revenue_driver_classification.ipynb)
+
+## Waterfall
+1. 
