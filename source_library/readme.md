@@ -1,5 +1,8 @@
 # 📊 Библиотека подключений к источникам данных
-1. Подключение к SQL-базе данных.
+1. Подключение к SQL-базе данных (beginner)
+[📓](./notebooks/db_connection_basic.ipynb)
+
+2. Подключение к SQL-базе данных (advanced)
 [📓](./notebooks/db_connection.ipynb)
 
 Особенности реализации:
