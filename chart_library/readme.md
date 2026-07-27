@@ -28,4 +28,5 @@
 [📓](./notebooks/diverging_bar_chart_revenue_driver_classification.ipynb)
 
 ## Waterfall
-1. 
+1. Waterfall (Revenue Decomposition)
+[📓](./notebooks/waterfall_revenue_decomposition.ipynb)
