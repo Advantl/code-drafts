@@ -30,3 +30,7 @@
 ## Waterfall
 1. Waterfall (Revenue Decomposition)
 [📓](./notebooks/waterfall_revenue_decomposition.ipynb)
+
+## Stacked Bar Chart
+1. Stacked Bar Chart (Expansion vs Contraction Revenue)
+[📓](./notebooks/stacked_bar_expansion_contraction_revenue.ipynb)
