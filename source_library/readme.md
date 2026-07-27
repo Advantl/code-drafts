@@ -1,4 +1,6 @@
 # 📊 Библиотека подключений к источникам данных
+
+## PostgreSQL 
 1. Подключение к SQL-базе данных (beginner)
 [📓](./notebooks/db_connection_basic.ipynb)
 
@@ -12,5 +14,8 @@
 - реализовано логирование
 - реализована запись в кэш, его обновление и чтение из кэша
 
-3. Подключение к API (beginner)
+## API 
+1. Подключение к API (beginner)
 [📓](./notebooks/api_connection_basic.ipynb)
+
+2. Подключение к API (advanced)
