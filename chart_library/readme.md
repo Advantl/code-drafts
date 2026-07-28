@@ -39,7 +39,7 @@
 1. Line Chart (User Retention Curves)
 [📓](./notebooks/line_chart_user_retention_curves.ipynb)
 
-2. Line Chart (Avg User Retention Curve)
+2. Line Chart (Average User Retention Curve)
 Особенности реализации:
 - сохранение MultiIndex-структуры в Pickle или Parquet
 - построение доверительного интервала
