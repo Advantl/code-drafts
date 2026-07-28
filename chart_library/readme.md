@@ -47,3 +47,12 @@
       - построение на второй оси ax2 bar с количеством когорт по месяцам.
       - построение 'Low coverage zone' пунктиром
 
+3. Line Chart (multiset 1):
+[📓](./notebooks/line_chart_multiset_1.ipynb)      
+- Average Retention with Cohort Variability:  
+   - две кривые на одном графике  
+   - доверительные интервалы  
+   - количество когорт на второй оси  
+- Month-over-Month Retention Decay  
+- Absolute Retention Drop  
+- Lifecycle Stabilization Point: Retention and Decay Dynamics (расчет точки стабилизации)
