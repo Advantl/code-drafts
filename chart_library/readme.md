@@ -34,3 +34,7 @@
 ## Stacked Bar Chart
 1. Stacked Bar Chart (Expansion vs Contraction Revenue)
 [📓](./notebooks/stacked_bar_expansion_contraction_revenue.ipynb)
+
+## Line Chart
+1. Line Chart (User Retention Curves)
+[📓](./notebooks/line_chart_user_retention_curves.ipynb)
