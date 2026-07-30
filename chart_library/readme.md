@@ -67,3 +67,10 @@ Cohort Retention Heatmap:
 - Month-over-Month Retention Decay  
 - Absolute Retention Drop  
 - Lifecycle Stabilization Point: Retention and Decay Dynamics (расчет точки стабилизации)
+
+4. Line Chart (multiset 2)
+[📓](./notebooks/line_chart_multiset_2.ipynb)
+- Average Revenue Growth per Retained User
+      - доверительный интервал
+- Retention Decay vs Monetization Growth
+      - две переменные на двух осях
