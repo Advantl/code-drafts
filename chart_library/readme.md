@@ -17,6 +17,7 @@
 [📓](./notebooks/heatmap_revenue_change_matrix.ipynb)
 
 ## Cohort Heatmap
+Cohort Retention Heatmap:
 [📓](./notebooks/cohort_heatmap_multiset_1.ipynb)
 1. Cohort Heatmap (User Retention Heatmap)  
 2. Cohort Heatmap (Revenue per Retained User)  
