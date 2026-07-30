@@ -13,8 +13,12 @@
       - Явно задаем порядок следования стадий на графике  
 
 
-4. Heatmap (Heatmap Revenue Change Matrix) в seaborn
+3. Heatmap (Heatmap Revenue Change Matrix) в seaborn
 [📓](./notebooks/heatmap_revenue_change_matrix.ipynb)
+
+## Cohort Heatmap
+
+1. Cohort Retention Heatmap
 
 ## Sankey Diagram
 1. Sankey Diagram (Customer Lifecycle Transition Flow)
