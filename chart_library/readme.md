@@ -17,8 +17,14 @@
 [📓](./notebooks/heatmap_revenue_change_matrix.ipynb)
 
 ## Cohort Heatmap
-
-1. Cohort Retention Heatmap
+[📓](./notebooks/cohort_heatmap_multiset_1.ipynb)
+1. Cohort Heatmap (User Retention Heatmap)  
+2. Cohort Heatmap (Revenue per Retained User)  
+   - форматирование colorbar в 0.0К  
+3. Cohort Heatmap (Relative RPRU Growth by Cohort)  
+   - Нормализованная RPRU  
+4. Cohort Heatmap (Cohort LTV Heatmap)  
+   - форматирование colorbar в 0.0М  
 
 ## Sankey Diagram
 1. Sankey Diagram (Customer Lifecycle Transition Flow)
