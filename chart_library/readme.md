@@ -77,6 +77,7 @@ Cohort Retention Heatmap:
 
 
 ## ML Metrics
+Curves
 [📓](./notebooks/ml_metrics.ipynb)  
 - ROC Curve  
 - Precision-Recall Curve  
