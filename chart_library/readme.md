@@ -74,3 +74,9 @@ Cohort Retention Heatmap:
       - доверительный интервал
 - Retention Decay vs Monetization Growth
       - две переменные на двух осях
+
+
+## ML Metrics
+[📓](./notebooks/ml_metrics.ipynb)  
+- ROC Curve  
+- Precision-Recall Curve  
