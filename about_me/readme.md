@@ -66,7 +66,7 @@
 39. [Introduction to Data Visualization with Plotly in Python](https://www.datacamp.com/statement-of-accomplishment/course/717475ba29124a7e6325f8f8b95c08a2fad74809?raw=1)
 40. [Writing Functions in Python](https://www.datacamp.com/statement-of-accomplishment/course/c6c1c45518b38937aa463543690c5be9705466d0?raw=1)
 41. [Manipulating Time Series Data in Python](https://www.datacamp.com/statement-of-accomplishment/course/95b2fbd9c6407080cb8db2b478ca8ed219c9f332?raw=1)
-42. [Intermediate Object-Oriented Programming in Python](https://www.datacamp.com/completed/statement-of-accomplishment/course/a75b9c2601ac8d9d6b7890d57d4343435730d817)
+42. [Intermediate Object-Oriented Programming in Python](https://www.datacamp.com/statement-of-accomplishment/course/a75b9c2601ac8d9d6b7890d57d4343435730d817?raw=1)
 ## Theory
 43. [Introduction to Data](https://www.datacamp.com/statement-of-accomplishment/course/f31c51cc233e3f3f6a3372661096227a2ebcc0a6?raw=1)
 44. [Forming Analytical Questions](https://www.datacamp.com/statement-of-accomplishment/course/327ff2d1b4e3c0b8aa65fe690e9b2f38b26e11ed?raw=1)
@@ -75,7 +75,7 @@
 ## Git
 47. [Introduction to Git](https://www.datacamp.com/statement-of-accomplishment/course/ab4797bae546080c86d1c9db78b645b94092ccc5?raw=1)
 48. [Intermediate Git](https://www.datacamp.com/statement-of-accomplishment/course/d588d7061778f394caf9d4133fde7fc85c9c7eb9?raw=1)
-49. [Introduction to GitHub Concepts](https://www.datacamp.com/statement-of-accomplishment/course/8faa441d450d9af6643ca08baad9069840190972?raw=1)
+49. [Introduction to GitHub Concepts](https://www.datacamp.com/statement-of-accomplishment/course/8faa441d450d9af6643ca08baad9069840190972?raw=1)  
 ## Statistict 
-50 [Introduction to Statistics](https://www.datacamp.com/statement-of-accomplishment/course/9483e88fcb1b68d9231e9e229b8b1a33b8009352?raw=1)
+50 [Introduction to Statistics](https://www.datacamp.com/statement-of-accomplishment/course/9483e88fcb1b68d9231e9e229b8b1a33b8009352?raw=1)  
 51. [Introduction to Statistics in Python](https://www.datacamp.com/statement-of-accomplishment/course/c69e327d09be87f8ebbcd3d7a4f697b3172aded1?raw=1)
