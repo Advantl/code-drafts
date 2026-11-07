@@ -40,6 +40,8 @@
 15. [Applying SQL to Real-World Problems](https://www.datacamp.com/statement-of-accomplishment/course/1fd66f19b0220dc7dbda92f271a2c93931879676?raw=1)
 16. [Introduction to Relational Databases in SQL](https://www.datacamp.com/statement-of-accomplishment/course/28585cdb4bc7f9cf854a5ff30422d0679212935b?raw=1)
 * [SQL Fundamentals - 22 hours](https://www.datacamp.com/statement-of-accomplishment/track/a8f5b712bda1d1345f04c6d4adff249e1ac66918?raw=1)
+* [SQL for Business Analysts](https://www.datacamp.com/statement-of-accomplishment/track/98da79e9393a6c3fa00e5c777a23c40cfc50b541?raw=1)
+* [SQL for Database Administrators](https://www.datacamp.com/statement-of-accomplishment/track/ed4e48ec8d730a25ecb23150205cc7ec00c99bd7?raw=1)
 ## Python
 17. [Introduction to Python](https://www.datacamp.com/statement-of-accomplishment/course/7ea2db496d581cba90eaaae867f1166a3e49dc45?raw=1)
 18. [Introduction to Importing Data in Python](https://www.datacamp.com/statement-of-accomplishment/course/76a032981867971550ae51b83fc17d3a0ffa941c?raw=1)
@@ -68,6 +70,7 @@
 41. [Manipulating Time Series Data in Python](https://www.datacamp.com/statement-of-accomplishment/course/95b2fbd9c6407080cb8db2b478ca8ed219c9f332?raw=1)
 42. [Intermediate Object-Oriented Programming in Python](https://www.datacamp.com/statement-of-accomplishment/course/a75b9c2601ac8d9d6b7890d57d4343435730d817?raw=1)
 43. [Dealing with Missing Data in Python](https://www.datacamp.com/statement-of-accomplishment/course/6f1b93cc22359e70b349ba76686ca36549c352d1?raw=1)
+* [Data Manipulation in Python](https://www.datacamp.com/statement-of-accomplishment/track/a28bc4ed8fc63b43e74666abc2d347db75a4b464?raw=1)
 ## Theory
 44. [Introduction to Data](https://www.datacamp.com/statement-of-accomplishment/course/f31c51cc233e3f3f6a3372661096227a2ebcc0a6?raw=1)
 45. [Forming Analytical Questions](https://www.datacamp.com/statement-of-accomplishment/course/327ff2d1b4e3c0b8aa65fe690e9b2f38b26e11ed?raw=1)
