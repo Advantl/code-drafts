@@ -84,7 +84,8 @@
 51 [Introduction to Statistics](https://www.datacamp.com/statement-of-accomplishment/course/9483e88fcb1b68d9231e9e229b8b1a33b8009352?raw=1)  
 52. [Introduction to Statistics in Python](https://www.datacamp.com/statement-of-accomplishment/course/c69e327d09be87f8ebbcd3d7a4f697b3172aded1?raw=1)  
 53. [Foundations of Probability in Python](https://www.datacamp.com/statement-of-accomplishment/course/3ddae8966a3da16d94d17127b8eb6b4634fe8a14?raw=1)  
+54. [Sampling in Python](https://www.datacamp.com/statement-of-accomplishment/course/d32be33a043bd87aac3a1160f518ab8531d45ea0?raw=1)  
 ## A/B Testing   
-54. [A/B Testing in Python](https://www.datacamp.com/statement-of-accomplishment/course/4e594fe2b66b203ad587094b4d031d39d1176e45?raw=1)
+55. [A/B Testing in Python](https://www.datacamp.com/statement-of-accomplishment/course/4e594fe2b66b203ad587094b4d031d39d1176e45?raw=1)
 ## ML
-55. [End-to-End Machine Learning](https://www.datacamp.com/statement-of-accomplishment/course/325be3c4c1060fd8d4d207bbfc38a21fe7047cdd?raw=1)
+56. [End-to-End Machine Learning](https://www.datacamp.com/statement-of-accomplishment/course/325be3c4c1060fd8d4d207bbfc38a21fe7047cdd?raw=1)
